@@ -1,0 +1,40 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+locale: "en-GB"
+title: "ODIM-MH"
+subtitle: "Ontology for Digital Markers in Mental Health"
+minimal_mistakes_skin: default
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+include:
+  - _pages
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - README
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Disable feed
+atom_feed:
+  hide: true
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+  
