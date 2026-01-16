@@ -3,6 +3,8 @@ permalink: /about/
 title: null
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Sharing and comparing data in mental health research works better when everyone uses the same language. Today, research on digital markers (data collected from smartphones, wearables, and other sensors) lacks clear and consistent terminology. This makes studies harder to reproduce, results harder to compare, and findings harder to trust.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+As digital mental health research has grown, so has the variety of data being collected, from location patterns and typing behaviour to movement and speech traits. However, there is still no common structure that connects these data to mental health concepts. As a result, similar ideas are often described in different ways, datasets are difficult to combine, and valuable evidence is fragmented.
+
+The **ontology for digital markers (ODIM-MH)** addresses this gap by creating a shared, evolving framework for describing digital markers in mental health. It provides a place where digital markers can be clearly defined and linked to relevant resources, helping researchers work more consistently, transparently, and collaboratively.
