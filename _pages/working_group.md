@@ -9,7 +9,7 @@ members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
     title: "Ariane Sasso"
-    excerpt: "Research Associate in Digital Phenotyping <br /> University of Manchester."
+    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester. </small>"
   - image_path: /assets/images/member.png
     alt: "member"
     title: "Member"
