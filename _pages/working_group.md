@@ -6,10 +6,10 @@ intro:
   - excerpt: "This project is suported by a working group composed of multiple stakeholders such as mental health professionals, ontology experts, digital health researchers, and people with lived experience."
 
 members:
-  - image_path: /assets/images/member.png
-    alt: "member"
-    title: "Member"
-    excerpt: "Information about the member."
+  - image_path: /assets/images/working_group/ariane_sasso.png
+    alt: "ariane sasso"
+    title: "Ariane Sasso"
+    excerpt: "Research Associate in Digital Phenotyping <br /> University of Manchester."
   - image_path: /assets/images/member.png
     alt: "member"
     title: "Member"
