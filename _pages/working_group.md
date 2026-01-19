@@ -9,15 +9,15 @@ members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
     title: "Ariane Sasso"
-    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester. </small>"
-  - image_path: /assets/images/member.png
+    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
+  - image_path: /assets/images/avatar.png
     alt: "member"
     title: "Member"
-    excerpt: "Information about the member."
-  - image_path: /assets/images/member.png
+    excerpt: "<small> Information about the member <br /> More information </small>"
+  - image_path: /assets/images/avatar.png
     alt: "member"
     title: "Member"
-    excerpt: "Information about the member."
+    excerpt: "<small> Information about the member <br /> More information </small>"
 ---
 
 {% include feature_row id="intro" type="center" %}
