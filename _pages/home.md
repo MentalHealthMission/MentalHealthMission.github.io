@@ -42,13 +42,10 @@ feature_row:
 
 use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
-    alt: "use case one"
-    title: "First Use Case"
-    excerpt: 'Processus ordinatus sequitur fluxum primarium, ubi elementa corelis synchronizantur per nodos activi.
-Configuratio statica permittit validatio parametri ante initium operandi.
-Interfacia logica transit data securata inter stratum applicativum et fundamentum executionis.
-Monitorium continuatum detectat anomalia minora et optimizat responsum temporale.'
-    url: "#test-link"
+    alt: "use case: connect"
+    title: "Use Case: CONNECT Study"
+    excerpt: 'The CONNECT project is a research study that uses digital markers collected from smartphones and wearable devices, such as Fitbit, to detect changes in the mental health of people experiencing psychosis. ODIM-MH aims to support CONNECT by defining standardized markers related to sleep, physical activity, social behavior, and other relevant domains. The ontology can also help standardize the pre-processing of raw digital data, transforming it into meaningful features. For example, raw geolocation data can be converted into measures such as the amount of time spent at home. These features can then be used in predictive models, such as models designed to predict relapse, making the results more robust and reproducible in the future.'
+    url: "https://www.connectdigitalstudy.com/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
