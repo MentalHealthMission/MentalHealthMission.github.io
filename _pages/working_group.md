@@ -8,7 +8,7 @@ intro:
 members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
-    title: "Ariane Sasso"
+    title: "<a href='https://www.linkedin.com/in/arianesasso/' target='_blank' > Ariane Sasso </a>"
     excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
   - image_path: /assets/images/avatar.png
     alt: "member"
