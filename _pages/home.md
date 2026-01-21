@@ -44,22 +44,22 @@ use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
     alt: "connect study"
     title: "CONNECT Study"
-    excerpt: 'CONNECT is a research study that uses digital markers collected from smartphones and wearable devices, such as Fitbit, to detect changes in the mental health of people experiencing psychosis. ODIM-MH aims to support CONNECT by defining standardized markers related to sleep, physical activity, social behavior, and other relevant domains.'
+    excerpt: 'CONNECT is a research study that uses digital markers collected from smartphones and wearable devices, such as Fitbit, to detect changes in the mental health of people experiencing psychosis. ODIM-MH aims to support CONNECT by defining standardized markers related to sleep, physical activity, social behavior, and other relevant domains...'
     url: "/connect/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-use_case_2:
-  - image_path: /assets/images/undraw_phone.png
-    alt: "use case 2"
-    title: "Second Use Case"
-    excerpt: 'Processus ordinatus sequitur fluxum primarium, ubi elementa corelis synchronizantur per nodos activi.
-Configuratio statica permittit validatio parametri ante initium operandi.
-Interfacia logica transit data securata inter stratum applicativum et fundamentum executionis.
-Monitorium continuatum detectat anomalia minora et optimizat responsum temporale.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+# use_case_2:
+#  - image_path: /assets/images/undraw_phone.png
+#    alt: "use case 2"
+#    title: "Second Use Case"
+#    excerpt: 'Processus ordinatus sequitur fluxum primarium, ubi elementa corelis synchronizantur per nodos activi.
+# Configuratio statica permittit validatio parametri ante initium operandi.
+# Interfacia logica transit data securata inter stratum applicativum et fundamentum executionis.
+# Monitorium continuatum detectat anomalia minora et optimizat responsum temporale.'
+#    url: "#test-link"
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
