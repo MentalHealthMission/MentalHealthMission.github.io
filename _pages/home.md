@@ -44,7 +44,7 @@ use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
     alt: "connect study"
     title: "CONNECT Study"
-    excerpt: 'CONNECT is a research study that uses digital markers collected from smartphones and wearable devices, such as Fitbit, to detect changes in the mental health of people experiencing psychosis. ODIM-MH aims to support CONNECT by defining standardized markers related to sleep, physical activity, social behavior, and other relevant domains...'
+    excerpt: 'CONNECT is a research study that uses digital markers collected from smartphones and wearable devices, such as Fitbit, to detect changes in the mental health of people experiencing psychosis. ODIM-MH aims to support CONNECT by defining standardised markers related to sleep, physical activity, social behaviour, and other relevant domains...'
     url: "/connect/"
     btn_label: "Read More"
     btn_class: "btn--primary"
