@@ -14,7 +14,7 @@ members:
     alt: "member"
     title: "Member"
     excerpt: "<small> Information about the member <br /> More information </small>"
-  - image_path: /assets/images/avatar_2.png
+  - image_path: /assets/images/member.png
     alt: "member"
     title: "Member"
     excerpt: "<small> Information about the member <br /> More information </small>"
