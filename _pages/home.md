@@ -11,7 +11,7 @@ header:
   actions:
     - label: "<i class='fa-brands fa-github'></i> GitHub Repository"
       url: "https://github.com/MentalHealthMission/MHM-ontology"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI)"
 excerpt: >
   Facilitating reproducible research in digital mental health.<br />
 intro: 
