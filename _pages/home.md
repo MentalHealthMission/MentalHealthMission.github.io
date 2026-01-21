@@ -68,7 +68,9 @@ use_case_1:
 
 {% include feature_row id="use_case_1" type="right" %}
 
-# {% include feature_row id="use_case_2" type="left" %}
+{% comment %}
+{% include feature_row id="use_case_2" type="left" %}
+{% endcomment %}
 
 <div>
   <div style="width: 200px" class="align-left">
