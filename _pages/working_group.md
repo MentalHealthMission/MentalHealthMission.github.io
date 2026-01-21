@@ -10,7 +10,7 @@ members:
     alt: "ariane sasso"
     title: "<a href='https://www.linkedin.com/in/arianesasso/' target='_blank' > Ariane Sasso </a>"
     excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
-  - image_path: /assets/images/avatar.png
+  - image_path: /assets/images/member.png
     alt: "member"
     title: "Member"
     excerpt: "<small> Information about the member <br /> More information </small>"
