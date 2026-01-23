@@ -8,12 +8,14 @@ permalink: /visualisation/
 
 <!-- WebVOWL CSS -->
 <link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.app.css' | relative_url }}">
 
 <!-- WebVOWL D3 JS -->
 <script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
 
 <!-- WebVOWL JS -->
 <script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
+<script src="{{ '/assets/webvowl/js/webvowl.app.js' | relative_url }}"></script>
 
 <!-- Ontology file -->
 <script>
