@@ -4,28 +4,29 @@ layout: single
 permalink: /visualisation/
 ---
 
-<div id="ontology-graph"
-     style="width:100%; height:800px; border:1px solid #e5e5e5;">
-</div>
+<!-- Main Graph Container -->
+<div id="graph" style="width:100%; height:800px; border:1px solid #e5e5e5;"></div>
 
 <!-- WebVOWL CSS -->
-<link rel="stylesheet"
-      href="{{ '/assets/webvowl/css/vowl.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
 
-<!-- Local D3 (v5) -->
-<script src="{{ '/assets/webvowl/js/d3.v5.min.js' | relative_url }}"></script>
+<!-- D3.js -->
+<script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
 
-<!-- WebVOWL core -->
-<script src="{{ '/assets/webvowl/js/parser.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/options.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/graph.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/entry.js' | relative_url }}"></script>
+<!-- WebVOWL JS -->
+<script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
+
+<!-- Ontology JSON -->
+<script>
+  var ontologyFile = "{{ '/assets/data/ontology.json' | relative_url }}";
+</script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-    webvowl.app().initialize({
-        canvasSelector: "#ontology-graph",
-        jsonUrl: "{{ '/assets/webvowl/data/ontology.json' | relative_url }}"
+    // Initialize WebVOWL with your ontology JSON
+    webvowl.app.initialize({
+        canvasSelector: "#graph",
+        jsonUrl: "{{ '/assets/data/ontology.json' | relative_url }}"
     });
 });
 </script>
