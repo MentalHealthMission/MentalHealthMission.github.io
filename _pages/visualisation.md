@@ -15,11 +15,14 @@ permalink: /visualisation/
 <!-- WebVOWL JS -->
 <script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
 
+<!-- Ontology file -->
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    webvowl.app.initialize({
-        canvasSelector: "#graph",
-        jsonUrl: "{{ '/assets/webvowl/data/ontology.json' | relative_url }}"
+    var ontologyFile = "{{ '/assets/webvowl/data/ontology.jason' | relative_url }}";
+</script>
+
+<!-- Initialize -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        webvowl.app().initialize();
     });
-});
 </script>
