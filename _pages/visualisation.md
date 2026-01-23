@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initialize WebVOWL with your ontology JSON
     webvowl.app.initialize({
         canvasSelector: "#graph",
-        jsonUrl: "{{ '/assets/data/mhm_ontology.json' | relative_url }}"
+        jsonUrl: "{{ '/assets/data/ontology.json' | relative_url }}"
     });
 });
 </script>
