@@ -15,7 +15,6 @@ permalink: /visualisation/
 
 <!-- WebVOWL JS -->
 <script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/webvowl.app.js' | relative_url }}"></script>
 
 <!-- Ontology JSON -->
 <script>
