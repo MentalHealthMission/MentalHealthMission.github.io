@@ -22,7 +22,5 @@ permalink: /visualisation/
 
 <!-- Initialize -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        webvowl.app().initialize();
-    });
+    window.onload = webvowl.app().initialize;
 </script>
