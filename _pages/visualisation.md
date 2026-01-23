@@ -10,16 +10,13 @@ permalink: /visualisation/
 
 <!-- WebVOWL CSS -->
 <link rel="stylesheet"
-      href="{{ '/assets/webvowl/css/vowl.css' | relative_url }}">
+      href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
 
-<!-- Local D3 (v5) -->
-<script src="{{ '/assets/webvowl/js/d3.v5.min.js' | relative_url }}"></script>
+<!-- Local D3 -->
+<script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
 
-<!-- WebVOWL core -->
-<script src="{{ '/assets/webvowl/js/parser.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/options.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/graph.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/entry.js' | relative_url }}"></script>
+<!-- WebVOWL JS -->
+<script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
