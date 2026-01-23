@@ -18,13 +18,15 @@ permalink: /visualisation/
 
 <!-- Ontology JSON -->
 <script>
-  var ontologyFile = "{{ '/assets/data/mhm_ontology.json' | relative_url }}";
+  var ontologyFile = "{{ '/assets/data/ontology.json' | relative_url }}";
 </script>
 
-<!-- Initialize WebVOWL -->
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-      // Initialize WebVOWL with the graph div and JSON file
-      webvowl.app().initialize();
-  });
+document.addEventListener("DOMContentLoaded", function () {
+    // Initialize WebVOWL with your ontology JSON
+    webvowl.app.initialize({
+        canvasSelector: "#graph",
+        jsonUrl: "{{ '/assets/data/mhm_ontology.json' | relative_url }}"
+    });
+});
 </script>
