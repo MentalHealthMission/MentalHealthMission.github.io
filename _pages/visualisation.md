@@ -4,20 +4,23 @@ layout: single
 permalink: /visualisation/
 ---
 
-<!-- Include WebVOWL CSS -->
+<!-- Core WebVOWL CSS -->
 <link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.app.css' | relative_url }}">
 
-<!-- Optional: page styling -->
+<!-- Minimal styling -->
 <style>
-  #graph {
-    width: 100%;
-    height: 80vh; /* responsive height */
-    border: 1px solid #ccc;
-  }
-  body {
-    margin: 0;
-    font-family: sans-serif;
-    background-color: #f5f5f5;
+  body { margin: 0; background-color: #f5f5f5; font-family: sans-serif; }
+  #graph { width: 100%; height: 95vh; }
+
+  /* Hide all panels, menus, sidebars, drag/drop, etc. */
+  #menuContainer,
+  #dragDropContainer,
+  aside,
+  #leftSideBar,
+  #additionalInformationContainer,
+  #containerForLeftSideBar {
+      display: none !important;
   }
 </style>
 
@@ -25,27 +28,25 @@ permalink: /visualisation/
   <div id="graph"></div>
 </main>
 
-<!-- Include D3 and WebVOWL core -->
+<!-- JS -->
 <script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
+<script src="{{ '/assets/webvowl/js/webvowl.app.js' | relative_url }}"></script>
 
 <script>
 window.onload = function() {
-    // Create a WebVOWL graph instance
-    var graph = new webvowl.Graph();
+    // Initialize the WebVOWL app
+    var app = webvowl.app();
 
-    // Optional: configure graph dimensions
-    graph.options().graphHeight = document.getElementById('graph').clientHeight;
-    graph.options().graphWidth = document.getElementById('graph').clientWidth;
+    // Render the graph in the #graph div
+    app.initialize();
 
-    // Load your ontology JSON
-    d3.json("{{ '/assets/webvowl/data/ontology.json' | relative_url }}")
-      .then(function(json) {
-          graph.graphData(json); // load data
-          graph.initialize(document.getElementById("graph")); // render graph
-      })
-      .catch(function(error) {
-          console.error("Error loading ontology:", error);
-      });
+    // Load your ontology JSON automatically
+    app.loadOntologyFromURL("{{ '/assets/webvowl/data/ontology.json' | relative_url }}");
+
+    // Optional: make graph responsive on window resize
+    window.addEventListener('resize', function() {
+        app.update();
+    });
 };
 </script>
