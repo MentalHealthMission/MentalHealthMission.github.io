@@ -5,25 +5,26 @@ permalink: /visualisation/
 ---
 
 <link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.app.css' | relative_url }}">
 
 <main>
-  <section id="canvasArea">
-    <div id="graph"></div>
-  </section>
-
-  <aside id="detailsArea" style="background-color: #18202A;">
-  </aside>
+  <div id="graph" style="width: 100%; height: 800px;"></div>
 </main>
 
 <script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/webvowl.app.js' | relative_url }}"></script>
 
 <script>
 window.onload = function() {
-    webvowl.app()
-        .loadOntology("{{ '/assets/webvowl/data/ontology.json' | relative_url }}")
-        .initialize();
+    var graph = new webvowl.Graph();
+    graph.options().graphHeight = 800; // set your preferred height
+    graph.options().graphWidth = window.innerWidth;
+
+    d3.json("{{ '/assets/webvowl/data/ontology.json' | relative_url }}").then(function(json) {
+        graph.graphData(json);
+        graph.initialize(document.getElementById("graph"));
+    }).catch(function(error) {
+        console.error("Error loading ontology:", error);
+    });
 };
 </script>
+
