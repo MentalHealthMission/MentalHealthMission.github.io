@@ -6,46 +6,29 @@ permalink: /visualisation/
 
 <div id="graph" style="width:100%; height:800px; border:1px solid #e5e5e5;"></div>
 
-<!-- WebVOWL CSS -->
-<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/webvowl/css/webvowl.app.css' | relative_url }}">
+<div id="network" style="width:100%; height:600px; border:1px solid #ccc;"></div>
 
-<!-- WebVOWL JS -->
-<script src="{{ '/assets/webvowl/js/d3.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/webvowl.js' | relative_url }}"></script>
-<script src="{{ '/assets/webvowl/js/webvowl.app.js' | relative_url }}"></script>
+<!-- Vis-Network library -->
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    // Initialize the app
-    var app = webvowl.app();
+  fetch("{{ '/assets/webvowl/data/ontology.json' | relative_url }}")
+    .then(response => response.json())
+    .then(data => {
+      const nodes = new vis.DataSet(data.nodes);
+      const edges = new vis.DataSet(data.edges);
 
-    // Make sure the graph div exists
-    app.initialize();
+      const container = document.getElementById('network');
+      const networkData = { nodes: nodes, edges: edges };
 
-    // Load your ontology JSON
-    app.loadOntologyFromURL("{{ '/assets/webvowl/data/ontology.json' | relative_url }}");
-});
+      const options = {
+        layout: { improvedLayout: true },
+        physics: { stabilization: false },
+        edges: { arrows: "to" },
+        nodes: { shape: "dot", size: 16 },
+      };
+
+      new vis.Network(container, networkData, options);
+    })
+    .catch(err => console.error("Error loading ontology JSON:", err));
 </script>
-
-<!-- Minimal UI: hide everything except the graph -->
-<style>
-  /* Hide all menus, sidebars, debug panels */
-  #menuContainer,
-  aside,
-  #leftSideBar,
-  #scrollRightButton,
-  #scrollLeftButton,
-  #zoomSlider,
-  #blockGraphInteractions,
-  #DirectInputContent,
-  #WarningErrorMessagesContainer {
-    display: none !important;
-  }
-
-  /* Graph container styling */
-  #graph {
-    width: 100%;
-    height: 800px;
-  }
-</style>
