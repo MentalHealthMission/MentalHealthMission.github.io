@@ -1,0 +1,7658 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://connectdigitalstudy.com/ontology",
+      "http://qudt.org/schema/qudt",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/ns/prov",
+      "http://www.w3.org/2001/XMLSchema",
+      "http://www.w3.org/ns/sosa",
+      "http://www.w3.org/2004/02/skos/core"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "dcterms": "http://purl.org/dc/terms/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "qudt": "http://qudt.org/schema/qudt/",
+      "odim": "http://connectdigitalstudy.com/ontology#",
+      "connect": "http://connectdigitalstudy.com/ontology#",
+      "prov": "http://www.w3.org/ns/prov#",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+      "iao": "http://purl.obolibrary.org/obo/",
+      "unit": "http://qudt.org/vocab/unit/",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "skos": "http://www.w3.org/2004/02/skos/core#",
+      "sosa": "http://www.w3.org/ns/sosa/",
+      "xml": "http://www.w3.org/XML/1998/namespace"
+    },
+    "title": {
+      "undefined": "Ontology for Digital Markers in Mental Health (ODIM-MH)"
+    },
+    "iri": "http://connectdigitalstudy.com/ontology",
+    "version": "0.1.0-dev",
+    "description": {
+      "undefined": "Ontology for organizing measurements, features, context, provenance, and digital phenotypes for wearable/device-based health studies."
+    },
+    "labels": {
+      "undefined": "ODIM-MH"
+    },
+    "other": {
+      "license": [
+        {
+          "identifier": "license",
+          "language": "undefined",
+          "value": "https://creativecommons.org/licenses/by/4.0/",
+          "type": "label"
+        }
+      ],
+      "versionInfo": [
+        {
+          "identifier": "versionInfo",
+          "language": "undefined",
+          "value": "0.1.0-dev",
+          "type": "label"
+        }
+      ],
+      "title": [
+        {
+          "identifier": "title",
+          "language": "undefined",
+          "value": "Ontology for Digital Markers in Mental Health (ODIM-MH)",
+          "type": "label"
+        }
+      ]
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.19",
+      "translation": [
+        572.84,
+        569.58
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "2"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "owl:Class"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "44",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "59",
+      "type": "owl:Class"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "82",
+      "type": "owl:Class"
+    },
+    {
+      "id": "71",
+      "type": "owl:Class"
+    },
+    {
+      "id": "92",
+      "type": "owl:Class"
+    },
+    {
+      "id": "101",
+      "type": "owl:Class"
+    },
+    {
+      "id": "104",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:Class"
+    },
+    {
+      "id": "112",
+      "type": "owl:Class"
+    },
+    {
+      "id": "117",
+      "type": "owl:Class"
+    },
+    {
+      "id": "118",
+      "type": "owl:Class"
+    },
+    {
+      "id": "66",
+      "type": "owl:Class"
+    },
+    {
+      "id": "41",
+      "type": "owl:Class"
+    },
+    {
+      "id": "73",
+      "type": "owl:Class"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "122",
+      "type": "owl:Class"
+    },
+    {
+      "id": "14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "126",
+      "type": "owl:Class"
+    },
+    {
+      "id": "129",
+      "type": "owl:Class"
+    },
+    {
+      "id": "131",
+      "type": "owl:Class"
+    },
+    {
+      "id": "124",
+      "type": "owl:Class"
+    },
+    {
+      "id": "134",
+      "type": "owl:Class"
+    },
+    {
+      "id": "138",
+      "type": "owl:Class"
+    },
+    {
+      "id": "142",
+      "type": "owl:Class"
+    },
+    {
+      "id": "143",
+      "type": "owl:Class"
+    },
+    {
+      "id": "144",
+      "type": "owl:Class"
+    },
+    {
+      "id": "27",
+      "type": "owl:Class"
+    },
+    {
+      "id": "155",
+      "type": "owl:Class"
+    },
+    {
+      "id": "137",
+      "type": "owl:Class"
+    },
+    {
+      "id": "156",
+      "type": "owl:Class"
+    },
+    {
+      "id": "157",
+      "type": "owl:Class"
+    },
+    {
+      "id": "158",
+      "type": "owl:Class"
+    },
+    {
+      "id": "125",
+      "type": "owl:Class"
+    },
+    {
+      "id": "135",
+      "type": "owl:Class"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "165",
+      "type": "owl:Class"
+    },
+    {
+      "id": "114",
+      "type": "owl:Class"
+    },
+    {
+      "id": "186",
+      "type": "owl:Class"
+    },
+    {
+      "id": "187",
+      "type": "owl:Class"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "175",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "99",
+      "type": "owl:Class"
+    },
+    {
+      "id": "181",
+      "type": "owl:Class"
+    },
+    {
+      "id": "208",
+      "type": "owl:Class"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "147",
+      "type": "owl:Class"
+    },
+    {
+      "id": "202",
+      "type": "owl:Class"
+    },
+    {
+      "id": "221",
+      "type": "owl:Class"
+    },
+    {
+      "id": "216",
+      "type": "owl:Class"
+    },
+    {
+      "id": "12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "159",
+      "type": "owl:Class"
+    },
+    {
+      "id": "223",
+      "type": "owl:Class"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "94",
+      "type": "owl:Class"
+    },
+    {
+      "id": "172",
+      "type": "owl:Class"
+    },
+    {
+      "id": "243",
+      "type": "owl:Class"
+    },
+    {
+      "id": "108",
+      "type": "owl:Class"
+    },
+    {
+      "id": "245",
+      "type": "owl:Class"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "246",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "222",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "owl:Class"
+    },
+    {
+      "id": "253",
+      "type": "owl:Class"
+    },
+    {
+      "id": "145",
+      "type": "owl:Class"
+    },
+    {
+      "id": "254",
+      "type": "owl:Class"
+    },
+    {
+      "id": "160",
+      "type": "owl:Class"
+    },
+    {
+      "id": "258",
+      "type": "owl:Class"
+    },
+    {
+      "id": "263",
+      "type": "owl:Class"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "198",
+      "type": "owl:Class"
+    },
+    {
+      "id": "47",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "owl:Class"
+    },
+    {
+      "id": "272",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "273",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "238",
+      "type": "owl:Class"
+    },
+    {
+      "id": "140",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "248",
+      "type": "owl:Class"
+    },
+    {
+      "id": "22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "35",
+      "type": "owl:Class"
+    },
+    {
+      "id": "228",
+      "type": "owl:Class"
+    },
+    {
+      "id": "136",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "278",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "128",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "120",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "204",
+      "type": "owl:Class"
+    },
+    {
+      "id": "1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "280",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "95",
+      "type": "owl:Class"
+    },
+    {
+      "id": "281",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "255",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "162",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "owl:Thing"
+    },
+    {
+      "id": "206",
+      "type": "owl:Class"
+    },
+    {
+      "id": "195",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "191",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "164",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "247",
+      "type": "owl:Class"
+    },
+    {
+      "id": "88",
+      "type": "owl:Class"
+    },
+    {
+      "id": "192",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "242",
+      "type": "owl:Class"
+    },
+    {
+      "id": "214",
+      "type": "owl:Class"
+    },
+    {
+      "id": "201",
+      "type": "owl:Class"
+    },
+    {
+      "id": "230",
+      "type": "owl:Class"
+    },
+    {
+      "id": "29",
+      "type": "owl:Class"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "152",
+      "type": "owl:Class"
+    },
+    {
+      "id": "68",
+      "type": "owl:Class"
+    },
+    {
+      "id": "149",
+      "type": "owl:Class"
+    },
+    {
+      "id": "232",
+      "type": "owl:Class"
+    },
+    {
+      "id": "116",
+      "type": "owl:Class"
+    },
+    {
+      "id": "275",
+      "type": "owl:Class"
+    },
+    {
+      "id": "76",
+      "type": "owl:Class"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "210",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "218",
+      "type": "owl:Class"
+    },
+    {
+      "id": "179",
+      "type": "owl:Class"
+    },
+    {
+      "id": "61",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "123",
+      "type": "owl:Class"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "177",
+      "type": "owl:Class"
+    },
+    {
+      "id": "25",
+      "type": "owl:Class"
+    },
+    {
+      "id": "130",
+      "type": "owl:Class"
+    },
+    {
+      "id": "169",
+      "type": "owl:Class"
+    },
+    {
+      "id": "87",
+      "type": "owl:Class"
+    },
+    {
+      "id": "53",
+      "type": "owl:Class"
+    },
+    {
+      "id": "97",
+      "type": "owl:Class"
+    },
+    {
+      "id": "309",
+      "type": "owl:Class"
+    },
+    {
+      "id": "225",
+      "type": "owl:Class"
+    },
+    {
+      "id": "115",
+      "type": "owl:Class"
+    },
+    {
+      "id": "113",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "111",
+      "type": "owl:Class"
+    },
+    {
+      "id": "220",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "334",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "260",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "284",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "37",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "257",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "292",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "85",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "279",
+      "type": "owl:Class"
+    },
+    {
+      "id": "173",
+      "type": "owl:Class"
+    },
+    {
+      "id": "224",
+      "type": "owl:Class"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "161",
+      "type": "owl:Class"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "167",
+      "type": "rdfs:Datatype"
+    },
+    {
+      "id": "106",
+      "type": "owl:Class"
+    },
+    {
+      "id": "55",
+      "type": "owl:Class"
+    },
+    {
+      "id": "102",
+      "type": "owl:Class"
+    },
+    {
+      "id": "212",
+      "type": "owl:Class"
+    },
+    {
+      "id": "193",
+      "type": "owl:Class"
+    },
+    {
+      "id": "133",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://connectdigitalstudy.com/ontology#AppModule",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppModule",
+        "undefined": "App Module"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "iri": "http://connectdigitalstudy.com/ontology#DigitalPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DigitalPhenotype",
+        "undefined": "Digital Phenotype"
+      },
+      "comment": {
+        "undefined": "Higher-level construct inferred from features and measurements."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1467.32,
+        224.77
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://connectdigitalstudy.com/ontology#DeviceContextMetadata",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DeviceContextMetadata",
+        "undefined": "Device Context Metadata"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        726.26,
+        975
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://connectdigitalstudy.com/ontology#HeartRateVariabilityMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HeartRateVariabilityMeasurement",
+        "undefined": "Heart Rate Variability Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "iri": "http://www.w3.org/ns/sosa/Observation",
+      "baseIri": "http://www.w3.org/ns/sosa",
+      "label": {
+        "IRI-based": "Observation"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MeasurementLayer",
+        "undefined": "Measurement Layer"
+      },
+      "comment": {
+        "undefined": "Layer for raw observations/measurements captured from devices and apps."
+      }
+    },
+    {
+      "id": "40",
+      "iri": "http://connectdigitalstudy.com/ontology#ResponseItem",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ResponseItem",
+        "undefined": "Response Item"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -521.07,
+        1276.86
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://connectdigitalstudy.com/ontology#MedicalEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MedicalEvent",
+        "undefined": "Medical Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "iri": "http://connectdigitalstudy.com/ontology#VisitToFrequentLocation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "VisitToFrequentLocation",
+        "undefined": "Visit To Frequent Location"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "iri": "http://connectdigitalstudy.com/ontology#DeviceLocationEstimate",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DeviceLocationEstimate",
+        "undefined": "Device Location Estimate"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "iri": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ProvenanceLayer",
+        "undefined": "Provenance Layer"
+      }
+    },
+    {
+      "id": "82",
+      "iri": "http://connectdigitalstudy.com/ontology#WorkOrStudy",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "WorkOrStudy",
+        "undefined": "Work Or Study"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "iri": "http://connectdigitalstudy.com/ontology#Computation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Computation",
+        "undefined": "Computation"
+      },
+      "comment": {
+        "undefined": "A process or activity that computes features or infers phenotypes."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1125.34,
+        454.22
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://www.w3.org/ns/prov#Agent",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "Agent"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        331.37,
+        859.24
+      ]
+    },
+    {
+      "id": "101",
+      "iri": "http://connectdigitalstudy.com/ontology#AppUptime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppUptime",
+        "undefined": "App Uptime"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "104",
+      "iri": "http://connectdigitalstudy.com/ontology#CommunicationProxyMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "CommunicationProxyMeasurement",
+        "undefined": "Communication Proxy Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1035.2,
+        1964.41
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityMeasurement",
+        "undefined": "Activity Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        771.08,
+        1977.55
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://connectdigitalstudy.com/ontology#SensorMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SensorMeasurement",
+        "undefined": "Sensor Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1373.66,
+        1377.6
+      ]
+    },
+    {
+      "id": "117",
+      "iri": "http://connectdigitalstudy.com/ontology#HeartRateMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HeartRateMeasurement",
+        "undefined": "Heart Rate Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "118",
+      "iri": "http://connectdigitalstudy.com/ontology#SocialEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SocialEvent",
+        "undefined": "Social Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepDomain",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepDomain",
+        "undefined": "Sleep Domain"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "iri": "http://connectdigitalstudy.com/ontology#Question",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Question",
+        "undefined": "Question"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -305.03,
+        1045.02
+      ]
+    },
+    {
+      "id": "73",
+      "iri": "http://connectdigitalstudy.com/ontology#ParanoiaDomain",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ParanoiaDomain",
+        "undefined": "Paranoia Domain"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "iri": "http://connectdigitalstudy.com/ontology#StressDomain",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "StressDomain",
+        "undefined": "Stress Domain"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "iri": "http://connectdigitalstudy.com/ontology#HomeStayDuration",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HomeStayDuration",
+        "undefined": "Home Stay Duration"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "122",
+      "iri": "http://connectdigitalstudy.com/ontology#ElevatedMood",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ElevatedMood",
+        "undefined": "Elevated Mood"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepPhenotype",
+        "undefined": "Sleep Phenotype"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1866.01,
+        186.71
+      ]
+    },
+    {
+      "id": "126",
+      "iri": "http://connectdigitalstudy.com/ontology#WeatherCondition",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "WeatherCondition",
+        "undefined": "Weather Condition"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "129",
+      "iri": "http://connectdigitalstudy.com/ontology#MultipleChoiceFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MultipleChoiceFormat",
+        "undefined": "Multiple Choice Format"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "131",
+      "iri": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ComputationalLayer",
+        "undefined": "Computational Layer"
+      }
+    },
+    {
+      "id": "124",
+      "iri": "http://connectdigitalstudy.com/ontology#DelayedSleepPhase",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DelayedSleepPhase",
+        "undefined": "Delayed Sleep Phase"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "134",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityPatternFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityPatternFeature",
+        "undefined": "Activity Pattern Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1876.06,
+        987.84
+      ]
+    },
+    {
+      "id": "138",
+      "iri": "http://connectdigitalstudy.com/ontology#RespiratoryRateMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "RespiratoryRateMeasurement",
+        "undefined": "Respiratory Rate Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "142",
+      "iri": "http://connectdigitalstudy.com/ontology#RestingHeartRateMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "RestingHeartRateMeasurement",
+        "undefined": "Resting Heart Rate Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "143",
+      "iri": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DerivedFeatureLayer",
+        "undefined": "Derived Feature Layer"
+      },
+      "comment": {
+        "undefined": "Layer for features derived from measurements."
+      }
+    },
+    {
+      "id": "144",
+      "iri": "http://connectdigitalstudy.com/ontology#Interface",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Interface",
+        "undefined": "Interface"
+      },
+      "comment": {
+        "undefined": "Software interface used to capture or transfer data."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        495.68,
+        -264.76
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://connectdigitalstudy.com/ontology#QuestionnaireDataSet",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "QuestionnaireDataSet",
+        "undefined": "Questionnaire Data Set"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "155",
+      "iri": "http://connectdigitalstudy.com/ontology#WakeAfterSleepOnset",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "WakeAfterSleepOnset",
+        "undefined": "Wake After Sleep Onset"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "137",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityIntensityProfile",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityIntensityProfile",
+        "undefined": "Activity Intensity Profile"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "156",
+      "iri": "http://connectdigitalstudy.com/ontology#LikertFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "LikertFormat",
+        "undefined": "Likert Format"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "157",
+      "iri": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "QuestionnaireLayer",
+        "undefined": "Questionnaire Layer"
+      }
+    },
+    {
+      "id": "158",
+      "iri": "http://connectdigitalstudy.com/ontology#Feature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Feature",
+        "undefined": "Feature"
+      },
+      "comment": {
+        "undefined": "An attribute computed from one or more measurements."
+      },
+      "pos": [
+        1392.21,
+        716.27
+      ]
+    },
+    {
+      "id": "125",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepIrregularity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepIrregularity",
+        "undefined": "Sleep Irregularity"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "135",
+      "iri": "http://connectdigitalstudy.com/ontology#CircadianRhythmScore",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "CircadianRhythmScore",
+        "undefined": "Circadian Rhythm Score"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "iri": "http://connectdigitalstudy.com/ontology#OntologyLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "OntologyLayer",
+        "undefined": "Ontology Layer"
+      },
+      "comment": {
+        "undefined": "A meta-class grouping the modeling layers in this ontology."
+      },
+      "pos": [
+        -863.33,
+        1169.79
+      ]
+    },
+    {
+      "id": "165",
+      "iri": "http://connectdigitalstudy.com/ontology#TextFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TextFormat",
+        "undefined": "Text Format"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "114",
+      "iri": "http://connectdigitalstudy.com/ontology#AccelerometerMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AccelerometerMeasurement",
+        "undefined": "Accelerometer Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "186",
+      "iri": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "ConceptScheme"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "id": "187",
+      "iri": "http://connectdigitalstudy.com/ontology#PreRelapsePeriod",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "PreRelapsePeriod",
+        "undefined": "Pre-relapse Period"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "iri": "http://connectdigitalstudy.com/ontology#SocialPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SocialPhenotype",
+        "undefined": "Social Phenotype"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1726.83,
+        -92.38
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://connectdigitalstudy.com/ontology#TimeZoneSetting",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TimeZoneSetting",
+        "undefined": "Time Zone Setting"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "iri": "http://connectdigitalstudy.com/ontology#Participant",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Participant",
+        "undefined": "Participant"
+      },
+      "comment": {
+        "undefined": "An individual taking part in a study."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        52.34,
+        693.4
+      ]
+    },
+    {
+      "id": "175",
+      "iri": "http://connectdigitalstudy.com/ontology#UnlockEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "UnlockEvent",
+        "undefined": "Unlock Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "91",
+      "iri": "http://connectdigitalstudy.com/ontology#InferenceRule",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "InferenceRule",
+        "undefined": "Inference Rule"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "99",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepOnsetLatency",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepOnsetLatency",
+        "undefined": "Sleep Onset Latency"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "181",
+      "iri": "http://connectdigitalstudy.com/ontology#NightTime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "NightTime",
+        "undefined": "Night Time"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "208",
+      "iri": "http://connectdigitalstudy.com/ontology#Hyperactivity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Hyperactivity",
+        "undefined": "Hyperactivity"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "iri": "http://connectdigitalstudy.com/ontology#DataTransferEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DataTransferEvent",
+        "undefined": "Data Transfer Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        158.74,
+        435.99
+      ]
+    },
+    {
+      "id": "147",
+      "iri": "http://connectdigitalstudy.com/ontology#DailyInterval",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DailyInterval",
+        "undefined": "Daily Interval"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "202",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepStage",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepStage"
+      }
+    },
+    {
+      "id": "221",
+      "iri": "http://connectdigitalstudy.com/ontology#ContactListMetadata",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ContactListMetadata",
+        "undefined": "Contact List Metadata"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1218.09,
+        1811.08
+      ]
+    },
+    {
+      "id": "216",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepEnvironment",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepEnvironment",
+        "undefined": "Sleep Environment"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "iri": "http://connectdigitalstudy.com/ontology#MoodPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MoodPhenotype",
+        "undefined": "Mood Phenotype"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1823.94,
+        28.88
+      ]
+    },
+    {
+      "id": "159",
+      "iri": "http://connectdigitalstudy.com/ontology#ExerciseAndSleepFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ExerciseAndSleepFeature",
+        "undefined": "Exercise And Sleep Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "223",
+      "iri": "http://connectdigitalstudy.com/ontology#ContactListChangeEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ContactListChangeEvent",
+        "undefined": "Contact List Change Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "iri": "http://connectdigitalstudy.com/ontology#TimeSpentAwayFromHome",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TimeSpentAwayFromHome",
+        "undefined": "Time Spent Away From Home"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "94",
+      "iri": "http://connectdigitalstudy.com/ontology#TotalSleepTime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TotalSleepTime",
+        "undefined": "Total Sleep Time"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "172",
+      "iri": "http://connectdigitalstudy.com/ontology#AppLaunchMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppLaunchMeasurement",
+        "undefined": "App Launch Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "243",
+      "iri": "http://connectdigitalstudy.com/ontology#PostDischargePeriod",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "PostDischargePeriod",
+        "undefined": "Post-discharge Period"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "108",
+      "iri": "http://connectdigitalstudy.com/ontology#MessageUsageMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MessageUsageMeasurement",
+        "undefined": "Message Usage Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "245",
+      "iri": "http://connectdigitalstudy.com/ontology#UsageRegularity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "UsageRegularity",
+        "undefined": "Usage Regularity"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "iri": "http://connectdigitalstudy.com/ontology#NotificationEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "NotificationEvent",
+        "undefined": "Notification Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -179.98,
+        14.66
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://connectdigitalstudy.com/ontology#BlackBoxComputation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "BlackBoxComputation",
+        "undefined": "Black-box Computation"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "246",
+      "iri": "http://connectdigitalstudy.com/ontology#AppOpenFrequency",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppOpenFrequency",
+        "undefined": "App Open Frequency"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityPhenotype",
+        "undefined": "Activity Phenotype"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1413.28,
+        -168.69
+      ]
+    },
+    {
+      "id": "222",
+      "iri": "http://connectdigitalstudy.com/ontology#ContactCountMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ContactCountMeasurement",
+        "undefined": "Contact Count Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "86",
+      "iri": "http://www.w3.org/ns/prov#Activity",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "Activity"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "id": "253",
+      "iri": "http://www.w3.org/2004/02/skos/core#Concept",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "Concept"
+      },
+      "attributes": [
+        "external"
+      ]
+    },
+    {
+      "id": "145",
+      "iri": "http://connectdigitalstudy.com/ontology#AppInterface",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppInterface",
+        "undefined": "App Interface"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        148.2,
+        -156.51
+      ]
+    },
+    {
+      "id": "254",
+      "iri": "http://connectdigitalstudy.com/ontology#APIProvider",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "APIProvider",
+        "undefined": "API Provider"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "160",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityAndSleepFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityAndSleepFeature",
+        "undefined": "Activity And Sleep Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "258",
+      "iri": "http://connectdigitalstudy.com/ontology#MessageLatency",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MessageLatency",
+        "undefined": "Message Latency"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "263",
+      "iri": "http://connectdigitalstudy.com/ontology#SmartphoneDevice",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SmartphoneDevice",
+        "undefined": "Smartphone Device"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "iri": "http://www.w3.org/ns/prov#Entity",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "Entity"
+      },
+      "attributes": [
+        "external"
+      ],
+      "pos": [
+        1090.17,
+        590.48
+      ]
+    },
+    {
+      "id": "198",
+      "iri": "http://connectdigitalstudy.com/ontology#HomeAlone",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HomeAlone",
+        "undefined": "Home Alone"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "iri": "http://connectdigitalstudy.com/ontology#QuestionnaireEntry",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "QuestionnaireEntry",
+        "undefined": "Questionnaire Entry"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -329.17,
+        954.78
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://connectdigitalstudy.com/ontology#TelephonySpeechMetric",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TelephonySpeechMetric",
+        "undefined": "Telephony Speech Metric"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "272",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "273",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "238",
+      "iri": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DeviceEngagementFeature",
+        "undefined": "Device Engagement Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1957.49,
+        839.54
+      ]
+    },
+    {
+      "id": "140",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "105",
+      "iri": "http://connectdigitalstudy.com/ontology#BehavioralMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "BehavioralMeasurement",
+        "undefined": "Behavioral Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        889.62,
+        1620
+      ]
+    },
+    {
+      "id": "248",
+      "iri": "http://connectdigitalstudy.com/ontology#PhysicalInactivity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "PhysicalInactivity",
+        "undefined": "Physical Inactivity"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "iri": "http://connectdigitalstudy.com/ontology#ParticipantDataSet",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ParticipantDataSet",
+        "undefined": "Participant Data Set"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "iri": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "PhysiologicalMeasurement",
+        "undefined": "Physiological Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        720.24,
+        1279.71
+      ]
+    },
+    {
+      "id": "228",
+      "iri": "http://connectdigitalstudy.com/ontology#AmbientLightMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AmbientLightMeasurement",
+        "undefined": "Ambient Light Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "136",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityRegularity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityRegularity",
+        "undefined": "Activity Regularity"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "iri": "http://connectdigitalstudy.com/ontology#RelapseRisk",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "RelapseRisk",
+        "undefined": "Relapse Risk"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "278",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "128",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        -203.1,
+        -290.6
+      ]
+    },
+    {
+      "id": "120",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        943.33,
+        1412.21
+      ]
+    },
+    {
+      "id": "204",
+      "iri": "http://connectdigitalstudy.com/ontology#HolidayPeriod",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HolidayPeriod",
+        "undefined": "Holiday Period"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "iri": "http://connectdigitalstudy.com/ontology#Device",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Device",
+        "undefined": "Device"
+      },
+      "comment": {
+        "undefined": "A hardware or software platform used to collect data."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        600.03,
+        552.18
+      ]
+    },
+    {
+      "id": "280",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepStructureFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepStructureFeature",
+        "undefined": "Sleep Structure Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1742.86,
+        1081.18
+      ]
+    },
+    {
+      "id": "281",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "255",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      }
+    },
+    {
+      "id": "162",
+      "iri": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ContextualLayer",
+        "undefined": "Contextual Layer"
+      }
+    },
+    {
+      "id": "8",
+      "iri": "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri": "http://owl2vowl.de",
+      "label": {
+        "undefined": "Thing"
+      },
+      "pos": [
+        763.77,
+        -1000
+      ]
+    },
+    {
+      "id": "206",
+      "iri": "http://connectdigitalstudy.com/ontology#AtHome",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AtHome",
+        "undefined": "At Home"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "195",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://connectdigitalstudy.com/ontology#ObservationContext",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ObservationContext",
+        "undefined": "Observation Context"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -207.2,
+        -594.44
+      ]
+    },
+    {
+      "id": "191",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "164",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "247",
+      "iri": "http://connectdigitalstudy.com/ontology#ActivityFlattening",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ActivityFlattening",
+        "undefined": "Activity Flattening"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88",
+      "iri": "http://connectdigitalstudy.com/ontology#ModelBasedComputation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ModelBasedComputation",
+        "undefined": "Model-based Computation"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "192",
+      "iri": "http://connectdigitalstudy.com/ontology#SocialWithdrawal",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SocialWithdrawal",
+        "undefined": "Social Withdrawal"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "iri": "http://connectdigitalstudy.com/ontology#QuestionDomain",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "QuestionDomain",
+        "undefined": "Question Domain"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        2479.84,
+        525.39
+      ]
+    },
+    {
+      "id": "242",
+      "iri": "http://connectdigitalstudy.com/ontology#SliderFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SliderFormat",
+        "undefined": "Slider Format"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "214",
+      "iri": "http://connectdigitalstudy.com/ontology#FamilyVisit",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "FamilyVisit",
+        "undefined": "Family Visit"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "201",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepStageMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepStageMeasurement",
+        "undefined": "Sleep Stage Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        585.18,
+        1857.9
+      ]
+    },
+    {
+      "id": "230",
+      "iri": "http://connectdigitalstudy.com/ontology#AmbientPressureMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AmbientPressureMeasurement",
+        "undefined": "Ambient Pressure Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "iri": "http://connectdigitalstudy.com/ontology#DepressionRisk",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DepressionRisk",
+        "undefined": "Depression Risk"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "iri": "http://connectdigitalstudy.com/ontology#StressRisk",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "StressRisk",
+        "undefined": "Stress Risk"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "152",
+      "iri": "http://connectdigitalstudy.com/ontology#AppUsageDuration",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppUsageDuration",
+        "undefined": "App Usage Duration"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "iri": "http://connectdigitalstudy.com/ontology#DataInterface",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DataInterface",
+        "undefined": "Data Interface"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        564.57,
+        81.94
+      ]
+    },
+    {
+      "id": "149",
+      "iri": "http://connectdigitalstudy.com/ontology#WeeklyInterval",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "WeeklyInterval",
+        "undefined": "Weekly Interval"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "232",
+      "iri": "http://connectdigitalstudy.com/ontology#AudioExposureMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AudioExposureMeasurement",
+        "undefined": "Audio Exposure Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "116",
+      "iri": "http://connectdigitalstudy.com/ontology#MagneticFieldMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MagneticFieldMeasurement",
+        "undefined": "Magnetic Field Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "275",
+      "iri": "http://connectdigitalstudy.com/ontology#TypingSpeed",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TypingSpeed",
+        "undefined": "Typing Speed"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "iri": "http://connectdigitalstudy.com/ontology#Event",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Event",
+        "undefined": "Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -230.09,
+        356.17
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://connectdigitalstudy.com/ontology#MobilityPatternFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MobilityPatternFeature",
+        "undefined": "Mobility Pattern Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1963.6,
+        651.2
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://connectdigitalstudy.com/ontology#DataSet",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DataSet",
+        "undefined": "Data Set"
+      },
+      "comment": {
+        "undefined": "A collection of data items associated with a participant or study process."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        543,
+        473.21
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://connectdigitalstudy.com/ontology#RiskPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "RiskPhenotype",
+        "undefined": "Risk Phenotype"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1589.13,
+        -164.02
+      ]
+    },
+    {
+      "id": "210",
+      "iri": "http://connectdigitalstudy.com/ontology#PublicEvent",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "PublicEvent",
+        "undefined": "Public Event"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "iri": "http://connectdigitalstudy.com/ontology#EventWindow",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "EventWindow",
+        "undefined": "Event Window"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -497.94,
+        -369.69
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://connectdigitalstudy.com/ontology#LocationEntropy",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "LocationEntropy",
+        "undefined": "Location Entropy"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "218",
+      "iri": "http://connectdigitalstudy.com/ontology#Weekend",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Weekend",
+        "undefined": "Weekend"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "179",
+      "iri": "http://connectdigitalstudy.com/ontology#HourlyInterval",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "HourlyInterval",
+        "undefined": "Hourly Interval"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "iri": "http://connectdigitalstudy.com/ontology#MoodDomain",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MoodDomain",
+        "undefined": "Mood Domain"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "iri": "http://connectdigitalstudy.com/ontology#DerivedFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DerivedFeature",
+        "undefined": "Derived Feature"
+      },
+      "comment": {
+        "undefined": "A feature computed from raw measurements and possibly other features."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1573.75,
+        717.21
+      ]
+    },
+    {
+      "id": "123",
+      "iri": "http://connectdigitalstudy.com/ontology#InsomniaSymptom",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "InsomniaSymptom",
+        "undefined": "Insomnia Symptom"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "90",
+      "iri": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AlgorithmicComputation",
+        "undefined": "Algorithmic Computation"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "177",
+      "iri": "http://connectdigitalstudy.com/ontology#ScreenEventMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ScreenEventMeasurement",
+        "undefined": "Screen Event Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "iri": "http://connectdigitalstudy.com/ontology#SensorDataSet",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SensorDataSet",
+        "undefined": "Sensor Data Set"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "130",
+      "iri": "http://connectdigitalstudy.com/ontology#ResponseFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ResponseFormat",
+        "undefined": "Response Format"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#QuestionnaireLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -582.73,
+        796.1
+      ]
+    },
+    {
+      "id": "169",
+      "iri": "http://connectdigitalstudy.com/ontology#EnvironmentalMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "EnvironmentalMeasurement",
+        "undefined": "Environmental Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        864.49,
+        820.91
+      ]
+    },
+    {
+      "id": "87",
+      "iri": "http://connectdigitalstudy.com/ontology#SensingActivity",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SensingActivity",
+        "undefined": "Sensing Activity"
+      },
+      "comment": {
+        "undefined": "An activity/process that captures sensor data and produces measurements."
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ComputationalLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "iri": "http://connectdigitalstudy.com/ontology#ContextualSituation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ContextualSituation",
+        "undefined": "Contextual Situation"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        -542.14,
+        -661.28
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://connectdigitalstudy.com/ontology#SleepRegularityFeature",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "SleepRegularityFeature",
+        "undefined": "Sleep Regularity Feature"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "309",
+      "iri": "http://connectdigitalstudy.com/ontology#DataRecordVolume",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DataRecordVolume",
+        "undefined": "Data Record Volume"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "225",
+      "iri": "http://connectdigitalstudy.com/ontology#LowMood",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "LowMood",
+        "undefined": "Low Mood"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "115",
+      "iri": "http://connectdigitalstudy.com/ontology#RotationRateMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "RotationRateMeasurement",
+        "undefined": "Rotation Rate Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "113",
+      "iri": "http://connectdigitalstudy.com/ontology#GyroscopeMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "GyroscopeMeasurement",
+        "undefined": "Gyroscope Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "iri": "http://connectdigitalstudy.com/ontology#Measurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "Measurement",
+        "undefined": "Measurement"
+      },
+      "comment": {
+        "undefined": "A single observation or data point recorded by a device or system."
+      },
+      "annotations": {
+        "IAO_0000115": [
+          {
+            "identifier": "IAO_0000115",
+            "language": "undefined",
+            "value": "A single observation recorded by a device or system, optionally linked to a QUDT QuantityValue and SOSA properties.",
+            "type": "label"
+          }
+        ],
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        1086.42,
+        1112.71
+      ]
+    },
+    {
+      "id": "111",
+      "iri": "http://connectdigitalstudy.com/ontology#ExerciseMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ExerciseMeasurement",
+        "undefined": "Exercise Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "220",
+      "iri": "http://www.w3.org/2001/XMLSchema#float",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "float"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "334",
+      "iri": "http://www.w3.org/2001/XMLSchema#float",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "float"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "260",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "284",
+      "iri": "http://www.w3.org/2001/XMLSchema#float",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "float"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "257",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "292",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "85",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "279",
+      "iri": "http://connectdigitalstudy.com/ontology#WearableDevice",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "WearableDevice",
+        "undefined": "Wearable Device"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ProvenanceLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "173",
+      "iri": "http://connectdigitalstudy.com/ontology#DeviceInteractionMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DeviceInteractionMeasurement",
+        "undefined": "Device Interaction Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        504.88,
+        1689.45
+      ]
+    },
+    {
+      "id": "224",
+      "iri": "http://connectdigitalstudy.com/ontology#MoodInstability",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "MoodInstability",
+        "undefined": "Mood Instability"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "iri": "http://connectdigitalstudy.com/ontology#LocationTransitionCount",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "LocationTransitionCount",
+        "undefined": "Location Transition Count"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DerivedFeatureLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "161",
+      "iri": "http://connectdigitalstudy.com/ontology#DigitalPhenotypingLayer",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "DigitalPhenotypingLayer",
+        "undefined": "Digital Phenotype Layer"
+      }
+    },
+    {
+      "id": "189",
+      "iri": "http://www.w3.org/2001/XMLSchema#string",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "string"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "167",
+      "iri": "http://www.w3.org/2001/XMLSchema#dateTime",
+      "baseIri": "http://www.w3.org/2001/XMLSchema",
+      "label": {
+        "IRI-based": "dateTime"
+      },
+      "attributes": [
+        "datatype"
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://connectdigitalstudy.com/ontology#KeyboardMetricsMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "KeyboardMetricsMeasurement",
+        "undefined": "Keyboard Metrics Measurement"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "iri": "http://connectdigitalstudy.com/ontology#TimeInterval",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "TimeInterval",
+        "undefined": "Time Interval"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        132.62,
+        -664.94
+      ]
+    },
+    {
+      "id": "102",
+      "iri": "http://connectdigitalstudy.com/ontology#AppEngagementMetric",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "AppEngagementMetric",
+        "undefined": "App Engagement Metric"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#MeasurementLayer",
+            "type": "iri"
+          }
+        ]
+      },
+      "pos": [
+        684.86,
+        1139.06
+      ]
+    },
+    {
+      "id": "212",
+      "iri": "http://connectdigitalstudy.com/ontology#ExerciseSession",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ExerciseSession",
+        "undefined": "Exercise Session"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#ContextualLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "193",
+      "iri": "http://connectdigitalstudy.com/ontology#ReducedCommunication",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "ReducedCommunication",
+        "undefined": "Reduced Communication"
+      },
+      "annotations": {
+        "belongsToLayer": [
+          {
+            "identifier": "belongsToLayer",
+            "language": "undefined",
+            "value": "http://connectdigitalstudy.com/ontology#DigitalPhenotypeLayer",
+            "type": "iri"
+          }
+        ]
+      }
+    },
+    {
+      "id": "133",
+      "iri": "http://qudt.org/schema/qudt/QuantityValue",
+      "baseIri": "http://qudt.org/schema/qudt",
+      "label": {
+        "IRI-based": "QuantityValue"
+      },
+      "attributes": [
+        "external"
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "7",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "26",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "28",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "30",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "32",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "36",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "38",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "39",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "42",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "48",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "50",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "54",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "60",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "63",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "65",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "67",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "69",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "72",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "79",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "80",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "83",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "84",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "93",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "96",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "98",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "100",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "103",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "109",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "119",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "127",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "132",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "139",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "146",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "150",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "153",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "163",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "166",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "168",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "170",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "174",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "176",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "121",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "178",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "180",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "182",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "184",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "185",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "188",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "190",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "194",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "196",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "197",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "199",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "200",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "203",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "207",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "209",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "211",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "213",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "215",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "217",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "219",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "9",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "141",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "226",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "227",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "229",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "231",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "233",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "234",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "235",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "236",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "237",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "239",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "240",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "244",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "249",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "250",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "251",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "252",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "154",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "256",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "259",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "261",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "264",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "265",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "266",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "267",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "269",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "270",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "271",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "274",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "276",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "277",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "282",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "283",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "285",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "286",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "287",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "288",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "289",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "291",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "293",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "294",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "295",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "296",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "297",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "298",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "299",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "300",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "301",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "302",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "303",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "304",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "305",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "306",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "307",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "308",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "310",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "311",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "312",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "313",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "314",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "315",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "316",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "317",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "318",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "319",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "320",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "321",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "262",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "323",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "324",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "325",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "326",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "327",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "328",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "329",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "330",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "331",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "332",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "333",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "335",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "336",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "337",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "338",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "339",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "340",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "341",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "342",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "343",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "344",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "345",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "290",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "346",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "347",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "348",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "349",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "350",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "351",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "352",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "268",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "353",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "354",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "355",
+      "type": "owl:DatatypeProperty"
+    },
+    {
+      "id": "356",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "357",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "358",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "359",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "360",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "361",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "362",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "363",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "364",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "322",
+      "type": "owl:ObjectProperty"
+    },
+    {
+      "id": "365",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "366",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "367",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "368",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "369",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "2",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "3",
+      "range": "4"
+    },
+    {
+      "id": "5",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "6",
+      "range": "4"
+    },
+    {
+      "id": "7",
+      "iri": "http://www.w3.org/ns/sosa/observedProperty",
+      "baseIri": "http://www.w3.org/ns/sosa",
+      "label": {
+        "IRI-based": "observedProperty"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "9"
+      ],
+      "pos": [
+        912.66,
+        -930.11
+      ]
+    },
+    {
+      "id": "21",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "22",
+      "range": "23"
+    },
+    {
+      "id": "24",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "25",
+      "range": "23"
+    },
+    {
+      "id": "26",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "27",
+      "range": "23"
+    },
+    {
+      "id": "28",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "29",
+      "range": "13"
+    },
+    {
+      "id": "30",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "31",
+      "range": "13"
+    },
+    {
+      "id": "32",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "33",
+      "range": "13"
+    },
+    {
+      "id": "36",
+      "iri": "http://connectdigitalstudy.com/ontology#hasStatus",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasStatus",
+        "undefined": "has status"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Utility",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "8",
+      "range": "37"
+    },
+    {
+      "id": "38",
+      "iri": "http://www.w3.org/2004/02/skos/core#narrower",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "narrower"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        726.95,
+        -841.29
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://connectdigitalstudy.com/ontology#answersQuestion",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "answersQuestion",
+        "undefined": "answers question"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Questionnaire",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "40",
+      "range": "41",
+      "pos": [
+        -413.05,
+        1160.94
+      ]
+    },
+    {
+      "id": "42",
+      "iri": "http://connectdigitalstudy.com/ontology#wasCollectedFrom",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasCollectedFrom",
+        "undefined": "was collected from"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "Associates a dataset with the participant it was collected from."
+      },
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "23",
+      "range": "43",
+      "pos": [
+        297.67,
+        583.31
+      ]
+    },
+    {
+      "id": "48",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "49",
+      "range": "4"
+    },
+    {
+      "id": "50",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "51",
+      "range": "4"
+    },
+    {
+      "id": "54",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "55",
+      "range": "56",
+      "pos": [
+        -37.29,
+        -629.69
+      ]
+    },
+    {
+      "id": "57",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "58",
+      "range": "56",
+      "pos": [
+        -352.57,
+        -482.07
+      ]
+    },
+    {
+      "id": "60",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "61",
+      "range": "62"
+    },
+    {
+      "id": "63",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "64",
+      "range": "62"
+    },
+    {
+      "id": "65",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "66",
+      "range": "62"
+    },
+    {
+      "id": "67",
+      "iri": "http://connectdigitalstudy.com/ontology#usedDataInterface",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "usedDataInterface",
+        "undefined": "used data interface"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "23",
+      "range": "68",
+      "pos": [
+        553.78,
+        277.58
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://connectdigitalstudy.com/ontology#wasComputedBy",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasComputedBy",
+        "undefined": "was computed by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Computation",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "70",
+      "range": "71",
+      "pos": [
+        1349.54,
+        585.72
+      ]
+    },
+    {
+      "id": "72",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "73",
+      "range": "62"
+    },
+    {
+      "id": "74",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "75",
+      "range": "76",
+      "pos": [
+        -205.04,
+        185.41
+      ]
+    },
+    {
+      "id": "77",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "78",
+      "range": "76",
+      "pos": [
+        -35.68,
+        396.08
+      ]
+    },
+    {
+      "id": "79",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "59",
+      "range": "4"
+    },
+    {
+      "id": "80",
+      "iri": "http://www.w3.org/2004/02/skos/core#related",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "related"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        615.61,
+        -1071.61
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://qudt.org/schema/qudt/unit",
+      "baseIri": "http://qudt.org/schema/qudt",
+      "label": {
+        "IRI-based": "unit"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        928.16,
+        -996.02
+      ]
+    },
+    {
+      "id": "84",
+      "iri": "http://connectdigitalstudy.com/ontology#hasUnit",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasUnit",
+        "undefined": "has unit"
+      },
+      "attributes": [
+        "datatype",
+        "deprecated"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "18",
+      "range": "85"
+    },
+    {
+      "id": "93",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "94",
+      "range": "95"
+    },
+    {
+      "id": "96",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "97",
+      "range": "95"
+    },
+    {
+      "id": "98",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "99",
+      "range": "95"
+    },
+    {
+      "id": "100",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "53",
+      "range": "56",
+      "pos": [
+        -374.67,
+        -627.86
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://www.w3.org/2004/02/skos/core#inScheme",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "inScheme"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        872.77,
+        -1121.56
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "hasTopConcept"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        915.63,
+        -1063.09
+      ]
+    },
+    {
+      "id": "119",
+      "iri": "http://connectdigitalstudy.com/ontology#featureOfInterest",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "featureOfInterest",
+        "undefined": "feature of interest"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "120",
+      "superproperty": [
+        "121"
+      ],
+      "pos": [
+        1087.51,
+        1305.23
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://connectdigitalstudy.com/ontology#hasContext",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasContext",
+        "undefined": "has context"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Contextual",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "128",
+      "range": "56",
+      "pos": [
+        -130.08,
+        -433.92
+      ]
+    },
+    {
+      "id": "132",
+      "iri": "http://qudt.org/schema/qudt/quantityValue",
+      "baseIri": "http://qudt.org/schema/qudt",
+      "label": {
+        "IRI-based": "quantityValue",
+        "undefined": "quantity value"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "18",
+      "range": "133"
+    },
+    {
+      "id": "139",
+      "iri": "http://connectdigitalstudy.com/ontology#wasAttributedTo",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasAttributedTo",
+        "undefined": "was attributed to"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "Links an entity to an agent it is attributed to (e.g., a dataset to a participant)."
+      },
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "140",
+      "range": "43",
+      "superproperty": [
+        "141"
+      ]
+    },
+    {
+      "id": "146",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "147",
+      "range": "55"
+    },
+    {
+      "id": "148",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "149",
+      "range": "55"
+    },
+    {
+      "id": "150",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "101",
+      "range": "102"
+    },
+    {
+      "id": "151",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "152",
+      "range": "102"
+    },
+    {
+      "id": "153",
+      "iri": "http://www.w3.org/ns/prov#wasDerivedFrom",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "wasDerivedFrom"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "154"
+      ],
+      "pos": [
+        612.49,
+        -936.51
+      ]
+    },
+    {
+      "id": "163",
+      "iri": "http://connectdigitalstudy.com/ontology#hasTimestamp",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasTimestamp",
+        "undefined": "has timestamp"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Contextual",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "8",
+      "range": "164"
+    },
+    {
+      "id": "166",
+      "iri": "http://connectdigitalstudy.com/ontology#hasEndTime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasEndTime",
+        "undefined": "has end time"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Contextual",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "56",
+      "range": "167"
+    },
+    {
+      "id": "168",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "169",
+      "range": "18",
+      "pos": [
+        975.46,
+        966.81
+      ]
+    },
+    {
+      "id": "170",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "102",
+      "range": "18",
+      "pos": [
+        885.64,
+        1125.89
+      ]
+    },
+    {
+      "id": "171",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "172",
+      "range": "173"
+    },
+    {
+      "id": "174",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "175",
+      "range": "173"
+    },
+    {
+      "id": "176",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "177",
+      "range": "173"
+    },
+    {
+      "id": "121",
+      "iri": "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+      "baseIri": "http://www.w3.org/ns/sosa",
+      "label": {
+        "IRI-based": "hasFeatureOfInterest"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "119"
+      ],
+      "pos": [
+        803.63,
+        -842.19
+      ]
+    },
+    {
+      "id": "178",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "179",
+      "range": "55"
+    },
+    {
+      "id": "180",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "181",
+      "range": "53"
+    },
+    {
+      "id": "182",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "105",
+      "range": "18",
+      "pos": [
+        988.02,
+        1366.35
+      ]
+    },
+    {
+      "id": "183",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "17",
+      "range": "18",
+      "pos": [
+        906.34,
+        1043.85
+      ]
+    },
+    {
+      "id": "184",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "112",
+      "range": "18",
+      "pos": [
+        1230.04,
+        1245.16
+      ]
+    },
+    {
+      "id": "185",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "35",
+      "range": "18",
+      "pos": [
+        903.33,
+        1196.21
+      ]
+    },
+    {
+      "id": "188",
+      "iri": "http://connectdigitalstudy.com/ontology#hasDescription",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasDescription",
+        "undefined": "has description"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Utility",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "8",
+      "range": "189"
+    },
+    {
+      "id": "190",
+      "iri": "http://connectdigitalstudy.com/ontology#hasLabel",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasLabel",
+        "undefined": "has label"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Utility",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "8",
+      "range": "191"
+    },
+    {
+      "id": "194",
+      "iri": "http://connectdigitalstudy.com/ontology#hasResponseValue",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasResponseValue",
+        "undefined": "has response value"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Questionnaire",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "40",
+      "range": "195"
+    },
+    {
+      "id": "196",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "82",
+      "range": "53"
+    },
+    {
+      "id": "197",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "198",
+      "range": "53"
+    },
+    {
+      "id": "199",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "118",
+      "range": "53"
+    },
+    {
+      "id": "200",
+      "iri": "http://connectdigitalstudy.com/ontology#hasStage",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasStage",
+        "undefined": "has stage"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "201",
+      "range": "202"
+    },
+    {
+      "id": "203",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "204",
+      "range": "53"
+    },
+    {
+      "id": "205",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "206",
+      "range": "53"
+    },
+    {
+      "id": "207",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "126",
+      "range": "53"
+    },
+    {
+      "id": "209",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "210",
+      "range": "53"
+    },
+    {
+      "id": "211",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "212",
+      "range": "53"
+    },
+    {
+      "id": "213",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "214",
+      "range": "53"
+    },
+    {
+      "id": "215",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "216",
+      "range": "53"
+    },
+    {
+      "id": "217",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "218",
+      "range": "53"
+    },
+    {
+      "id": "219",
+      "iri": "http://connectdigitalstudy.com/ontology#numericValue",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "numericValue",
+        "undefined": "numeric value"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "133",
+      "range": "220"
+    },
+    {
+      "id": "9",
+      "iri": "http://connectdigitalstudy.com/ontology#observedProperty",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "observedProperty",
+        "undefined": "observed property"
+      },
+      "attributes": [
+        "object"
+      ],
+      "domain": "18",
+      "range": "120",
+      "superproperty": [
+        "7"
+      ],
+      "pos": [
+        1008.06,
+        1270.14
+      ]
+    },
+    {
+      "id": "141",
+      "iri": "http://www.w3.org/ns/prov#wasAttributedTo",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "wasAttributedTo"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "139"
+      ],
+      "pos": [
+        869.37,
+        -875.26
+      ]
+    },
+    {
+      "id": "226",
+      "iri": "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "topConceptOf"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        656.95,
+        -876.59
+      ]
+    },
+    {
+      "id": "227",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "228",
+      "range": "169"
+    },
+    {
+      "id": "229",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "230",
+      "range": "169"
+    },
+    {
+      "id": "231",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "232",
+      "range": "169"
+    },
+    {
+      "id": "233",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "52",
+      "range": "53"
+    },
+    {
+      "id": "234",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "4",
+      "range": "70",
+      "pos": [
+        1768.68,
+        684.2
+      ]
+    },
+    {
+      "id": "235",
+      "iri": "http://connectdigitalstudy.com/ontology#infersPhenotype",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "infersPhenotype",
+        "undefined": "infers phenotype"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Computation",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "71",
+      "range": "10",
+      "pos": [
+        1296.33,
+        339.5
+      ]
+    },
+    {
+      "id": "236",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "95",
+      "range": "70",
+      "pos": [
+        1658.31,
+        899.2
+      ]
+    },
+    {
+      "id": "237",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "238",
+      "range": "70",
+      "pos": [
+        1765.62,
+        778.38
+      ]
+    },
+    {
+      "id": "239",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "156",
+      "range": "130"
+    },
+    {
+      "id": "240",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "165",
+      "range": "130"
+    },
+    {
+      "id": "241",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "242",
+      "range": "130"
+    },
+    {
+      "id": "244",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "129",
+      "range": "130"
+    },
+    {
+      "id": "249",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "243",
+      "range": "58"
+    },
+    {
+      "id": "250",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "187",
+      "range": "58"
+    },
+    {
+      "id": "251",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "134",
+      "range": "70",
+      "pos": [
+        1724.9,
+        852.52
+      ]
+    },
+    {
+      "id": "252",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "18",
+      "range": "44"
+    },
+    {
+      "id": "154",
+      "iri": "http://connectdigitalstudy.com/ontology#wasDerivedFrom",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasDerivedFrom",
+        "undefined": "was derived from"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Computation",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "70",
+      "range": "255",
+      "superproperty": [
+        "153"
+      ]
+    },
+    {
+      "id": "256",
+      "iri": "http://connectdigitalstudy.com/ontology#hasStageName",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasStageName",
+        "undefined": "has stage name"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "202",
+      "range": "257"
+    },
+    {
+      "id": "259",
+      "iri": "http://connectdigitalstudy.com/ontology#hasStartTime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasStartTime",
+        "undefined": "has start time"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Contextual",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "56",
+      "range": "260"
+    },
+    {
+      "id": "261",
+      "iri": "http://connectdigitalstudy.com/ontology#usedDevice",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "usedDevice",
+        "undefined": "used device"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "78",
+      "range": "1",
+      "superproperty": [
+        "262"
+      ],
+      "pos": [
+        379.38,
+        494.09
+      ]
+    },
+    {
+      "id": "264",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "20",
+      "range": "17"
+    },
+    {
+      "id": "265",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "19",
+      "range": "17"
+    },
+    {
+      "id": "266",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "14",
+      "range": "10",
+      "pos": [
+        1666.66,
+        205.74
+      ]
+    },
+    {
+      "id": "267",
+      "iri": "http://www.w3.org/ns/prov#wasAssociatedWith",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "wasAssociatedWith"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "268"
+      ],
+      "pos": [
+        804.14,
+        -1157.56
+      ]
+    },
+    {
+      "id": "269",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "13",
+      "range": "10",
+      "pos": [
+        1528.22,
+        30.38
+      ]
+    },
+    {
+      "id": "270",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "16",
+      "range": "10",
+      "pos": [
+        1597.07,
+        66.19
+      ]
+    },
+    {
+      "id": "271",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "15",
+      "range": "10",
+      "pos": [
+        1440.3,
+        28.04
+      ]
+    },
+    {
+      "id": "274",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "12",
+      "range": "10",
+      "pos": [
+        1645.63,
+        126.83
+      ]
+    },
+    {
+      "id": "276",
+      "iri": "http://connectdigitalstudy.com/ontology#hasResponseFormat",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasResponseFormat",
+        "undefined": "has response format"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Questionnaire",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "41",
+      "range": "130",
+      "pos": [
+        -443.88,
+        920.56
+      ]
+    },
+    {
+      "id": "277",
+      "iri": "http://connectdigitalstudy.com/ontology#occursDuring",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "occursDuring",
+        "undefined": "occurs during"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Contextual",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "128",
+      "range": "56",
+      "pos": [
+        -257.85,
+        -428.3
+      ]
+    },
+    {
+      "id": "282",
+      "iri": "http://connectdigitalstudy.com/ontology#wasReportedBy",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasReportedBy",
+        "undefined": "was reported by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "47",
+      "range": "43",
+      "pos": [
+        -138.42,
+        824.09
+      ]
+    },
+    {
+      "id": "283",
+      "iri": "http://connectdigitalstudy.com/ontology#hasConfidence",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasConfidence",
+        "undefined": "has confidence"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "18",
+      "range": "284"
+    },
+    {
+      "id": "285",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "136",
+      "range": "134"
+    },
+    {
+      "id": "286",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "145",
+      "range": "144",
+      "pos": [
+        321.94,
+        -210.64
+      ]
+    },
+    {
+      "id": "287",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "137",
+      "range": "134"
+    },
+    {
+      "id": "288",
+      "iri": "http://qudt.org/schema/qudt/numericValue",
+      "baseIri": "http://qudt.org/schema/qudt",
+      "label": {
+        "IRI-based": "numericValue"
+      },
+      "attributes": [
+        "external",
+        "datatype"
+      ],
+      "domain": "8",
+      "range": "278"
+    },
+    {
+      "id": "289",
+      "iri": "http://connectdigitalstudy.com/ontology#wasGeneratedBy",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "wasGeneratedBy",
+        "undefined": "was generated by"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "Links an entity (e.g., measurement/feature/dataset) to the computation/activity that generated it."
+      },
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "273",
+      "range": "71",
+      "superproperty": [
+        "290"
+      ]
+    },
+    {
+      "id": "291",
+      "iri": "http://connectdigitalstudy.com/ontology#hasMeasurementType",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasMeasurementType",
+        "undefined": "has measurement type"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "18",
+      "range": "292"
+    },
+    {
+      "id": "293",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "124",
+      "range": "14"
+    },
+    {
+      "id": "294",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "123",
+      "range": "14"
+    },
+    {
+      "id": "295",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "135",
+      "range": "134"
+    },
+    {
+      "id": "296",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "125",
+      "range": "14"
+    },
+    {
+      "id": "297",
+      "iri": "http://connectdigitalstudy.com/ontology#requiresComputation",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "requiresComputation",
+        "undefined": "requires computation"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Computation",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "158",
+      "range": "71",
+      "pos": [
+        1258.78,
+        585.24
+      ]
+    },
+    {
+      "id": "298",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "114",
+      "range": "112"
+    },
+    {
+      "id": "299",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "113",
+      "range": "112"
+    },
+    {
+      "id": "300",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "116",
+      "range": "112"
+    },
+    {
+      "id": "301",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "115",
+      "range": "112"
+    },
+    {
+      "id": "302",
+      "iri": "http://connectdigitalstudy.com/ontology#resultTime",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "resultTime",
+        "undefined": "result time"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "domain": "18",
+      "range": "281"
+    },
+    {
+      "id": "303",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "111",
+      "range": "110"
+    },
+    {
+      "id": "304",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "108",
+      "range": "104"
+    },
+    {
+      "id": "305",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "107",
+      "range": "104"
+    },
+    {
+      "id": "306",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "43",
+      "range": "92",
+      "pos": [
+        191.85,
+        776.32
+      ]
+    },
+    {
+      "id": "307",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "91",
+      "range": "71"
+    },
+    {
+      "id": "308",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "309",
+      "range": "102"
+    },
+    {
+      "id": "310",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "106",
+      "range": "104"
+    },
+    {
+      "id": "311",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "246",
+      "range": "102"
+    },
+    {
+      "id": "312",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "1",
+      "range": "92",
+      "pos": [
+        465.7,
+        705.71
+      ]
+    },
+    {
+      "id": "313",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "88",
+      "range": "71"
+    },
+    {
+      "id": "314",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "87",
+      "range": "71"
+    },
+    {
+      "id": "315",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "90",
+      "range": "71"
+    },
+    {
+      "id": "316",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "89",
+      "range": "71"
+    },
+    {
+      "id": "317",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "248",
+      "range": "15"
+    },
+    {
+      "id": "318",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "247",
+      "range": "15"
+    },
+    {
+      "id": "319",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "18",
+      "range": "11",
+      "pos": [
+        1088.3,
+        851.6
+      ]
+    },
+    {
+      "id": "320",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "71",
+      "range": "86"
+    },
+    {
+      "id": "321",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "208",
+      "range": "15"
+    },
+    {
+      "id": "262",
+      "iri": "http://www.w3.org/ns/prov#used",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "used"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "261",
+        "322"
+      ],
+      "pos": [
+        726.67,
+        -1158.64
+      ]
+    },
+    {
+      "id": "323",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "225",
+      "range": "12"
+    },
+    {
+      "id": "324",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "122",
+      "range": "12"
+    },
+    {
+      "id": "325",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "222",
+      "range": "221"
+    },
+    {
+      "id": "326",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "193",
+      "range": "16"
+    },
+    {
+      "id": "327",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "224",
+      "range": "12"
+    },
+    {
+      "id": "328",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "223",
+      "range": "221"
+    },
+    {
+      "id": "329",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "131",
+      "range": "46"
+    },
+    {
+      "id": "330",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "143",
+      "range": "46"
+    },
+    {
+      "id": "331",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "192",
+      "range": "16"
+    },
+    {
+      "id": "332",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "81",
+      "range": "46"
+    },
+    {
+      "id": "333",
+      "iri": "http://connectdigitalstudy.com/ontology#hasValue",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasValue",
+        "undefined": "has value"
+      },
+      "attributes": [
+        "datatype",
+        "deprecated"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Measurement",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "18",
+      "range": "334"
+    },
+    {
+      "id": "335",
+      "iri": "http://www.w3.org/2004/02/skos/core#broader",
+      "baseIri": "http://www.w3.org/2004/02/skos/core",
+      "label": {
+        "IRI-based": "broader"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "pos": [
+        659.6,
+        -1125.92
+      ]
+    },
+    {
+      "id": "336",
+      "iri": "http://connectdigitalstudy.com/ontology#hasMeasurement",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasMeasurement",
+        "undefined": "has measurement"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "Indicates a measurement used in computing a feature."
+      },
+      "domain": "158",
+      "range": "18",
+      "pos": [
+        1239.32,
+        914.49
+      ]
+    },
+    {
+      "id": "337",
+      "iri": "http://connectdigitalstudy.com/ontology#hasResponseItem",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasResponseItem",
+        "undefined": "has response item"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Questionnaire",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "47",
+      "range": "40",
+      "pos": [
+        -495.87,
+        1085.96
+      ]
+    },
+    {
+      "id": "338",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "157",
+      "range": "46"
+    },
+    {
+      "id": "339",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "45",
+      "range": "46"
+    },
+    {
+      "id": "340",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "162",
+      "range": "46"
+    },
+    {
+      "id": "341",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "159",
+      "range": "158"
+    },
+    {
+      "id": "342",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "68",
+      "range": "144",
+      "pos": [
+        530.12,
+        -91.41
+      ]
+    },
+    {
+      "id": "343",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "161",
+      "range": "46"
+    },
+    {
+      "id": "344",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "160",
+      "range": "158"
+    },
+    {
+      "id": "345",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "263",
+      "range": "1"
+    },
+    {
+      "id": "290",
+      "iri": "http://www.w3.org/ns/prov#wasGeneratedBy",
+      "baseIri": "http://www.w3.org/ns/prov",
+      "label": {
+        "IRI-based": "wasGeneratedBy"
+      },
+      "attributes": [
+        "external",
+        "object"
+      ],
+      "domain": "8",
+      "range": "8",
+      "subproperty": [
+        "289"
+      ],
+      "pos": [
+        599.35,
+        -1005.16
+      ]
+    },
+    {
+      "id": "346",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "279",
+      "range": "1"
+    },
+    {
+      "id": "347",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "155",
+      "range": "95"
+    },
+    {
+      "id": "348",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "254",
+      "range": "1"
+    },
+    {
+      "id": "349",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "34",
+      "range": "35"
+    },
+    {
+      "id": "350",
+      "iri": "http://connectdigitalstudy.com/ontology#supportsInferenceOf",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "supportsInferenceOf",
+        "undefined": "supports inference of"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Computation",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "158",
+      "range": "10",
+      "pos": [
+        1429.77,
+        470.52
+      ]
+    },
+    {
+      "id": "351",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "0",
+      "range": "1"
+    },
+    {
+      "id": "352",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "142",
+      "range": "35"
+    },
+    {
+      "id": "268",
+      "iri": "http://connectdigitalstudy.com/ontology#associatedWithDevice",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "associatedWithDevice",
+        "undefined": "was associated with device"
+      },
+      "attributes": [
+        "object"
+      ],
+      "comment": {
+        "undefined": "Associates an activity/computation with a device agent."
+      },
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "71",
+      "range": "1",
+      "superproperty": [
+        "267"
+      ],
+      "pos": [
+        862.68,
+        503.2
+      ]
+    },
+    {
+      "id": "353",
+      "iri": "http://connectdigitalstudy.com/ontology#hasID",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "hasID",
+        "undefined": "has ID"
+      },
+      "attributes": [
+        "datatype"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Utility",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "8",
+      "range": "280"
+    },
+    {
+      "id": "354",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "221",
+      "range": "105",
+      "pos": [
+        1053.85,
+        1715.54
+      ]
+    },
+    {
+      "id": "355",
+      "iri": "http://www.w3.org/ns/sosa/resultTime",
+      "baseIri": "http://www.w3.org/ns/sosa",
+      "label": {
+        "IRI-based": "resultTime"
+      },
+      "attributes": [
+        "external",
+        "datatype"
+      ],
+      "domain": "8",
+      "range": "272"
+    },
+    {
+      "id": "356",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "110",
+      "range": "105",
+      "pos": [
+        830.35,
+        1798.77
+      ]
+    },
+    {
+      "id": "357",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "138",
+      "range": "35"
+    },
+    {
+      "id": "358",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "117",
+      "range": "35"
+    },
+    {
+      "id": "359",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "173",
+      "range": "105",
+      "pos": [
+        697.25,
+        1654.72
+      ]
+    },
+    {
+      "id": "360",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "258",
+      "range": "238"
+    },
+    {
+      "id": "361",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "104",
+      "range": "105",
+      "pos": [
+        962.41,
+        1792.2
+      ]
+    },
+    {
+      "id": "362",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "201",
+      "range": "105",
+      "pos": [
+        737.4,
+        1738.95
+      ]
+    },
+    {
+      "id": "363",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "275",
+      "range": "238"
+    },
+    {
+      "id": "364",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "245",
+      "range": "238"
+    },
+    {
+      "id": "322",
+      "iri": "http://connectdigitalstudy.com/ontology#usedAppInterface",
+      "baseIri": "http://connectdigitalstudy.com/ontology",
+      "label": {
+        "IRI-based": "usedAppInterface",
+        "undefined": "used app interface"
+      },
+      "attributes": [
+        "object"
+      ],
+      "annotations": {
+        "propertyCategory": [
+          {
+            "identifier": "propertyCategory",
+            "language": "undefined",
+            "value": "Provenance",
+            "type": "label"
+          }
+        ]
+      },
+      "domain": "75",
+      "range": "145",
+      "superproperty": [
+        "262"
+      ],
+      "pos": [
+        -15.89,
+        -70.93
+      ]
+    },
+    {
+      "id": "365",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "40",
+      "range": "47",
+      "pos": [
+        -436.43,
+        1115.02
+      ]
+    },
+    {
+      "id": "366",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "70",
+      "range": "11",
+      "pos": [
+        1331.96,
+        653.85
+      ]
+    },
+    {
+      "id": "367",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        1278.75,
+        407.63
+      ]
+    },
+    {
+      "id": "368",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "158",
+      "range": "11",
+      "pos": [
+        1241.19,
+        653.37
+      ]
+    },
+    {
+      "id": "369",
+      "label": "Subclass of",
+      "attributes": [
+        "anonymous",
+        "object"
+      ],
+      "domain": "23",
+      "range": "11",
+      "pos": [
+        816.58,
+        531.85
+      ]
+    }
+  ]
+}
