@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ODIM-MH Ontology Visualisation</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <link rel="stylesheet" href="css/vowl.css">
+</head>
+<body>
+    <div id="graph"></div>
+    
+    <script src="js/webvowl.js"></script>
+    <script src="js/webvowl.app.js"></script>
+    <script>
+        // Auto-load your ontology
+        var ontologyUrl = "https://mentalhealthmission.github.io/assets/webvowl/data/mhm_ontology.json";
+        
+        d3.json(ontologyUrl, function(error, data) {
+            if (!error) {
+                webvowl.app().initialize();
+                var graph = webvowl.graph();
+                graph.load(data);
+            } else {
+                console.error("Failed to load ontology:", error);
+            }
+        });
+    </script>
+</body>
+</html>
