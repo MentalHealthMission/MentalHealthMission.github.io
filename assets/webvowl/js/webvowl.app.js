@@ -783,6 +783,14 @@ webvowl.app =
 	      options.compactNotationModule(compactNotationSwitch);
 	      
 	      ontologyMenu.setup(loadOntologyFromText);
+		
+		  // === AUTOLOAD ODIM ONTOLOGY (GitHub Pages preload) ===
+		  d3.text("data/odim.json").then(function(jsonText) {
+    		loadOntologyFromText(jsonText, "odim.json", "ODIM Ontology");
+		  }).catch(function(error) {
+    		console.error("Failed to preload odim.json", error);
+		  });
+			
 	      configMenu.setup();
 	      
 	      leftSidebar.showSidebar(0);
