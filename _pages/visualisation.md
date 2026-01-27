@@ -4,7 +4,7 @@ title: null
 ---
 
 <iframe 
-  src="{{ '/assets/webvowl/visualise_odim.html' | relative_url }}" 
+  src="{{ '/assets/webvowl/index.html' | relative_url }}#file=./data/mhm_ontology.json"
   width="100%" 
   height="800px" 
   frameborder="0"
