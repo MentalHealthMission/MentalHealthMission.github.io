@@ -4,18 +4,7 @@ layout: default
 title: null
 ---
 
-<style>
-.page__content {
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.page {
-  padding-bottom: 0 !important;
-}
-</style>
-
-<div style="padding: 0.5rem; margin: 0 auto; width: 100%; max-width: 100%; height: calc(100vh - 160px); box-sizing: border-box;">
+<div style="padding: 0.5rem 0.5rem 0 0.5rem; margin: 0 auto; width: 100%; max-width: 100%; height: calc(100vh - 160px); box-sizing: border-box;">
   <iframe
     src="{{ '/assets/webvowl/index.html' | relative_url }}"
     width="100%"
