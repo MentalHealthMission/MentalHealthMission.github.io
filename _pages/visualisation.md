@@ -1,5 +1,6 @@
 ---
 permalink: /visualisation/
+layout: default
 title: null
 ---
 
@@ -10,4 +11,3 @@ title: null
   frameborder="0"
   style="border: 1px solid #ddd;">
 </iframe>
-
