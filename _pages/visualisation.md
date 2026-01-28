@@ -9,7 +9,7 @@ title: null
     src="{{ '/assets/webvowl/index.html' | relative_url }}"
     width="100%"
     height="100%"
-    style="border: 1px solid #ddd; display: block;"
+    style="border: 1px solid #ddd; display: block; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"
     frameborder="0"
   ></iframe>
 </div>
