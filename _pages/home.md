@@ -25,13 +25,6 @@ feature_row:
     url: "https://github.com/MentalHealthMission/MHM-ontology/tree/main/docs"
     btn_class: "btn--primary"
     btn_label: "Documentation"
-  - image_path: /assets/images/undraw_visualise.png
-    alt: "visualise"
-    title: "Visualise"
-    excerpt: "Interact with the visualisation map to explore the ODIM-MH."
-    url: "/visualisation/"
-    btn_class: "btn--primary"
-    btn_label: "Visualisation (Soon)"
   - image_path: /assets/images/undraw_file-search.png
     alt: "search"
     title: "Search"
@@ -39,6 +32,13 @@ feature_row:
     url: "#test-link"
     btn_class: "btn--primary"
     btn_label: "Library (Soon)"
+  - image_path: /assets/images/undraw_visualise.png
+    alt: "visualise"
+    title: "Visualise"
+    excerpt: "Interact with the visualisation map to explore the ODIM-MH."
+    url: "/visualisation/"
+    btn_class: "btn--primary"
+    btn_label: "Visualisation"
 
 use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
