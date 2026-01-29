@@ -72,22 +72,35 @@ use_case_1:
 {% include feature_row id="use_case_2" type="left" %}
 {% endcomment %}
 
+<div>
+  <div style="width: 200px" class="align-left">
+    <img src="/assets/images/manchester.png" alt="manchester">
+  </div>
+  <div style="width: 350px" class="align-right">
+    <img src="/assets/images/nihr.jpg" alt="nihr">
+  </div>
+</div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Wait for all elements to load
-  setTimeout(function() {
-    // Get all links in feature rows and header
-    var links = document.querySelectorAll('.feature__item a, .page__hero .btn, .archive__item-excerpt a');
+  // Function to set target blank on external links
+  function setExternalLinks() {
+    var links = document.querySelectorAll('.feature__item a, .page__hero .btn, .page__hero-caption a, .archive__item-excerpt a, .page__lead a');
     
     links.forEach(function(link) {
       var href = link.getAttribute('href');
       
-      // If link starts with http and is NOT odim-mh.org
       if (href && href.indexOf('http') === 0 && href.indexOf('odim-mh.org') === -1) {
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer');
       }
     });
-  }, 500);
+  }
+  
+  // Run immediately
+  setExternalLinks();
+  
+  // Run again after delay to catch late-loading elements
+  setTimeout(setExternalLinks, 1000);
 });
 </script>
