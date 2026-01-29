@@ -1,11 +1,25 @@
 ---
-permalink: /visualisation/
 layout: default
 title: null
+permalink: /visualisation/
 ---
 
-<div style="padding: 0.5rem 0.5rem 0 0.5rem; margin: 0 auto; width: 100%; max-width: 100%; height: calc(100vh - 160px); box-sizing: border-box;">
+<style>
+@media (max-width: 768px) {
+  .page__content {
+    padding: 0 !important;
+  }
+  
+  #visualization-container {
+    padding: 0 !important;
+    height: calc(100vh - 100px) !important;
+  }
+}
+</style>
+
+<div id="visualization-container" style="padding: 0.5rem 0.5rem 0 0.5rem; margin: 0 auto; width: 100%; max-width: 100%; height: calc(100vh - 160px); box-sizing: border-box;">
   <iframe
+    id="webvowl-iframe"
     src="{{ '/assets/webvowl/index.html' | relative_url }}"
     width="100%"
     height="100%"
@@ -13,3 +27,36 @@ title: null
     frameborder="0"
   ></iframe>
 </div>
+
+<script>
+// Close mobile menu on load
+document.addEventListener('DOMContentLoaded', function() {
+  if (window.innerWidth <= 768) {
+    var toggleButton = document.querySelector('.greedy-nav__toggle');
+    var hiddenLinks = document.querySelector('.hidden-links');
+    
+    // If menu is open, close it
+    if (hiddenLinks && hiddenLinks.classList.contains('hidden')) {
+      // Menu is already closed, do nothing
+    } else if (toggleButton) {
+      toggleButton.click();
+    }
+  }
+});
+
+// Wait for iframe to load and center
+document.getElementById('webvowl-iframe').addEventListener('load', function() {
+  setTimeout(function() {
+    try {
+      var iframe = document.getElementById('webvowl-iframe');
+      var iframeWindow = iframe.contentWindow;
+      
+      if (iframeWindow.graph && iframeWindow.graph.options) {
+        iframeWindow.graph.options().focusInspectedElement(true);
+      }
+    } catch(e) {
+      console.log('Could not auto-center: ', e);
+    }
+  }, 1000);
+});
+</script>
