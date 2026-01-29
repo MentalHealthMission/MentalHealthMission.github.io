@@ -15,7 +15,7 @@ header:
 excerpt: >
   Facilitating reproducible research in digital mental health.<br />
 intro: 
-  - excerpt: "This project is suported by the *National Institute for Health and Care Research (NIHR) Mental Health Translational Research Collaboration (MH-TRC) Mission*."
+  - excerpt: "This project is supported by the *National Institute for Health and Care Research (NIHR) Mental Health Translational Research Collaboration (MH-TRC) Mission*."
 
 feature_row:
   - image_path: /assets/images/undraw_documentation.png
@@ -72,23 +72,22 @@ use_case_1:
 {% include feature_row id="use_case_2" type="left" %}
 {% endcomment %}
 
-<div>
-  <div style="width: 200px" class="align-left">
-    <img src="/assets/images/manchester.png" alt="manchester">
-  </div>
-  <div style="width: 350px" class="align-right">
-    <img src="/assets/images/nihr.jpg" alt="nihr">
-  </div>
-</div>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  // Open external links in new tab
-  document.querySelectorAll('.feature__item a, .page__hero .btn').forEach(function(link) {
-    if (link.href && link.href.startsWith('http')) {
-      link.setAttribute('target', '_blank');
-      link.setAttribute('rel', 'noopener noreferrer');
-    }
-  });
+  // Wait for all elements to load
+  setTimeout(function() {
+    // Get all links in feature rows and header
+    var links = document.querySelectorAll('.feature__item a, .page__hero .btn, .archive__item-excerpt a');
+    
+    links.forEach(function(link) {
+      var href = link.getAttribute('href');
+      
+      // If link starts with http and is NOT odim-mh.org
+      if (href && href.indexOf('http') === 0 && href.indexOf('odim-mh.org') === -1) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  }, 500);
 });
 </script>
