@@ -1,0 +1,8 @@
+<script>
+    document.querySelectorAll('a[href^="http"]').forEach(function (link) {
+        if (!link.href.includes('odim-mh.org')) {
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+        }
+    });
+</script>

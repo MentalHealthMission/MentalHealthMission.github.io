@@ -81,26 +81,3 @@ use_case_1:
   </div>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Function to set target blank on external links
-  function setExternalLinks() {
-    var links = document.querySelectorAll('.feature__item a, .page__hero .btn, .page__hero-caption a, .archive__item-excerpt a, .page__lead a');
-    
-    links.forEach(function(link) {
-      var href = link.getAttribute('href');
-      
-      if (href && href.indexOf('http') === 0 && href.indexOf('odim-mh.org') === -1) {
-        link.setAttribute('target', '_blank');
-        link.setAttribute('rel', 'noopener noreferrer');
-      }
-    });
-  }
-  
-  // Run immediately
-  setExternalLinks();
-  
-  // Run again after delay to catch late-loading elements
-  setTimeout(setExternalLinks, 1000);
-});
-</script>
