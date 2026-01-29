@@ -83,8 +83,9 @@ use_case_1:
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.feature__item a').forEach(function(link) {
-    if (link.href.startsWith('http')) {
+  // Open external links in new tab
+  document.querySelectorAll('.feature__item a, .page__hero .btn').forEach(function(link) {
+    if (link.href && link.href.startsWith('http')) {
       link.setAttribute('target', '_blank');
       link.setAttribute('rel', 'noopener noreferrer');
     }
