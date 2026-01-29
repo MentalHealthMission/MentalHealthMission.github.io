@@ -1,6 +1,6 @@
 ---
 layout: default
-title: null
+title: "Visualisation"
 permalink: /visualisation/
 ---
 
@@ -35,28 +35,41 @@ document.addEventListener('DOMContentLoaded', function() {
     var toggleButton = document.querySelector('.greedy-nav__toggle');
     var hiddenLinks = document.querySelector('.hidden-links');
     
-    // If menu is open, close it
     if (hiddenLinks && hiddenLinks.classList.contains('hidden')) {
-      // Menu is already closed, do nothing
+      // Menu is already closed
     } else if (toggleButton) {
       toggleButton.click();
     }
   }
 });
 
-// Wait for iframe to load and center
+// Wait for iframe to load and center ontology
 document.getElementById('webvowl-iframe').addEventListener('load', function() {
   setTimeout(function() {
     try {
       var iframe = document.getElementById('webvowl-iframe');
       var iframeWindow = iframe.contentWindow;
       
-      if (iframeWindow.graph && iframeWindow.graph.options) {
-        iframeWindow.graph.options().focusInspectedElement(true);
+      // Try multiple WebVOWL methods to center the graph
+      if (iframeWindow.graph) {
+        // Method 1: Use reset zoom/center function
+        if (iframeWindow.graph.reset) {
+          iframeWindow.graph.reset();
+        }
+        // Method 2: Use options to focus
+        if (iframeWindow.graph.options && iframeWindow.graph.options().focusInspectedElement) {
+          iframeWindow.graph.options().focusInspectedElement(true);
+        }
+        // Method 3: Trigger pause button (often centers the view)
+        var pauseButton = iframeWindow.document.querySelector('#pause-button');
+        if (pauseButton) {
+          pauseButton.click();
+          setTimeout(function() { pauseButton.click(); }, 100);
+        }
       }
     } catch(e) {
       console.log('Could not auto-center: ', e);
     }
-  }, 1000);
+  }, 1500);
 });
 </script>
