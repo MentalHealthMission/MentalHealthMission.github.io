@@ -1,8 +1,43 @@
 <script>
-    document.querySelectorAll('a[href^="http"]').forEach(function (link) {
-        if (!link.href.includes('odim-mh.org')) {
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
+    /**
+     * Opens external links in a new tab for better UX and security
+     * @returns {void}
+     */
+    (function () {
+        'use strict';
+
+        const SITE_HOSTNAME = window.location.hostname;
+
+        /**
+         * Adds target="_blank" to all external links
+         * @returns {void}
+         */
+        function openExternalLinksInNewTab() {
+            const links = document.querySelectorAll('a[href^="http"]');
+
+            links.forEach(function (link) {
+                try {
+                    const linkHostname = new URL(link.href).hostname;
+
+                    if (linkHostname !== SITE_HOSTNAME) {
+                        link.setAttribute('target', '_blank');
+                        link.setAttribute('rel', 'noopener noreferrer');
+                    }
+                } catch (error) {
+                    // Skip malformed URLs
+                    console.warn('Invalid URL:', link.href, error);
+                }
+            });
         }
-    });
+
+        // Run when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', openExternalLinksInNewTab);
+        } else {
+            openExternalLinksInNewTab();
+        }
+
+        // Run again to catch dynamically loaded content
+        setTimeout(openExternalLinksInNewTab, 1000);
+    })();
 </script>
