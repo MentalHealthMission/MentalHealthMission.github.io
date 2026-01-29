@@ -35,41 +35,29 @@ document.addEventListener('DOMContentLoaded', function() {
     var toggleButton = document.querySelector('.greedy-nav__toggle');
     var hiddenLinks = document.querySelector('.hidden-links');
     
-    if (hiddenLinks && hiddenLinks.classList.contains('hidden')) {
-      // Menu is already closed
-    } else if (toggleButton) {
-      toggleButton.click();
+    if (hiddenLinks && !hiddenLinks.classList.contains('hidden')) {
+      if (toggleButton) toggleButton.click();
     }
   }
 });
 
-// Wait for iframe to load and center ontology
+// Center the graph after iframe loads
 document.getElementById('webvowl-iframe').addEventListener('load', function() {
   setTimeout(function() {
     try {
       var iframe = document.getElementById('webvowl-iframe');
-      var iframeWindow = iframe.contentWindow;
+      var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
       
-      // Try multiple WebVOWL methods to center the graph
-      if (iframeWindow.graph) {
-        // Method 1: Use reset zoom/center function
-        if (iframeWindow.graph.reset) {
-          iframeWindow.graph.reset();
-        }
-        // Method 2: Use options to focus
-        if (iframeWindow.graph.options && iframeWindow.graph.options().focusInspectedElement) {
-          iframeWindow.graph.options().focusInspectedElement(true);
-        }
-        // Method 3: Trigger pause button (often centers the view)
-        var pauseButton = iframeWindow.document.querySelector('#pause-button');
-        if (pauseButton) {
-          pauseButton.click();
-          setTimeout(function() { pauseButton.click(); }, 100);
-        }
+      // WebVOWL 1.1.4 - click the reset/center button
+      var resetButton = iframeDoc.querySelector('#reset-button');
+      
+      if (resetButton) {
+        resetButton.click();
+        console.log('Graph centered via reset button');
       }
     } catch(e) {
       console.log('Could not auto-center: ', e);
     }
-  }, 1500);
+  }, 2500); // Longer delay for WebVOWL 1.1.4 to fully load
 });
 </script>
