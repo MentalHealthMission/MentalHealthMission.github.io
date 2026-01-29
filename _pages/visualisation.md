@@ -29,35 +29,10 @@ permalink: /visualisation/
 </div>
 
 <script>
-// Close mobile menu on load
 document.addEventListener('DOMContentLoaded', function() {
   if (window.innerWidth <= 768) {
     var toggleButton = document.querySelector('.greedy-nav__toggle');
-    var hiddenLinks = document.querySelector('.hidden-links');
-    
-    if (hiddenLinks && !hiddenLinks.classList.contains('hidden')) {
-      if (toggleButton) toggleButton.click();
-    }
+    if (toggleButton) toggleButton.click();
   }
-});
-
-// Center the graph after iframe loads
-document.getElementById('webvowl-iframe').addEventListener('load', function() {
-  setTimeout(function() {
-    try {
-      var iframe = document.getElementById('webvowl-iframe');
-      var iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-      
-      // WebVOWL 1.1.4 - click the reset/center button
-      var resetButton = iframeDoc.querySelector('#reset-button');
-      
-      if (resetButton) {
-        resetButton.click();
-        console.log('Graph centered via reset button');
-      }
-    } catch(e) {
-      console.log('Could not auto-center: ', e);
-    }
-  }, 2500); // Longer delay for WebVOWL 1.1.4 to fully load
 });
 </script>
