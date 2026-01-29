@@ -4,19 +4,6 @@ title: "Visualisation"
 permalink: /visualisation/
 ---
 
-<style>
-@media (max-width: 768px) {
-  .page__content {
-    padding: 0 !important;
-  }
-  
-  #visualization-container {
-    padding: 0 !important;
-    height: calc(100vh - 100px) !important;
-  }
-}
-</style>
-
 <div id="visualization-container" style="padding: 0.5rem 0.5rem 0 0.5rem; margin: 0 auto; width: 100%; max-width: 100%; height: calc(100vh - 160px); box-sizing: border-box;">
   <iframe
     id="webvowl-iframe"
@@ -27,12 +14,3 @@ permalink: /visualisation/
     frameborder="0"
   ></iframe>
 </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  if (window.innerWidth <= 768) {
-    var toggleButton = document.querySelector('.greedy-nav__toggle');
-    if (toggleButton) toggleButton.click();
-  }
-});
-</script>
