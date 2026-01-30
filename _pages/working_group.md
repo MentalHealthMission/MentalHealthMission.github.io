@@ -19,9 +19,6 @@ members:
     title: "Member"
     excerpt: "<small> Information about the member <br /> More information </small>"
 
-middle: 
-  - excerpt: "Former Contributors."
-
 former_members:
   - image_path: /assets/images/member.png
     alt: "ananya ananthakrishnan"
@@ -33,6 +30,6 @@ former_members:
 
 {% include feature_row id="members" %}
 
-{% include feature_row id="middle" type="center" %}
+## Former Contributors
 
 {% include feature_row id="former_members" type="center" %}
