@@ -1,6 +1,5 @@
 ---
 permalink: /working_group/
-layout: default
 title: null
 
 intro: 
@@ -24,7 +23,7 @@ middle:
   - excerpt: "Former Contributors."
 
 former_members:
-  - image_path: /assets/images/working_group/member.png
+  - image_path: /assets/images/member.png
     alt: "ananya ananthakrishnan"
     title: Ananya Ananthakrishnan
     excerpt: "<small> Research Assistant <br /> Newcastle University </small>"
@@ -37,5 +36,3 @@ former_members:
 {% include feature_row id="middle" type="center" %}
 
 {% include feature_row id="former_members" type="center" %}
-
-
