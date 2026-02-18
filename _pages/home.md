@@ -70,7 +70,7 @@ use_case_1:
 
 {% include feature_row %}
 
-<div style="background-color: #f3f6fb;">
+<div style="background-color: #f3f6fb; padding-left: 1rem;">
   {% include feature_row id="use_cases" type="center" %}
 </div>
 
