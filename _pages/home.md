@@ -70,7 +70,7 @@ use_case_1:
 
 {% include feature_row %}
 
-{% include feature_row id="use_cases" type="left" %}
+{% include feature_row id="use_cases" type="center" %}
 
 {% include feature_row id="use_case_1" type="right" %}
 
