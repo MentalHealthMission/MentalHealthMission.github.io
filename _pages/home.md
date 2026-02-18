@@ -40,6 +40,9 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Visualisation"
 
+use_cases: 
+  - title: "Use Cases"
+
 use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
     alt: "connect study"
@@ -66,6 +69,8 @@ use_case_1:
 
 {% include feature_row %}
 
+{% include feature_row id="use_cases" type="center" %}
+
 {% include feature_row id="use_case_1" type="right" %}
 
 {% comment %}
@@ -80,4 +85,3 @@ use_case_1:
     <img src="/assets/images/nihr.jpg" alt="nihr">
   </div>
 </div>
-
