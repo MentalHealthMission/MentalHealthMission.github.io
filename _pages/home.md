@@ -42,6 +42,7 @@ feature_row:
 
 use_cases: 
   - title: "Use Cases"
+  - excerpt: "See how ODIM-MH enables real-world research through structured digital marker definitions."
 
 use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
