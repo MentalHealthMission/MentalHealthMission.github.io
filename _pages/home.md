@@ -42,7 +42,7 @@ feature_row:
 
 use_cases: 
   - title: "Use Cases"
-  - excerpt: "See how ODIM-MH enables real-world research through structured digital marker definitions."
+  - excerpt: "See how ODIM-MH enables real-world research through digital marker definitions."
 
 use_case_1:
   - image_path: /assets/images/undraw_watch-application.png
@@ -70,7 +70,9 @@ use_case_1:
 
 {% include feature_row %}
 
-{% include feature_row id="use_cases" type="center" %}
+<div style="background-color: #f3f6fb; padding: 3rem 1rem;">
+  {% include feature_row id="use_cases" type="center" %}
+</div>
 
 {% include feature_row id="use_case_1" type="right" %}
 
