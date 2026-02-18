@@ -70,14 +70,15 @@ use_case_1:
 
 {% include feature_row %}
 
-{% include feature_row id="use_cases" type="center" %}
+<div style="background-color: #f3f6fb; padding: 1rem 1rem 2rem 1rem;">
+  <h1>Use Cases</h1>
+</div>
 
 {% include feature_row id="use_case_1" type="right" %}
 
 {% comment %}
 {% include feature_row id="use_case_2" type="left" %}
 {% endcomment %}
-</div>
 
 <div>
   <div style="width: 200px" class="align-left">
