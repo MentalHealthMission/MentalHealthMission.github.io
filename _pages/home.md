@@ -71,7 +71,7 @@ use_case_1:
 {% include feature_row %}
 
 <div style="background-color: #f3f6fb;">
-  {% include feature_row id="use_cases" type="right" %}
+  {% include feature_row id="use_cases" type="center" %}
 </div>
 
 {% include feature_row id="use_case_1" type="right" %}
