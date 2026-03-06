@@ -22,7 +22,7 @@ members:
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
     alt: "ananya ananthakrishnan"
-    title: "<small><a href='https://www.ncl.ac.uk/medical-sciences/people/profile/ananyaananthakrishnan.html' target='_blank'> Ananya Ananthakrishnan </a></small>"
+    title: "<small><a href='https://www.ncl.ac.uk/medical-sciences/people/profile/ananyaananthakrishnan.html' target='_blank'>Ananya Ananthakrishnan</a></small>"
     excerpt: "<small> Research Assistant <br /> Newcastle University </small>"
 ---
 
