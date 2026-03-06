@@ -8,15 +8,15 @@ intro:
 members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
-    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank'> Ariane Sasso </a></small>"
-    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester  <br/ > NIHR MH-TRC Mission </small>"
+    title: "<small><small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank'> Ariane Sasso </a></small></small>"
+    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester  <br /> NIHR MH-TRC Mission </small>"
   - image_path: /assets/images/working_group/george_aalbers.png
     alt: "george aalbers"
-    title: "<small> George Aalbers </small>"
+    title: "<small><small> George Aalbers </small></small>"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC <br /> Stress in Action consortium </small>"
   - image_path: /assets/images/working_group/samantha_mcclenahan.png
     alt: "samantha mcclenahan"
-    title: "<small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small>"
+    title: "<small><small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small></small>"
     excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
