@@ -14,10 +14,14 @@ members:
     alt: "george aalbers"
     title: "<small> George Aalbers </small>"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC, Stress in Action consortium </small>"
-  - image_path: /assets/images/member.png
-    alt: "member"
-    title: "Member"
-    excerpt: "<small> Information about the member <br /> More information </small>"
+  - image_path: /assets/images/samantha_mcclenahan.png
+    alt: "samantha mcclenahan"
+    title: "<small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small>"
+    excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
+  - image_path: /assets/images/working_group/ariane_sasso.png
+    alt: "ariane sasso"
+    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank'> Ariane Sasso </a></small>"
+    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
 
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
