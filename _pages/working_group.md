@@ -30,6 +30,10 @@ members:
     alt: "hanna drimalla"
     title: "<small><small><a href='https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/human-centered-artificial-intelligence/' target='_blank'> Hanna Drimalla </a></small></small>"
     excerpt: "<small> Professor for Human-Centered AI <br /> Bielefeld University </small>"
+  - image_path: /assets/images/member.png
+    alt: "francesca delguidice"
+    title: "<small><small> Francesca DelGuidice </small></small>"
+    excerpt: "<small> Lived Experience Consultant </small>"
 
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
