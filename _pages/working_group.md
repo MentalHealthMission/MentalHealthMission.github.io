@@ -20,7 +20,7 @@ members:
     excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
 
 former_members:
-  - image_path: /assets/images/working_group/ananya ananthakrishnan.png
+  - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
     alt: "ananya ananthakrishnan"
     title: "<small><small><a href='https://www.ncl.ac.uk/medical-sciences/people/profile/ananyaananthakrishnan.html' target='_blank'> Ananya Ananthakrishnan </a></small></small>"
     excerpt: "<small> Research Assistant <br /> Newcastle University </small>"
