@@ -22,6 +22,14 @@ members:
     alt: "anthony quinn"
     title: "<small><small><a href='https://www.psych.ox.ac.uk/team/anthony-quinn' target='_blank'> Anthony Quinn </a></small></small>"
     excerpt: "<small> Project Manager within the NIHR Mental Health Translational Research Collaboration <br /> University of Oxford </small>"
+  - image_path: /assets/images/member.png
+    alt: "sarah markham"
+    title: "<small><small> Dr Sarah Markham </small></small>"
+    excerpt: "<small> Visiting Researcher <br /> Department of Biostatistics & Health Informatics <br /> King's College London </small>"
+  - image_path: /assets/images/member.png
+    alt: "hanna drimalla"
+    title: "<small><small><a href='https://www.uni-bielefeld.de/fakultaeten/technische-fakultaet/arbeitsgruppen/human-centered-artificial-intelligence/' target='_blank'> Hanna Drimalla </a></small></small>"
+    excerpt: "<small> Professor for Human-Centered AI <br /> Bielefeld University </small>"
 
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
