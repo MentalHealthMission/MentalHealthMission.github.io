@@ -18,6 +18,10 @@ members:
     alt: "samantha mcclenahan"
     title: "<small><small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small></small>"
     excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
+  - image_path: /assets/images/working_group/anthony_quinn.png
+    alt: "anthony quinn"
+    title: "<small><small><a href='https://www.psych.ox.ac.uk/team/anthony-quinn' target='_blank'> Anthony Quinn </a></small></small>"
+    excerpt: "<small> Project Manager within the NIHR Mental Health Translational Research Collaboration <br /> University of Oxford </small>"
 
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
