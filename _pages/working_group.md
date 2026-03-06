@@ -12,7 +12,7 @@ members:
     excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
   - image_path: /assets/images/working_group/george_aalbers.png
     alt: "george aalbers"
-    title: "Member"
+    title: "George Aalbers"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC, Stress in Action consortium </small>"
   - image_path: /assets/images/member.png
     alt: "member"
