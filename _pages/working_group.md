@@ -1,7 +1,7 @@
 ---
 permalink: /working_group/
 title: null
-default: default
+layout: default
 
 intro: 
   - excerpt: "This project is suported by a working group composed of multiple stakeholders such as mental health professionals, ontology experts, digital health researchers, and people with lived experience."
@@ -15,7 +15,7 @@ members:
     alt: "george aalbers"
     title: "<small> George Aalbers </small>"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC, Stress in Action consortium </small>"
-  - image_path: /assets/images/samantha_mcclenahan.png
+  - image_path: /assets/images/working_group/samantha_mcclenahan.png
     alt: "samantha mcclenahan"
     title: "<small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small>"
     excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
