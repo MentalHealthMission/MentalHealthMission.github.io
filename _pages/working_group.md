@@ -1,6 +1,7 @@
 ---
 permalink: /working_group/
 title: null
+default: default
 
 intro: 
   - excerpt: "This project is suported by a working group composed of multiple stakeholders such as mental health professionals, ontology experts, digital health researchers, and people with lived experience."
