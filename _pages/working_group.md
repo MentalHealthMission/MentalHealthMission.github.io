@@ -1,5 +1,6 @@
 ---
 permalink: /working_group/
+layout: wide
 title: null
 
 intro: 
