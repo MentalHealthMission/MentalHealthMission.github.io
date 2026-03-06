@@ -8,11 +8,11 @@ intro:
 members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
-    title: "<a href='https://www.linkedin.com/in/arianesasso/' target='_blank' > Ariane Sasso </a>"
+    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank' > Ariane Sasso </a></small>"
     excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
   - image_path: /assets/images/working_group/george_aalbers.png
     alt: "george aalbers"
-    title: "George Aalbers"
+    title: "<small>George Aalbers</small>"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC, Stress in Action consortium </small>"
   - image_path: /assets/images/member.png
     alt: "member"
