@@ -18,13 +18,9 @@ members:
     alt: "samantha mcclenahan"
     title: "<small><small><a href='https://www.linkedin.com/in/samantha-mcclenahan-a29a1b161/' target='_blank'> Samantha McClenahan </a></small></small>"
     excerpt: "<small> Associate Director, Digital Measures & Diagnostics <br /> Digital Medicine Society (DiMe) </small>"
-  - image_path: /assets/images/working_group/ariane_sasso.png
-    alt: "ariane sasso"
-    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank'> Ariane Sasso </a></small>"
-    excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
 
 former_members:
-  - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
+  - image_path: /assets/images/working_group/ananya ananthakrishnan.png
     alt: "ananya ananthakrishnan"
     title: "<small><small><a href='https://www.ncl.ac.uk/medical-sciences/people/profile/ananyaananthakrishnan.html' target='_blank'> Ananya Ananthakrishnan </a></small></small>"
     excerpt: "<small> Research Assistant <br /> Newcastle University </small>"
