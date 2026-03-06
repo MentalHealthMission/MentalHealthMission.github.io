@@ -30,6 +30,6 @@ former_members:
 
 {% include feature_row id="members" %}
 
-## Former Contributors
+<h2>Former Contributors</h2>
 
 {% include feature_row id="former_members" %}
