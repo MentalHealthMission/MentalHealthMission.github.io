@@ -9,11 +9,11 @@ intro:
 members:
   - image_path: /assets/images/working_group/ariane_sasso.png
     alt: "ariane sasso"
-    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank' > Ariane Sasso </a></small>"
+    title: "<small><a href='https://www.linkedin.com/in/arianesasso/' target='_blank'> Ariane Sasso </a></small>"
     excerpt: "<small> Research Associate in Digital Phenotyping <br /> University of Manchester </small>"
   - image_path: /assets/images/working_group/george_aalbers.png
     alt: "george aalbers"
-    title: "<small>George Aalbers</small>"
+    title: "<small> George Aalbers </small>"
     excerpt: "<small> Postdoctoral researcher in digital phenotyping <br /> Amsterdam UMC, Stress in Action consortium </small>"
   - image_path: /assets/images/member.png
     alt: "member"
@@ -21,9 +21,9 @@ members:
     excerpt: "<small> Information about the member <br /> More information </small>"
 
 former_members:
-  - image_path: /assets/images/member.png
+  - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
     alt: "ananya ananthakrishnan"
-    title: Ananya Ananthakrishnan
+    title: "<small><a href='https://www.ncl.ac.uk/medical-sciences/people/profile/ananyaananthakrishnan.html' target='_blank'> Ananya Ananthakrishnan </a></small>"
     excerpt: "<small> Research Assistant <br /> Newcastle University </small>"
 ---
 
