@@ -38,6 +38,10 @@ members:
     alt: "john ainsworth"
     title: "<small><small> John Ainsworth </small></small>"
     excerpt: "<small> Professor of Health Informatics <br /> Head of the Division of Informatics, Imaging and Data Sciences <br /> University of Manchester </small>"
+  - image_path: /assets/images/member.png
+    alt: "James Cunningham"
+    title: "<small><small> James Cunningham </small></small>"
+    excerpt: "<small> Senior Research Fellow <br /> University of Manchester </small>"
 
 former_members:
   - image_path: /assets/images/working_group/ananya_ananthakrishnan.png
