@@ -22,7 +22,7 @@ feature_row:
     alt: "learn"
     title: "Learn"
     excerpt: "Discover how to use the digital markers ontology in your projects."
-    url: "https://github.com/MentalHealthMission/MHM-ontology/tree/main/docs"
+    url: "https://github.com/MentalHealthMission/MHM-ontology/tree/main/docs/ontology-overview.md"
     btn_class: "btn--primary"
     btn_label: "Documentation"
   - image_path: /assets/images/undraw_file-search.png
