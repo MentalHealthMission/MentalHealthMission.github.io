@@ -1,0 +1,225 @@
+@prefix s: <https://example.invalid/ontology-browser/activity-sleep/> .
+@prefix p: <https://example.invalid/ontology-browser/activity-sleep/presentation#> .
+@prefix raw: <https://example.invalid/ontology-browser/activity-sleep/raw#> .
+@prefix e: <https://example.invalid/ontology-browser/profile#> .
+@prefix c: <http://connectdigitalstudy.com/ontology#> .
+@prefix q: <http://qudt.org/schema/qudt/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+p:example a e:Example ; e:id "activity-sleep" ; e:root s:study ;
+  e:requiresFamily "odim-mh", "odim-mh-wearables", "odim-mh-prov" ;
+  e:requiresTerm c:Participant, c:SensorDataSet, c:QuestionnaireDataSet, c:Measurement,
+    c:StepCountMeasurement, c:StepCount, c:ResponseItem, c:hasResponseValue,
+    c:DailyStepCount, c:DerivedFeature, c:StepCountAggregationComputation,
+    c:TotalSleepTime, c:featureOfInterest, c:resultTime, c:hasMeasurement,
+    c:Question, c:answersQuestion, c:wasComputedBy, c:wasReportedBy,
+    q:quantityValue, q:QuantityValue, q:numericValue, q:unit, prov:wasDerivedFrom ;
+  e:source s:records-file ;
+  e:mapping s:interval-mapping, s:daily-mapping, s:sleep-mapping, s:diary-mapping, s:aggregate-mapping ;
+  e:pageShape p:study, p:stride-source, p:daily-source, p:sleep-source, p:diary-source,
+    p:interval-row, p:daily-row, p:sleep-row, p:diary-row, p:observation, p:response,
+    p:participant, p:derived, p:available-question, p:steps-question, p:comparability-question,
+    p:comparison-question, p:derivation-question, p:diary-question, p:unit-page, p:computation-page .
+
+s:records-file rdfs:label "Original fictional records (Turtle)" ; e:path "apps/ontology-browser/examples/activity-sleep/source-records.ttl" .
+s:profile-file rdfs:label "Presentation profile (Turtle)" ; e:path "apps/ontology-browser/examples/activity-sleep/profile.ttl" .
+s:readme-file rdfs:label "Study rules and identifier scope" ; e:path "apps/ontology-browser/examples/activity-sleep/README.md" .
+s:mapped-file rdfs:label "Mapped semantic records (N-Triples)" ; e:path "apps/ontology-browser/examples/activity-sleep/mapped-records.nt" ; e:generated true .
+s:interval-mapping rdfs:label "Interval step mapping (CONSTRUCT)" ; sh:order 1 ; e:path "apps/ontology-browser/examples/activity-sleep/mappings/intervals.rq" .
+s:daily-mapping rdfs:label "Daily-total mapping (CONSTRUCT)" ; sh:order 2 ; e:path "apps/ontology-browser/examples/activity-sleep/mappings/daily-totals.rq" .
+s:sleep-mapping rdfs:label "Estimated-sleep mapping (CONSTRUCT)" ; sh:order 3 ; e:path "apps/ontology-browser/examples/activity-sleep/mappings/estimated-sleep.rq" .
+s:diary-mapping rdfs:label "Diary-response mapping (CONSTRUCT)" ; sh:order 4 ; e:path "apps/ontology-browser/examples/activity-sleep/mappings/diary-responses.rq" .
+s:aggregate-mapping rdfs:label "Complete-day interval derivation (CONSTRUCT)" ; sh:order 5 ; e:path "apps/ontology-browser/examples/activity-sleep/mappings/complete-day.rq" .
+s:available-query rdfs:label "Available sleep information (SELECT)" ; e:path "apps/ontology-browser/examples/activity-sleep/questions/available-sleep.rq" .
+s:steps-query rdfs:label "Steps across both sources (SELECT)" ; e:path "apps/ontology-browser/examples/activity-sleep/questions/steps-across-sources.rq" .
+s:comparability-query rdfs:label "Interval and daily-total comparability (SELECT)" ; e:path "apps/ontology-browser/examples/activity-sleep/questions/interval-comparability.rq" .
+s:comparison-query rdfs:label "Reported and estimated sleep comparison (SELECT)" ; e:path "apps/ontology-browser/examples/activity-sleep/questions/reported-estimated.rq" .
+s:derivation-query rdfs:label "Activity result evidence (SELECT)" ; e:path "apps/ontology-browser/examples/activity-sleep/questions/activity-derivation.rq" .
+
+p:study a sh:NodeShape ; sh:targetClass e:Study ; e:kind "study" ;
+  e:section p:study-rules, p:source-cards, p:participant-cards, p:question-cards, p:derived-cards .
+p:study-rules e:kind "text" ; sh:name "Study rules" ; sh:order 5 ; e:paragraphs (
+  "All participants, tables and records are fictional. Participant identifiers are scoped to this study; exact (source table, identifier) assignments link the four sources."
+  "Activity intervals use UTC, include their start and exclude their end. Daily totals refer to a UTC calendar day. Counts from separate devices are retained separately."
+  "Only two exact, non-overlapping Stride half-day intervals on 3 February may produce a daily sum. Participant 02 has only one supplied half-day interval, so no full-day result is derived."
+  "Sleep dates identify the UTC date on which the reference night began. Device estimates are durations in minutes; diary answers remain strings reporting hours slept. Missing values remain absent."
+  "The sleep-comparison question converts numeric diary hours to minutes under its stated question meaning. It does not turn a response into a sensor measurement or establish equivalence between reported and estimated sleep."
+) .
+p:source-cards e:kind "cards" ; sh:name "Data sources" ; sh:order 2 ; sh:path e:dataset .
+p:participant-cards e:kind "cards" ; sh:name "Participants" ; sh:order 3 ; sh:path e:participant .
+p:question-cards e:kind "cards" ; sh:name "Questions" ; sh:order 1 ; sh:path e:question .
+p:derived-cards e:kind "cards" ; sh:name "Derived activity result" ; sh:order 4 ; sh:path e:derived .
+
+# Tables and record pages reuse the same finite SHACL property presentations.
+p:stride-source a sh:NodeShape ; sh:targetNode s:stride-intervals ; e:kind "source" ;
+  sh:property p:source-study ; e:section p:stride-records, p:field-mappings, p:semantic-cards .
+p:daily-source a sh:NodeShape ; sh:targetNode s:daymove-totals ; e:kind "source" ;
+  sh:property p:source-study ; e:section p:daily-records, p:field-mappings, p:semantic-cards .
+p:sleep-source a sh:NodeShape ; sh:targetNode s:nightrest-sleep ; e:kind "source" ;
+  sh:property p:source-study ; e:section p:sleep-records, p:field-mappings, p:semantic-cards .
+p:diary-source a sh:NodeShape ; sh:targetNode s:sleep-diary ; e:kind "source" ;
+  sh:property p:source-study ; e:section p:diary-records, p:field-mappings, p:semantic-cards .
+p:source-study sh:name "Study" ; sh:path e:study ; sh:order 1 ; sh:group p:source-context .
+p:source-context e:kind "fields" ; sh:name "Context" ; sh:order 1 .
+p:stride-records e:kind "table" ; sh:name "Original records" ; sh:order 2 ; sh:path [ sh:inversePath raw:table ] ;
+  e:column p:record-link, p:person-code, p:window-start, p:window-end, p:window-count, p:study-day .
+p:daily-records e:kind "table" ; sh:name "Original records" ; sh:order 2 ; sh:path [ sh:inversePath raw:table ] ;
+  e:column p:record-link, p:subject-key, p:calendar-date, p:daily-count .
+p:sleep-records e:kind "table" ; sh:name "Original records" ; sh:order 2 ; sh:path [ sh:inversePath raw:table ] ;
+  e:column p:record-link, p:wearer-ref, p:night-date, p:sleep-minutes .
+p:diary-records e:kind "table" ; sh:name "Original records" ; sh:order 2 ; sh:path [ sh:inversePath raw:table ] ;
+  e:column p:record-link, p:respondent, p:night-began, p:hours-answer, p:raw-notes .
+p:record-link e:key "record" ; sh:name "Original record" ; sh:order 0 ; e:self true .
+p:person-code e:key "person" ; sh:name "person_code" ; sh:order 1 ; sh:path raw:person_code ; sh:group p:raw-fields .
+p:window-start e:key "start" ; sh:name "window_start (UTC, inclusive)" ; sh:order 2 ; sh:path raw:window_start ; sh:group p:raw-fields .
+p:window-end e:key "end" ; sh:name "window_end (UTC, exclusive)" ; sh:order 3 ; sh:path raw:window_end ; sh:group p:raw-fields .
+p:window-count e:key "steps" ; sh:name "steps_in_window (steps)" ; sh:order 4 ; sh:path raw:steps_in_window ; sh:group p:raw-fields .
+p:study-day e:key "day" ; sh:name "study_day (UTC)" ; sh:order 5 ; sh:path raw:study_day ; sh:group p:raw-fields .
+p:subject-key e:key "person" ; sh:name "subject_key" ; sh:order 1 ; sh:path raw:subject_key ; sh:group p:raw-fields .
+p:calendar-date e:key "day" ; sh:name "calendar_date (UTC)" ; sh:order 2 ; sh:path raw:calendar_date ; sh:group p:raw-fields .
+p:daily-count e:key "steps" ; sh:name "step_total (steps)" ; sh:order 3 ; sh:path raw:step_total ; sh:group p:raw-fields .
+p:wearer-ref e:key "person" ; sh:name "wearer_ref" ; sh:order 1 ; sh:path raw:wearer_ref ; sh:group p:raw-fields .
+p:night-date e:key "night" ; sh:name "night_date (night beginning, UTC)" ; sh:order 2 ; sh:path raw:night_date ; sh:group p:raw-fields .
+p:sleep-minutes e:key "minutes" ; sh:name "asleep_minutes (estimated minutes)" ; sh:order 3 ; sh:path raw:asleep_minutes ; sh:group p:raw-fields .
+p:respondent e:key "person" ; sh:name "respondent" ; sh:order 1 ; sh:path raw:respondent ; sh:group p:raw-fields .
+p:night-began e:key "night" ; sh:name "night_began (UTC)" ; sh:order 2 ; sh:path raw:night_began ; sh:group p:raw-fields .
+p:hours-answer e:key "hours" ; sh:name "hours_answer (reported hours)" ; sh:order 3 ; sh:path raw:hours_answer ; sh:group p:raw-fields .
+p:raw-notes e:key "notes" ; sh:name "comment" ; sh:order 4 ; sh:path raw:comment ; sh:group p:raw-fields .
+
+p:field-mappings e:kind "table" ; sh:name "Field mappings" ; sh:order 3 ; sh:path e:fieldMap ;
+  e:column p:mapping-field, p:mapping-target, p:mapping-local, p:mapping-rule .
+p:mapping-field e:key "field" ; sh:name "Source field" ; sh:order 1 ; sh:path e:field .
+p:mapping-target e:key "term" ; sh:name "Ontology target" ; sh:order 2 ; sh:path e:target .
+p:mapping-local e:key "local" ; sh:name "Example-local target" ; sh:order 3 ; sh:path e:targetLabel .
+p:mapping-rule e:key "rule" ; sh:name "Rule" ; sh:order 4 ; sh:path e:rule .
+p:semantic-cards e:kind "cards" ; sh:name "Semantic records" ; sh:order 4 ; sh:path ( [ sh:inversePath raw:table ] e:semantic ) .
+
+p:interval-row a sh:NodeShape ; sh:targetClass e:IntervalRow ; e:kind "source-record" ;
+  e:file s:records-file ; e:query s:interval-mapping ;
+  sh:property p:record-table, p:record-semantic, p:person-code, p:window-start, p:window-end, p:window-count, p:study-day .
+p:daily-row a sh:NodeShape ; sh:targetClass e:DailyRow ; e:kind "source-record" ;
+  e:file s:records-file ; e:query s:daily-mapping ;
+  sh:property p:record-table, p:record-semantic, p:subject-key, p:calendar-date, p:daily-count .
+p:sleep-row a sh:NodeShape ; sh:targetClass e:SleepRow ; e:kind "source-record" ;
+  e:file s:records-file ; e:query s:sleep-mapping ;
+  sh:property p:record-table, p:record-semantic, p:wearer-ref, p:night-date, p:sleep-minutes .
+p:diary-row a sh:NodeShape ; sh:targetClass e:DiaryRow ; e:kind "source-record" ;
+  e:file s:records-file ; e:query s:diary-mapping ;
+  sh:property p:record-table, p:record-semantic, p:respondent, p:night-began, p:hours-answer, p:raw-notes .
+p:record-table sh:name "Source table" ; sh:path raw:table ; sh:order 1 ; sh:group p:record-context .
+p:record-semantic sh:name "Semantic record" ; sh:path e:semantic ; sh:order 2 ; sh:group p:record-context .
+p:record-context e:kind "fields" ; sh:name "Record links" ; sh:order 1 .
+p:raw-fields e:kind "fields" ; sh:name "Original fields" ; sh:order 2 .
+
+p:observation a sh:NodeShape ; sh:targetClass e:Observation ; e:kind "observation" ; e:file s:mapped-file ;
+  sh:property p:semantic-study, p:semantic-source, p:semantic-origin, p:observed-participant,
+    p:observed-property, p:meaning, p:grain, p:numeric-value, p:unit, p:quantity-unit, p:day, p:night,
+    p:start, p:end, p:result-time .
+p:response a sh:NodeShape ; sh:targetClass c:ResponseItem ; e:kind "response" ; e:file s:mapped-file ;
+  e:query s:diary-mapping ; sh:property p:semantic-study, p:semantic-source, p:semantic-origin,
+    p:reported-by, p:question-text, p:answer, p:answer-unit, p:night, p:notes .
+p:derived a sh:NodeShape ; sh:targetClass e:DerivedResult ; e:kind "derived-result" ; e:file s:mapped-file ;
+  e:query s:aggregate-mapping ; sh:property p:semantic-study, p:derived-participant, p:computation,
+    p:grain, p:numeric-value, p:unit, p:quantity-unit, p:day, p:coverage, p:inputs .
+p:semantic-context e:kind "fields" ; sh:name "Provenance" ; sh:order 1 .
+p:semantic-values e:kind "fields" ; sh:name "Values and reference period" ; sh:order 2 .
+p:semantic-study sh:name "Study" ; sh:path e:study ; sh:order 1 ; sh:group p:semantic-context .
+p:semantic-source sh:name "Source table" ; sh:path e:source ; sh:order 2 ; sh:group p:semantic-context .
+p:semantic-origin sh:name "Original record" ; sh:path prov:wasDerivedFrom ; e:term prov:wasDerivedFrom ; sh:order 3 ; sh:group p:semantic-context .
+p:observed-participant sh:name "Participant" ; sh:path c:featureOfInterest ; e:term c:featureOfInterest ; sh:order 4 ; sh:group p:semantic-context .
+p:reported-by sh:name "Reported by" ; sh:path c:wasReportedBy ; e:term c:wasReportedBy ; sh:order 4 ; sh:group p:semantic-context .
+p:derived-participant sh:name "Participant" ; sh:path e:participant ; sh:order 4 ; sh:group p:semantic-context .
+p:observed-property sh:name "Observed property" ; sh:path c:observedProperty ; sh:order 1 ; sh:group p:semantic-values .
+p:meaning sh:name "Quantity meaning" ; sh:path e:quantityMeaning ; sh:order 2 ; sh:group p:semantic-values .
+p:grain sh:name "Record grain" ; sh:path e:grain ; sh:order 3 ; sh:group p:semantic-values .
+p:numeric-value sh:name "Numeric value" ; sh:path ( q:quantityValue q:numericValue ) ; e:term q:numericValue ; sh:order 4 ; sh:group p:semantic-values .
+p:unit sh:name "Unit" ; sh:path e:unit ; sh:order 5 ; sh:group p:semantic-values .
+p:quantity-unit sh:name "Quantity unit" ; sh:path ( q:quantityValue q:unit ) ; e:term q:unit ; sh:order 5.5 ; sh:group p:semantic-values .
+p:day sh:name "UTC calendar day" ; sh:path e:day ; sh:order 6 ; sh:group p:semantic-values .
+p:night sh:name "Night beginning (UTC date)" ; sh:path e:night ; sh:order 7 ; sh:group p:semantic-values .
+p:start sh:name "Interval start (UTC, inclusive)" ; sh:path e:start ; sh:order 8 ; sh:group p:semantic-values .
+p:end sh:name "Interval end (UTC, exclusive)" ; sh:path e:end ; sh:order 9 ; sh:group p:semantic-values .
+p:result-time sh:name "Result time" ; sh:path c:resultTime ; e:term c:resultTime ; sh:order 10 ; sh:group p:semantic-values .
+p:question-text sh:name "Question" ; sh:path c:answersQuestion ; e:term c:answersQuestion ; sh:order 1 ; sh:group p:semantic-values .
+p:answer sh:name "Reported answer" ; sh:path c:hasResponseValue ; e:term c:hasResponseValue ; sh:order 2 ; sh:group p:semantic-values .
+p:answer-unit sh:name "Answer unit" ; sh:path e:answerUnit ; sh:order 3 ; sh:group p:semantic-values .
+p:notes sh:name "Diary notes" ; sh:path e:note ; sh:order 4 ; sh:group p:semantic-values .
+p:computation sh:name "Computation" ; sh:path c:wasComputedBy ; e:term c:wasComputedBy ; sh:order 1 ; sh:group p:semantic-values .
+p:coverage sh:name "Coverage condition" ; sh:path e:coverage ; sh:order 11 ; sh:group p:semantic-values .
+p:inputs sh:name "Contributing observations" ; sh:path c:hasMeasurement ; e:term c:hasMeasurement ; sh:order 5 ; sh:group p:semantic-context .
+
+p:participant a sh:NodeShape ; sh:targetClass c:Participant ; e:kind "participant" ; e:file s:records-file ;
+  sh:property p:participant-study ; e:section p:participant-observations, p:participant-responses, p:participant-results .
+p:participant-study sh:name "Study" ; sh:path e:study ; sh:order 1 ; sh:group p:participant-fields .
+p:participant-fields e:kind "fields" ; sh:name "Identity" ; sh:order 1 .
+p:participant-observations e:kind "cards" ; sh:name "Observations" ; sh:order 2 ; sh:path [ sh:inversePath c:featureOfInterest ] .
+p:participant-responses e:kind "cards" ; sh:name "Diary responses" ; sh:order 3 ; sh:path [ sh:inversePath c:wasReportedBy ] .
+p:participant-results e:kind "cards" ; sh:name "Derived results" ; sh:order 4 ; sh:path e:derived .
+
+p:diary-question a sh:NodeShape ; sh:targetNode s:diary-question ; e:kind "question-definition" ;
+  e:file s:records-file ; sh:property p:semantic-study, p:definition-unit ; e:section p:question-responses .
+p:definition-unit sh:name "Expected answer unit" ; sh:path e:answerUnit ; sh:order 1 ; sh:group p:semantic-values .
+p:question-responses e:kind "cards" ; sh:name "Responses" ; sh:order 2 ; sh:path [ sh:inversePath c:answersQuestion ] .
+p:unit-page a sh:NodeShape ; sh:targetClass e:Unit ; e:kind "unit" ; e:file s:records-file ; sh:property p:unit-symbol .
+p:unit-symbol sh:name "Unit symbol" ; sh:path e:symbol ; sh:order 1 ; sh:group p:semantic-values .
+p:computation-page a sh:NodeShape ; sh:targetClass c:StepCountAggregationComputation ; e:kind "computation" ;
+  e:file s:mapped-file ; e:query s:aggregate-mapping ;
+  sh:property p:semantic-study, p:derived-participant, p:computation-inputs ; e:section p:computation-outputs .
+p:computation-inputs sh:name "Input observations" ; sh:path e:input ; sh:order 5 ; sh:group p:semantic-context .
+p:computation-outputs e:kind "cards" ; sh:name "Computed results" ; sh:order 3 ; sh:path [ sh:inversePath c:wasComputedBy ] .
+
+p:available-question a sh:NodeShape ; sh:targetNode s:available-sleep ; e:kind "question" ; e:section p:available-results .
+p:steps-question a sh:NodeShape ; sh:targetNode s:steps-across-sources ; e:kind "question" ; e:section p:steps-results .
+p:comparability-question a sh:NodeShape ; sh:targetNode s:interval-comparability ; e:kind "question" ; e:section p:comparability-results, p:comparison-rules .
+p:comparison-question a sh:NodeShape ; sh:targetNode s:reported-estimated ; e:kind "question" ; e:section p:comparison-results, p:response-rules .
+p:derivation-question a sh:NodeShape ; sh:targetNode s:activity-derivation ; e:kind "question" ; e:section p:derivation-results .
+p:comparison-rules e:kind "text" ; sh:name "Comparability rule" ; sh:order 2 ; e:paragraphs (
+  "Interval sum means the sum over supplied Stride intervals, not a universal daily total. A full-day result requires the two exact half-open UTC windows and no additional interval for that participant/day."
+  "DayMove daily totals remain independent records. Matching day coverage permits a side-by-side comparison, not interchangeability or addition of device totals."
+) .
+p:response-rules e:kind "text" ; sh:name "Question meaning" ; sh:order 2 ; e:paragraphs (
+  "The diary asks how many hours the participant thinks they slept. Reported minutes equal the numeric hours answer × 60 for this question only. Difference means reported minutes minus device-estimated minutes."
+  "No standard response-to-measurement bridge is asserted. A missing estimate yields an empty estimated-duration and difference cell, not zero."
+) .
+p:available-results e:kind "table" ; sh:name "Available sleep information" ; sh:order 1 ; e:query s:available-query ;
+  e:column p:q-participant, p:q-night, p:q-kind, p:q-record, p:q-value, p:q-unit, p:q-origin .
+p:steps-results e:kind "table" ; sh:name "Step records" ; sh:order 1 ; e:query s:steps-query ;
+  e:column p:q-participant, p:q-day, p:q-source, p:q-grain, p:q-record, p:q-steps, p:q-unit, p:q-start, p:q-end, p:q-origin .
+p:comparability-results e:kind "table" ; sh:name "Interval coverage and daily totals" ; sh:order 1 ; e:query s:comparability-query ;
+  e:column p:q-participant, p:q-day, p:q-interval-sum, p:q-interval-records, p:q-daily-total, p:q-daily-record, p:q-status, p:q-derived .
+p:comparison-results e:kind "table" ; sh:name "Reported versus estimated sleep" ; sh:order 1 ; e:query s:comparison-query ;
+  e:column p:q-participant, p:q-night, p:q-response, p:q-hours, p:q-reported-minutes, p:q-estimate, p:q-estimated-minutes, p:q-difference .
+p:derivation-results e:kind "table" ; sh:name "Contributing records" ; sh:order 1 ; e:query s:derivation-query ;
+  e:column p:q-result, p:q-total, p:q-computation, p:q-input, p:q-start, p:q-end, p:q-contribution, p:q-origin .
+p:q-participant e:key "participant" ; sh:name "Participant" ; sh:order 1 .
+p:q-night e:key "night" ; sh:name "Night beginning (UTC)" ; sh:order 2 .
+p:q-kind e:key "kind" ; sh:name "Information kind" ; sh:order 3 .
+p:q-record e:key "record" ; sh:name "Semantic record" ; sh:order 11 .
+p:q-value e:key "value" ; sh:name "Available value" ; sh:order 4 .
+p:q-unit e:key "unit" ; sh:name "Unit" ; sh:order 6 .
+p:q-origin e:key "sourceRecord" ; sh:name "Original record" ; sh:order 12 .
+p:q-day e:key "day" ; sh:name "UTC day" ; sh:order 2 .
+p:q-source e:key "source" ; sh:name "Source table" ; sh:order 10.5 .
+p:q-grain e:key "grain" ; sh:name "Record grain" ; sh:order 4 .
+p:q-steps e:key "steps" ; sh:name "Steps" ; sh:order 3 ; e:term q:numericValue .
+p:q-start e:key "start" ; sh:name "Start (UTC, inclusive)" ; sh:order 9 .
+p:q-end e:key "end" ; sh:name "End (UTC, exclusive)" ; sh:order 10 .
+p:q-interval-sum e:key "intervalSum" ; sh:name "Sum over supplied intervals (steps)" ; sh:order 3 .
+p:q-interval-records e:key "intervalRecords" ; sh:name "Supplied intervals" ; sh:order 4 .
+p:q-daily-total e:key "dailyTotal" ; sh:name "Separate daily total (steps)" ; sh:order 5 .
+p:q-daily-record e:key "dailyRecord" ; sh:name "Daily-total record" ; sh:order 9 .
+p:q-status e:key "status" ; sh:name "Coverage and interpretation" ; sh:order 6 .
+p:q-derived e:key "derived" ; sh:name "Full-day derived result" ; sh:order 8 .
+p:q-response e:key "response" ; sh:name "Diary response" ; sh:order 7 .
+p:q-hours e:key "reportedHours" ; sh:name "Reported answer (hours)" ; sh:order 8 .
+p:q-reported-minutes e:key "reportedMinutes" ; sh:name "Reported minutes (hours × 60)" ; sh:order 3 .
+p:q-estimate e:key "estimate" ; sh:name "Device-estimate record" ; sh:order 6 .
+p:q-estimated-minutes e:key "estimatedMinutes" ; sh:name "Estimated minutes" ; sh:order 4 .
+p:q-difference e:key "differenceMinutes" ; sh:name "Reported − estimated (minutes)" ; sh:order 5 .
+p:q-result e:key "result" ; sh:name "Derived result" ; sh:order 7 .
+p:q-total e:key "total" ; sh:name "Computed daily total (steps)" ; sh:order 1 .
+p:q-computation e:key "computation" ; sh:name "Computation" ; sh:order 8 .
+p:q-input e:key "input" ; sh:name "Contributing observation" ; sh:order 11 .
+p:q-contribution e:key "contribution" ; sh:name "Interval contribution (steps)" ; sh:order 2 .

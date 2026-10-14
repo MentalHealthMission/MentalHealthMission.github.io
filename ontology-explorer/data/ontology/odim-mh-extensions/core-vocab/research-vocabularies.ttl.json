@@ -1,0 +1,1767 @@
+{
+  "id": "ontology/odim-mh-extensions/core-vocab/research-vocabularies.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#ActivityFlattening": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Activity Flattening"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Activity Phenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AlgorithmicComputation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Algorithmic Computation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AtHome": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "At Home"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#BlackBoxComputation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Black-box Computation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ComputationApproachScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Approaches to acquiring observations, computing features and inferring phenotypes."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Computation approaches"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BlackBoxComputation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InferenceRule"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ModelBasedComputation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensingActivity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ContextualSituation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Contextual Situation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DailyInterval": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Daily Interval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#TimeInterval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DelayedSleepPhase": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Delayed Sleep Phase"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DepressionRisk": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Depression Risk"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#RiskPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ElevatedMood": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Elevated Mood"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EventWindow": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Event Window"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseSession": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Exercise Session"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#FamilyVisit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Family Visit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HolidayPeriod": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Holiday Period"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HomeAlone": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Home Alone"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HourlyInterval": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Hourly Interval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#TimeInterval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Hyperactivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Hyperactivity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#InferenceRule": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Inference Rule"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#InsomniaSymptom": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Insomnia Symptom"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LikertFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Likert Format"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LowMood": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Low Mood"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MedicalEvent": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Medical Event"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ModelBasedComputation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Model-based Computation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MoodInstability": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Mood Instability"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MoodPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Mood Phenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MultipleChoiceFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Multiple Choice Format"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#NightTime": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Night Time"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ObservationContextScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Observation contexts"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Temporal and situational context in which observations apply."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EventWindow"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#TimeInterval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PhenotypeScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Digital phenotypes concerning activity, mood, sleep, social behaviour and risk."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Phenotypes and risk"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#RiskPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SocialPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PhysicalInactivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Physical Inactivity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PostDischargePeriod": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Post-discharge Period"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EventWindow"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PreRelapsePeriod": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Pre-relapse Period"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EventWindow"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PublicEvent": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Public Event"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ReducedCommunication": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Reduced Communication"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SocialPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RelapseRisk": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relapse Risk"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#RiskPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ResponseFormatScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Forms in which questionnaire answers are expressed."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Response formats"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#LikertFormat"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MultipleChoiceFormat"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SliderFormat"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#TextFormat"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RiskPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Risk Phenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SensingActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sensing Activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ComputationApproachScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepEnvironment": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep Environment"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepIrregularity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep Irregularity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep Phenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SliderFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Slider Format"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SocialEvent": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Social Event"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SocialPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Social Phenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SocialWithdrawal": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Social Withdrawal"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SocialPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StressRisk": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Stress Risk"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhenotypeScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#RiskPhenotype"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TextFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Text Format"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ResponseFormatScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TimeInterval": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Time Interval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WeatherCondition": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Weather Condition"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Weekend": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Weekend"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WeeklyInterval": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Weekly Interval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#TimeInterval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WorkOrStudy": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Work Or Study"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ContextualSituation"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ObservationContextScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/research-vocabularies": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "ODIM-MH core research vocabularies"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX raw: <https://example.invalid/ontology-browser/activity-sleep/raw#>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT {
+  ?row e:semantic ?obs .
+  ?obs a e:Observation, c:StepCountMeasurement ; rdfs:label ?label ;
+    rdfs:comment "Separately reported daily step total; an absent count is not zero." ;
+    c:observedProperty c:StepCount ; c:featureOfInterest ?participant ; e:day ?day ;
+    e:grain "daily-total" ; e:quantityMeaning "steps" ; e:unit "steps" ;
+    e:source s:daymove-totals ; e:study s:study ; prov:wasDerivedFrom ?row ; q:quantityValue ?quantity .
+  ?quantity a q:QuantityValue ; q:numericValue ?count ; q:unit s:steps-unit .
+} WHERE {
+  ?row raw:table s:daymove-totals ; raw:subject_key ?code ; raw:calendar_date ?day ; raw:output ?obs .
+  ?identity e:identityTable s:daymove-totals ; raw:code ?code ; e:participant ?participant .
+  OPTIONAL {
+    ?row raw:step_total ?count ; raw:output ?quantityRecord .
+    BIND(IRI(CONCAT(STR(?quantityRecord), "-quantity")) AS ?quantity)
+  }
+  BIND(CONCAT("DayMove daily total ", STRAFTER(STR(?obs), "daymove-observation-")) AS ?label)
+}

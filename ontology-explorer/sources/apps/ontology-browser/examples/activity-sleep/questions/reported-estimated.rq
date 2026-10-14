@@ -1,0 +1,19 @@
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+# The generic diary question asks for hours slept, with a numeric string answer.
+# This question alone interprets that answer as hours and converts it to minutes.
+# It does not create a Measurement, infer sensor equivalence or diagnose sleep.
+SELECT ?participant ?night ?response ?reportedHours ?reportedMinutes ?estimate ?estimatedMinutes ?differenceMinutes WHERE {
+  ?response a c:ResponseItem ; c:wasReportedBy ?participant ; e:night ?night ;
+    c:answersQuestion s:diary-question ;
+    e:answerUnit "hours" ; c:hasResponseValue ?reportedHours .
+  BIND(xsd:decimal(?reportedHours) * 60 AS ?reportedMinutes)
+  OPTIONAL {
+    ?estimate e:quantityMeaning "estimated-sleep-duration" ; c:featureOfInterest ?participant ; e:night ?night .
+    OPTIONAL { ?estimate q:quantityValue/q:numericValue ?estimatedMinutes }
+  }
+  BIND(?reportedMinutes - ?estimatedMinutes AS ?differenceMinutes)
+} ORDER BY ?participant ?night

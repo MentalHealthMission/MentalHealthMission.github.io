@@ -1,0 +1,352 @@
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidHealthConnect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#AcquisitionInterface> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidHealthConnect> <http://www.w3.org/2000/01/rdf-schema#label> "Android Health Connect" .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidSensorAPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#AcquisitionInterface> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidSensorAPI> <http://www.w3.org/2000/01/rdf-schema#label> "Android sensor and application APIs" .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleHealthKit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#AcquisitionInterface> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleHealthKit> <http://www.w3.org/2000/01/rdf-schema#label> "Apple HealthKit" .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleSensorKit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#AcquisitionInterface> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleSensorKit> <http://www.w3.org/2000/01/rdf-schema#label> "Apple SensorKit" .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_FitbitAPI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#AcquisitionInterface> .
+<http://connectdigitalstudy.com/ontology#AcquisitionInterface_FitbitAPI> <http://www.w3.org/2000/01/rdf-schema#label> "Fitbit API" .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily count of app open events." .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "App Open Count Feature" .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "App Open Count" .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#AppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "App Usage Aggregation Computation" .
+<http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "App Usage Aggregation" .
+<http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Total iOS app usage duration by category per day." .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/2000/01/rdf-schema#label> "App Usage By Category Feature" .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/2000/01/rdf-schema#label> "App Usage by Category" .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#AppUsageEntropyFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AppUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#label> "App Usage Entropy" .
+<http://connectdigitalstudy.com/ontology#AppUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://connectdigitalstudy.com/ontology#isDisruptive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of awakenings during the night." .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Awakening Count Feature" .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Number of Awakenings" .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#AwakeningCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://connectdigitalstudy.com/ontology#isDisruptive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Total duration of awakenings (minutes) during the night." .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Awakening Duration Feature" .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Total Awakening Duration" .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#AwakeningDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#BehavioralProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#BehavioralProperty> <http://www.w3.org/2000/01/rdf-schema#label> "Behavioral Property" .
+<http://connectdigitalstudy.com/ontology#BehavioralProperty> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidHealthConnect> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#CollectionFamily> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidHealthConnect> <http://www.w3.org/2000/01/rdf-schema#label> "Android Health Connect" .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidPhoneSensing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#CollectionFamily> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidPhoneSensing> <http://www.w3.org/2000/01/rdf-schema#label> "Android phone sensing" .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AppleHealthKit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#CollectionFamily> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AppleHealthKit> <http://www.w3.org/2000/01/rdf-schema#label> "Apple HealthKit" .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AppleSensorKit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#CollectionFamily> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_AppleSensorKit> <http://www.w3.org/2000/01/rdf-schema#label> "Apple SensorKit" .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_Fitbit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#CollectionFamily> .
+<http://connectdigitalstudy.com/ontology#CollectionFamily_Fitbit> <http://www.w3.org/2000/01/rdf-schema#label> "Fitbit" .
+<http://connectdigitalstudy.com/ontology#DailyStepCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#DailyStepCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Total step count per day." .
+<http://connectdigitalstudy.com/ontology#DailyStepCount> <http://www.w3.org/2000/01/rdf-schema#label> "Daily Step Count" .
+<http://connectdigitalstudy.com/ontology#DailyStepCount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#DailyStepCount> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#StepCountFeature> .
+<http://connectdigitalstudy.com/ontology#DataRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#DataRole_DeviceMetadata> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DataRole> .
+<http://connectdigitalstudy.com/ontology#DataRole_DeviceMetadata> <http://www.w3.org/2000/01/rdf-schema#label> "Device metadata" .
+<http://connectdigitalstudy.com/ontology#DataRole_Measurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DataRole> .
+<http://connectdigitalstudy.com/ontology#DataRole_Measurement> <http://www.w3.org/2000/01/rdf-schema#label> "Measurement" .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Android> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DeviceEcosystem> .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Android> <http://www.w3.org/2000/01/rdf-schema#label> "Android" .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Apple> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DeviceEcosystem> .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Apple> <http://www.w3.org/2000/01/rdf-schema#label> "Apple" .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Fitbit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DeviceEcosystem> .
+<http://connectdigitalstudy.com/ontology#DeviceEcosystem_Fitbit> <http://www.w3.org/2000/01/rdf-schema#label> "Fitbit" .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Total duration (seconds) of manually logged exercise per day." .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Duration Feature" .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Total Exercise Duration" .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ExerciseDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#ExerciseMetricsComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ExerciseMetricsComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Metrics Computation" .
+<http://connectdigitalstudy.com/ontology#ExerciseMetricsComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of manually logged exercise sessions per day." .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Session Count Feature" .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Session Count" .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Count of distinct manual exercise types per day." .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Session Type Count Feature" .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Exercise Session Type Count" .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Aggregation Computation" .
+<http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Aggregation" .
+<http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily mean heart rate." .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Average Heart Rate" .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Average Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateAverageFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard deviation of hourly mean heart rate within a day." .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Hourly Mean Sd Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Hourly Mean Heart Rate SD" .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily maximum heart rate." .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Max Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Maximum Heart Rate" .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Minutes since midnight at which daily max heart rate occurs." .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Max Time Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Time of Maximum Heart Rate" .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Variability" .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily aggregate of RMSSD heart-rate variability measurements, expressed in milliseconds." .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily mean Fitbit RMSSD heart-rate variability in milliseconds." .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Variability Rmssd Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart-rate variability RMSSD" .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily aggregate of SDNN heart-rate variability measurements, expressed in milliseconds." .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily mean Apple HealthKit SDNN heart-rate variability in milliseconds." .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart Rate Variability Sdnn Feature" .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Heart-rate variability SDNN" .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature> .
+<http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration> <http://www.w3.org/2000/01/rdf-schema#comment> "Longest continuous sleep episode duration (minutes)." .
+<http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration> <http://www.w3.org/2000/01/rdf-schema#label> "Longest Sleep Episode Duration" .
+<http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#MeasureKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#MeasureKind_MeasuredQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasureKind> .
+<http://connectdigitalstudy.com/ontology#MeasureKind_MeasuredQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "Measured quantity" .
+<http://connectdigitalstudy.com/ontology#MeasureKind_MultidimensionalMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasureKind> .
+<http://connectdigitalstudy.com/ontology#MeasureKind_MultidimensionalMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Multidimensional measure" .
+<http://connectdigitalstudy.com/ontology#MeasureKind_TemporalMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasureKind> .
+<http://connectdigitalstudy.com/ontology#MeasureKind_TemporalMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "Temporal measure" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration> <http://www.w3.org/2000/01/rdf-schema#label> "Acceleration" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight> <http://www.w3.org/2000/01/rdf-schema#label> "Ambient light" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientPressure> <http://www.w3.org/2000/01/rdf-schema#label> "Ambient pressure" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse> <http://www.w3.org/2000/01/rdf-schema#label> "Application use" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AudioExposure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_AudioExposure> <http://www.w3.org/2000/01/rdf-schema#label> "Audio exposure" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel> <http://www.w3.org/2000/01/rdf-schema#label> "Battery level" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts> <http://www.w3.org/2000/01/rdf-schema#label> "Contacts" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceCharacteristics> <http://www.w3.org/2000/01/rdf-schema#label> "Device characteristics" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse> <http://www.w3.org/2000/01/rdf-schema#label> "Device use" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Keyboard interaction" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location> <http://www.w3.org/2000/01/rdf-schema#label> "Location" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField> <http://www.w3.org/2000/01/rdf-schema#label> "Magnetic field" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse> <http://www.w3.org/2000/01/rdf-schema#label> "Message use" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices> <http://www.w3.org/2000/01/rdf-schema#label> "Nearby Bluetooth devices" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Physical activity" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate> <http://www.w3.org/2000/01/rdf-schema#label> "Rotation rate" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction> <http://www.w3.org/2000/01/rdf-schema#label> "Screen interaction" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_SkinTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_SkinTemperature> <http://www.w3.org/2000/01/rdf-schema#label> "Skin temperature" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity> <http://www.w3.org/2000/01/rdf-schema#label> "Speech and telephony activity" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_TimeZone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_TimeZone> <http://www.w3.org/2000/01/rdf-schema#label> "Time zone" .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasuredQuantity> .
+<http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Wear status" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement> <http://www.w3.org/2000/01/rdf-schema#label> "Activity and movement" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular> <http://www.w3.org/2000/01/rdf-schema#label> "Cardiovascular" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial> <http://www.w3.org/2000/01/rdf-schema#label> "Communication and social context" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext> <http://www.w3.org/2000/01/rdf-schema#label> "Device context" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "Device and digital behaviour" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental> <http://www.w3.org/2000/01/rdf-schema#label> "Environmental" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial> <http://www.w3.org/2000/01/rdf-schema#label> "Location and spatial context" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory> <http://www.w3.org/2000/01/rdf-schema#label> "Respiratory" .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#MeasurementDomain> .
+<http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep" .
+<http://connectdigitalstudy.com/ontology#MetricDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#NotificationUsageEntropyFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#NotificationUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Notification Usage Entropy" .
+<http://connectdigitalstudy.com/ontology#NotificationUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> <http://www.w3.org/2000/01/rdf-schema#label> "Physiological Measurement" .
+<http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#Platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#Platform> <http://www.w3.org/2000/01/rdf-schema#label> "Platform" .
+<http://connectdigitalstudy.com/ontology#Platform_ANDROID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#Platform> .
+<http://connectdigitalstudy.com/ontology#Platform_ANDROID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://connectdigitalstudy.com/ontology#Platform_ANDROID> <http://www.w3.org/2000/01/rdf-schema#label> "Android" .
+<http://connectdigitalstudy.com/ontology#Platform_FITBIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#Platform> .
+<http://connectdigitalstudy.com/ontology#Platform_FITBIT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://connectdigitalstudy.com/ontology#Platform_FITBIT> <http://www.w3.org/2000/01/rdf-schema#label> "Fitbit" .
+<http://connectdigitalstudy.com/ontology#Platform_IOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#Platform> .
+<http://connectdigitalstudy.com/ontology#Platform_IOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://connectdigitalstudy.com/ontology#Platform_IOS> <http://www.w3.org/2000/01/rdf-schema#label> "iOS" .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily mean resting heart rate." .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Resting Heart Rate Feature" .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Resting Heart Rate" .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#RestingHeartRateFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Total screen unlock count per day." .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Count Feature" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Count" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Total duration (seconds) of unlocked screen time per day." .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Duration Feature" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Duration" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Unlocks per hour of unlocked time (fragmentation index)." .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Fragmentation Feature" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Fragmentation" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Mean duration (seconds) per unlock event per day." .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Mean Screen Unlock Duration" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Unlock Mean Duration Feature" .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Usage Aggregation Computation" .
+<http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Screen Usage Aggregation" .
+<http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#SleepDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepDomain> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Domain" .
+<http://connectdigitalstudy.com/ontology#SleepDomain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://connectdigitalstudy.com/ontology#isDisruptive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/2000/01/rdf-schema#comment> "Average gap between sleep episodes (minutes)." .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/2000/01/rdf-schema#label> "Average Gap Between Sleep Episodes" .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Episode Gap Avg" .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://connectdigitalstudy.com/ontology#isDisruptive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/2000/01/rdf-schema#comment> "Maximum gap between sleep episodes (minutes)." .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/2000/01/rdf-schema#label> "Maximum Gap Between Sleep Episodes" .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Episode Gap Max" .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#SleepMetricsComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepMetricsComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Metrics Computation" .
+<http://connectdigitalstudy.com/ontology#SleepMetricsComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Absolute deviation from mean sleep onset time (minutes)." .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Deviation Feature" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Deviation" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepRegularityFeature> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Sleep onset time in minutes since midnight for the night." .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Time Feature" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Time" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepStructureFeature> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard deviation of sleep onset time across nights (minutes)." .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Variability Feature" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Sleep Onset Variability" .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepRegularityFeature> .
+<http://connectdigitalstudy.com/ontology#StepCountAggregationComputation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#StepCountAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count Aggregation Computation" .
+<http://connectdigitalstudy.com/ontology#StepCountAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count Aggregation" .
+<http://connectdigitalstudy.com/ontology#StepCountAggregationComputation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#AlgorithmicComputation> .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/2000/01/rdf-schema#comment> "Step count summed within named day segments." .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count By Day Segment" .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count by Day Segment" .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#StepCountByDaySegment> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#StepCountFeature> .
+<http://connectdigitalstudy.com/ontology#StepCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#StepCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count Feature" .
+<http://connectdigitalstudy.com/ontology#StepCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#ActivityPatternFeature> .
+<http://connectdigitalstudy.com/ontology#StepCountVariability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#StepCountVariability> <http://www.w3.org/2000/01/rdf-schema#comment> "Within-day step count variability (std dev over events)." .
+<http://connectdigitalstudy.com/ontology#StepCountVariability> <http://www.w3.org/2000/01/rdf-schema#label> "Step Count Variability" .
+<http://connectdigitalstudy.com/ontology#StepCountVariability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#ActivityPatternFeature> .
+<http://connectdigitalstudy.com/ontology#StepCountVariability> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#TotalSleepTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#TotalSleepTime> <http://www.w3.org/2000/01/rdf-schema#comment> "Total sleep duration (minutes) per night." .
+<http://connectdigitalstudy.com/ontology#TotalSleepTime> <http://www.w3.org/2000/01/rdf-schema#label> "Total Sleep Time" .
+<http://connectdigitalstudy.com/ontology#TotalSleepTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#SleepDomain> .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily count of distinct apps opened." .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Unique App Open Count Feature" .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Unique App Open Count" .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#BehavioralProperty> .
+<http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#WebUsageEntropyFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://connectdigitalstudy.com/ontology#WebUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Web Usage Entropy" .
+<http://connectdigitalstudy.com/ontology#WebUsageEntropyFeature> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://connectdigitalstudy.com/ontology#DeviceEngagementFeature> .
+<http://connectdigitalstudy.com/ontology#hasCollectionFamily> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#hasDataRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#hasDeviceEcosystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#hasMeasureKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#hasMeasuredQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#hasMeasurementDomain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#isDisruptive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://connectdigitalstudy.com/ontology#isDisruptive> <http://www.w3.org/2000/01/rdf-schema#label> "is disruptive" .
+<http://connectdigitalstudy.com/ontology#platform> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology#platform> <http://www.w3.org/2000/01/rdf-schema#domain> <http://connectdigitalstudy.com/ontology#MetricDefinition> .
+<http://connectdigitalstudy.com/ontology#platform> <http://www.w3.org/2000/01/rdf-schema#label> "platform" .
+<http://connectdigitalstudy.com/ontology#platform> <http://www.w3.org/2000/01/rdf-schema#range> <http://connectdigitalstudy.com/ontology#Platform> .
+<http://connectdigitalstudy.com/ontology#usesAcquisitionInterface> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://connectdigitalstudy.com/ontology/odim-mh-wearables> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://connectdigitalstudy.com/ontology/odim-mh-wearables> <http://www.w3.org/2000/01/rdf-schema#label> "ODIM-MH-Wearables" .
+<http://connectdigitalstudy.com/ontology/odim-mh-wearables> <http://www.w3.org/2002/07/owl#imports> <https://raw.githubusercontent.com/MentalHealthMission/MHM-ontology/main/mhm_ontology.owl> .

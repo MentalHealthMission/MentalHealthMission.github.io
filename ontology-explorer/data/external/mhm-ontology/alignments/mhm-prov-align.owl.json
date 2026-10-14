@@ -1,0 +1,355 @@
+{
+  "id": "external/mhm-ontology/alignments/mhm-prov-align.owl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#Computation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataSet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Entity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataTransferEvent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DerivedFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Entity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Device": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Agent"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DigitalPhenotype": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Entity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Feature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Entity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Measurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Entity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#NotificationEvent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Participant": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Agent"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SensingActivity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#Activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#associatedWithDevice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasAssociatedWith"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#usedAppInterface": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#used"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#usedDataInterface": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#used"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#usedDevice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#used"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasAttributedTo": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasAttributedTo"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasCollectedFrom": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasAttributedTo"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasComputedBy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasGeneratedBy"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasDerivedFrom": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasDerivedFrom"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasGeneratedBy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov#wasGeneratedBy"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/alignments/prov": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/ns/prov-o"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "ODIM‑MH – PROV‑O Alignment"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ]
+  }
+}

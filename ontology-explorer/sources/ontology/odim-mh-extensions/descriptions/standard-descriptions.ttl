@@ -1,0 +1,117 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix iao:     <http://purl.obolibrary.org/obo/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix qudt:    <http://qudt.org/schema/qudt/> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa:    <http://www.w3.org/ns/sosa/> .
+
+<http://connectdigitalstudy.com/ontology/standard-descriptions>
+  a owl:Ontology ;
+  rdfs:label "Standard term descriptions"@en ;
+  owl:imports <http://connectdigitalstudy.com/ontology> .
+
+# SKOS Reference: https://www.w3.org/TR/skos-reference/
+skos:Concept
+  rdfs:comment "An idea or notion represented in a knowledge organization system."@en .
+
+skos:ConceptScheme
+  rdfs:comment "A set of concepts, optionally including statements about the relationships between them."@en .
+
+skos:altLabel
+  rdfs:comment "An alternative lexical label for a resource."@en .
+
+skos:broader
+  rdfs:comment "Relates a concept to another concept with a broader meaning."@en .
+
+skos:definition
+  rdfs:comment "An explanation of the meaning of a concept."@en .
+
+skos:hasTopConcept
+  rdfs:comment "Relates a concept scheme to one of its top-level concepts."@en .
+
+skos:inScheme
+  rdfs:comment "Relates a resource to a concept scheme in which it is included."@en .
+
+skos:narrower
+  rdfs:comment "Relates a concept to another concept with a narrower meaning."@en .
+
+skos:prefLabel
+  rdfs:comment "The preferred lexical label for a resource in a given language."@en .
+
+skos:related
+  rdfs:comment "Relates concepts that have an associative rather than a hierarchical relationship."@en .
+
+skos:topConceptOf
+  rdfs:comment "Relates a top-level concept to its concept scheme."@en .
+
+# Semantic Sensor Network Ontology: https://www.w3.org/TR/vocab-ssn/
+sosa:ObservableProperty
+  rdfs:comment "An observable characteristic of a feature of interest."@en .
+
+sosa:Observation
+  rdfs:comment "An act of using a procedure to estimate or calculate a property's value for a feature of interest."@en .
+
+sosa:hasFeatureOfInterest
+  rdfs:comment "Relates an observation, actuation or sampling activity to the feature whose property is observed or acted on, or which is sampled."@en .
+
+sosa:observedProperty
+  rdfs:comment "Relates an observation to the property of its feature of interest that was observed."@en .
+
+sosa:resultTime
+  rdfs:comment "The instant at which an observation, actuation or sampling activity was completed."@en .
+
+# QUDT Schema: https://www.qudt.org/doc/2025/03/DOC_SCHEMA-QUDT.html
+# Unit relation: https://www.qudt.org/doc/2024/01/DOC_SCHEMA-QUDT-v2.1.html
+qudt:QuantityValue
+  rdfs:comment "A quantity's magnitude expressed as a numerical value together with a unit of measure."@en .
+
+qudt:quantityValue
+  rdfs:comment "Relates a resource to a quantity value."@en .
+
+qudt:numericValue
+  rdfs:comment "The numerical component of a quantity value expressed in a given unit."@en .
+
+qudt:unit
+  rdfs:comment "The unit of measure associated with a quantity."@en .
+
+# RDF Schema: https://www.w3.org/TR/rdf-schema/
+rdfs:comment
+  rdfs:comment "A human-readable description of a resource."@en .
+
+rdfs:isDefinedBy
+  rdfs:comment "Relates a resource to another resource that defines it."@en .
+
+rdfs:label
+  rdfs:comment "A human-readable name for a resource."@en .
+
+rdfs:seeAlso
+  rdfs:comment "Relates a resource to another resource that may provide additional information about it."@en .
+
+# DCMI Metadata Terms: https://www.dublincore.org/specifications/dublin-core/dcmi-terms/
+dcterms:description
+  rdfs:comment "An account of the content or nature of a resource."@en .
+
+dcterms:license
+  rdfs:comment "A legal document specifying permission to use a resource."@en .
+
+dcterms:title
+  rdfs:comment "A name given to a resource."@en .
+
+# IAO metadata: https://github.com/information-artifact-ontology/IAO/wiki/OntologyMetadata
+iao:IAO_0000115
+  rdfs:comment "A textual definition explaining the meaning of an ontology class or property."@en .
+
+# PROV-O: https://www.w3.org/TR/prov-o/#influenced
+prov:influenced
+  rdfs:comment "Relates an entity, activity or agent to another entity, activity or agent on which it had an effect."@en .
+
+# The pinned PROV-O graph declares this annotation property but supplies no
+# definition or usages; the description asserts only its declared kind.
+prov:todo
+  rdfs:comment "An annotation property in the PROV namespace."@en .
+
+# OWL Reference: https://www.w3.org/TR/owl-ref/#versionInfo-def
+owl:versionInfo
+  rdfs:comment "Version information attached to an ontology or other resource."@en .

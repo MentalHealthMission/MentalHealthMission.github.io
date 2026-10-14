@@ -1,0 +1,182 @@
+{
+  "id": "ontology/odim-mh-extensions/core-vocab/property-categories.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#BehavioralProperty": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Behavioral"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Properties describing human behavior such as activity and sleep."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalProperty"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#related"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EnvironmentalProperty": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Properties describing environmental context such as light or temperature."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PhysiologicalProperty": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Physio"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#altLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Physiological"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Properties concerning physiological signals and measures (e.g., HR, HRV)."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Property categories"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnvironmentalProperty"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalProperty"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Property Category Scheme"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ]
+  }
+}

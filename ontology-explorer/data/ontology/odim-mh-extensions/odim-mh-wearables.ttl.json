@@ -1,0 +1,2699 @@
+{
+  "id": "ontology/odim-mh-extensions/odim-mh-wearables.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidHealthConnect": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android Health Connect"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidSensorAPI": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android sensor and application APIs"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleHealthKit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Apple HealthKit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleSensorKit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Apple SensorKit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_FitbitAPI": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Fitbit API"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppOpenCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Open Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Open Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily count of app open events."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Usage Aggregation Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Usage Aggregation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Usage By Category Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Usage by Category"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total iOS app usage duration by category per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "App Usage Entropy"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AwakeningCountFeature": [
+      {
+        "object": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "type": "literal",
+          "value": "true"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#isDisruptive"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Awakening Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Number of Awakenings"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Number of awakenings during the night."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AwakeningDurationFeature": [
+      {
+        "object": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "type": "literal",
+          "value": "true"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#isDisruptive"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Awakening Duration Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total Awakening Duration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total duration of awakenings (minutes) during the night."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#BehavioralProperty": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Behavioral Property"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidHealthConnect": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android Health Connect"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidPhoneSensing": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android phone sensing"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleHealthKit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Apple HealthKit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleSensorKit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Apple SensorKit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_Fitbit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DailyStepCount": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCountFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily Step Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total step count per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole_DeviceMetadata": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRole"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Device metadata"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole_Measurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRole"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Measurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Android": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Apple": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Apple"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Fitbit": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Duration Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total Exercise Duration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total duration (seconds) of manually logged exercise per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseMetricsComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Metrics Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Session Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Session Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Number of manually logged exercise sessions per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Count of distinct manual exercise types per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Session Type Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Exercise Session Type Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Aggregation Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Aggregation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateAverageFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Average Heart Rate"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily mean heart rate."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Average Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Hourly Mean Sd Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Hourly Mean Heart Rate SD"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Standard deviation of hourly mean heart rate within a day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMaxFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily maximum heart rate."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Max Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Maximum Heart Rate"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Max Time Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Minutes since midnight at which daily max heart rate occurs."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Time of Maximum Heart Rate"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Variability"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily aggregate of RMSSD heart-rate variability measurements, expressed in milliseconds."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily mean Fitbit RMSSD heart-rate variability in milliseconds."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Variability Rmssd Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart-rate variability RMSSD"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily aggregate of SDNN heart-rate variability measurements, expressed in milliseconds."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily mean Apple HealthKit SDNN heart-rate variability in milliseconds."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart Rate Variability Sdnn Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Heart-rate variability SDNN"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Longest Sleep Episode Duration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Longest continuous sleep episode duration (minutes)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_MeasuredQuantity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Measured quantity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_MultidimensionalMeasure": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Multidimensional measure"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_TemporalMeasure": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Temporal measure"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Acceleration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Ambient light"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientPressure": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Ambient pressure"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Application use"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AudioExposure": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Audio exposure"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Battery level"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Contacts"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceCharacteristics": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Device characteristics"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Device use"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Keyboard interaction"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Location"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Magnetic field"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Message use"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Nearby Bluetooth devices"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Physical activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Rotation rate"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen interaction"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SkinTemperature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Skin temperature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Speech and telephony activity"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_TimeZone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Time zone"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Wear status"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Activity and movement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Communication and social context"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Device context"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Device and digital behaviour"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Environmental"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Location and spatial context"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Respiratory"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MetricDefinition": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#NotificationUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Notification Usage Entropy"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Physiological Measurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Platform"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_ANDROID": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Android"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_FITBIT": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_IOS": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "iOS"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RestingHeartRateFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalMeasurement"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily mean resting heart rate."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Resting Heart Rate Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Resting Heart Rate"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total screen unlock count per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Duration Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Duration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total duration (seconds) of unlocked screen time per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Fragmentation Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Fragmentation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Unlocks per hour of unlocked time (fragmentation index)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Mean Screen Unlock Duration"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Mean duration (seconds) per unlock event per day."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Unlock Mean Duration Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Usage Aggregation Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Screen Usage Aggregation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepDomain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DerivedFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Domain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg": [
+      {
+        "object": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "type": "literal",
+          "value": "true"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#isDisruptive"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Average Gap Between Sleep Episodes"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Average gap between sleep episodes (minutes)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Episode Gap Avg"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax": [
+      {
+        "object": {
+          "datatype": "http://www.w3.org/2001/XMLSchema#boolean",
+          "type": "literal",
+          "value": "true"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#isDisruptive"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Maximum Gap Between Sleep Episodes"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Maximum gap between sleep episodes (minutes)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Episode Gap Max"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepMetricsComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Metrics Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepRegularityFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Absolute deviation from mean sleep onset time (minutes)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Deviation Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Deviation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStructureFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Time Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Time"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep onset time in minutes since midnight for the night."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepRegularityFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Variability Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Sleep Onset Variability"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Standard deviation of sleep onset time across nights (minutes)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count Aggregation Computation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count Aggregation"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountByDaySegment": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCountFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count By Day Segment"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count by Day Segment"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step count summed within named day segments."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPatternFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountVariability": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ActivityPatternFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Step Count Variability"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Within-day step count variability (std dev over events)."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TotalSleepTime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total Sleep Time"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Total sleep duration (minutes) per night."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Daily count of distinct apps opened."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Unique App Open Count Feature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Unique App Open Count"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WebUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#subClassOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Class"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Web Usage Entropy"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasCollectionFamily": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasDataRole": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasDeviceEcosystem": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasureKind": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasuredQuantity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasurementDomain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#isDisruptive": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#AnnotationProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "is disruptive"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#platform": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MetricDefinition"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#domain"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#range"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "platform"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#usesAcquisitionInterface": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#ObjectProperty"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/odim-mh-wearables": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "https://raw.githubusercontent.com/MentalHealthMission/MHM-ontology/main/mhm_ontology.owl"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "ODIM-MH-Wearables"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "id": "ontology/odim-mh-extensions/descriptions/standard-descriptions.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology/standard-descriptions": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Standard term descriptions"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://purl.obolibrary.org/obo/IAO_0000115": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A textual definition explaining the meaning of an ontology class or property."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An account of the content or nature of a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://purl.org/dc/terms/license": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A legal document specifying permission to use a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A name given to a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://qudt.org/schema/qudt/QuantityValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A quantity's magnitude expressed as a numerical value together with a unit of measure."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://qudt.org/schema/qudt/numericValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The numerical component of a quantity value expressed in a given unit."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://qudt.org/schema/qudt/quantityValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a resource to a quantity value."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://qudt.org/schema/qudt/unit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The unit of measure associated with a quantity."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A human-readable description of a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a resource to another resource that defines it."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A human-readable name for a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a resource to another resource that may provide additional information about it."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Version information attached to an ontology or other resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#Concept": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An idea or notion represented in a knowledge organization system."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#ConceptScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A set of concepts, optionally including statements about the relationships between them."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#altLabel": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An alternative lexical label for a resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#broader": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a concept to another concept with a broader meaning."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An explanation of the meaning of a concept."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a concept scheme to one of its top-level concepts."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a resource to a concept scheme in which it is included."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#narrower": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a concept to another concept with a narrower meaning."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The preferred lexical label for a resource in a given language."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#related": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates concepts that have an associative rather than a hierarchical relationship."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates a top-level concept to its concept scheme."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/prov#influenced": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates an entity, activity or agent to another entity, activity or agent on which it had an effect."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/prov#todo": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An annotation property in the PROV namespace."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/sosa/ObservableProperty": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An observable characteristic of a feature of interest."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/sosa/Observation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An act of using a procedure to estimate or calculate a property's value for a feature of interest."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/sosa/hasFeatureOfInterest": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates an observation, actuation or sampling activity to the feature whose property is observed or acted on, or which is sampled."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/sosa/observedProperty": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Relates an observation to the property of its feature of interest that was observed."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://www.w3.org/ns/sosa/resultTime": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The instant at which an observation, actuation or sampling activity was completed."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2541 @@
+{
+  "id": "ontology/odim-mh-extensions/vocab/measurement-topics.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#AcousticContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A measured or inferred description of the surrounding acoustic environment."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Acoustic classifications alone do not establish human communication."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Acoustic context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AudioLevel": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An audio-signal level or intensity summary."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Audio level"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The signal level does not identify its source or meaning."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorAudioSignal"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#BloodVolumePulse": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A photoplethysmographic pulse signal or a summary of that signal."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Blood volume pulse"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A low class fraction may mean that sensing time was assigned to another class, not that data were missing."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Expected coverage for an inference class"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The fraction of expected sensing time assigned to a specified inference class."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ConnectedWiFiContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Connected Wi-Fi context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The Wi-Fi network to which a device is connected."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#WiFiContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ConversationActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An inference or summary of conversation activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Conversation activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Detected conversation activity does not by itself identify participants, content or social meaning."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataQualityScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Data availability and classification"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sensing availability and the coverage and classification of recorded observations."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataYield"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#UnclassifiedAudioInference"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataYield": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Availability of expected sensing data."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Data availability is distinct from accuracy or fitness for analysis."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Data yield"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Distance": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Distance"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EnergyExpenditure": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Energy expenditure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseDuration": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Exercise duration"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#FlightsClimbed": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Flights climbed"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRate": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Heart rate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariability": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Heart-rate variability"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssd": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Heart-rate variability RMSSD"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariability"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnn": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Heart-rate variability SDNN"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariability"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#InterBeatInterval": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An individual beat interval is distinct from a statistic describing variability across intervals."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An interval between successive detected heart beats."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Inter-beat interval"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Acceleration"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device acceleration alone does not establish human activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Ambient light"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientPressure": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Ambient pressure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Application use"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AudioExposure": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Audio exposure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Battery level"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Contacts"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceCharacteristics": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device characteristics"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device use"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Keyboard interaction"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Typing or keyboard interaction does not by itself establish communication or social activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Location"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A magnetic-field reading alone does not identify location or human activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Magnetic field"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Message use"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Nearby Bluetooth devices"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Nearby-device observations do not by themselves establish location, co-presence, or social interaction."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Physical activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device rotation alone does not establish human activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Rotation rate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Screen interaction"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SkinTemperature": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Skin temperature"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Speech and telephony activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_TimeZone": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A device or record time-zone setting is not evidence of an observed location."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Time zone"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Wear status"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Domains and quantities described by measurements and derived features."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurement domains"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Activity and movement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning physical activity, movement, or exercise."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Body temperature"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning body or skin temperature."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Skin temperature and core body temperature are distinct quantities."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Cardiovascular": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Cardiovascular"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning cardiovascular activity, including heart rate, pulse, and beat intervals."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Communication and social context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Communication signals and social-context proxies do not by themselves identify or establish a social interaction."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning communication activity or social-context proxies."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and metadata concerning device state, configuration, wear, or acquisition context."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device and digital behaviour"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning interaction with applications and digital devices."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Electrodermal activity alone does not identify stress, emotion or a clinical state."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Electrodermal activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning electrodermal activity signals."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Environmental"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning the surrounding physical or acoustic environment."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Location and spatial context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning location, mobility patterns, or spatial context."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning respiratory activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Respiratory"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurements and derived features concerning sleep timing, duration, stage, or structure."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep measures can be obtained through self-report, sensing or computation; the acquisition method remains part of their interpretation."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PhoneCallActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A measurement or derived feature concerning phone-call activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Call activity describes the occurrence or duration of calls, not their content."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Phone-call activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RespiratoryRate": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Respiratory rate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Respiratory"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SensorAudioSignal": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An audio signal alone does not identify its environmental or social context."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Raw or minimally processed audio-sensor signals and classifications."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sensor audio signal"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SensorSignalScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Raw or minimally interpreted sensor signals and their acquisition context."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sensor signals and context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorAudioSignal"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#WiFiContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepStage": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep stage"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SoundClassification": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A classifier output is not necessarily a verified environmental or human-activity fact."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A label or score assigned by an audio classifier."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sound classification"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorAudioSignal"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCount": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Step count"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#UnclassifiedAudioInference": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An unknown classification is not evidence that audio data were absent."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The fraction or amount of sensed audio for which an inference remains unclassified."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Unclassified audio inference"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataQualityScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Vendor-defined resting heart rate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#VisibleWiFiContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Visible Wi-Fi context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Wi-Fi networks visible to a device."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#WiFiContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#VoiceActivity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An inference or summary of detected voice activity."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Detection does not identify a speaker or establish a conversation."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Voice activity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#broader"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WiFiContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Observations of connected or visible Wi-Fi networks."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Wi-Fi context"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Wi-Fi observations alone do not establish location or social interaction."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#scopeNote"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#related"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SensorSignalScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/measurement-vocabulary": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "ODIM-MH measurement topics"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/odim-mh-wearables"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

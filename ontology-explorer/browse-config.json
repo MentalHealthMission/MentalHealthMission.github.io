@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 2,
+  "description": "Presentation entry points only. These existing class roots appear only when authored by the selected corpus; this configuration creates no ontology assertions.",
+  "dimensionRoots": [
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain",
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity",
+    "http://connectdigitalstudy.com/ontology#MeasureKind",
+    "http://connectdigitalstudy.com/ontology#CollectionFamily",
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface",
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem",
+    "http://connectdigitalstudy.com/ontology#DataRole"
+  ]
+}

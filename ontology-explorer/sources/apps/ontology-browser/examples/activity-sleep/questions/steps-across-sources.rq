@@ -1,0 +1,10 @@
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?participant ?day ?source ?grain ?record ?steps ?unit ?start ?end ?sourceRecord WHERE {
+  ?record a c:StepCountMeasurement ; c:featureOfInterest ?participant ; e:day ?day ;
+    e:source ?source ; e:grain ?grain ; e:unit ?unit ; prov:wasDerivedFrom ?sourceRecord .
+  OPTIONAL { ?record q:quantityValue/q:numericValue ?steps }
+  OPTIONAL { ?record e:start ?start ; e:end ?end }
+} ORDER BY ?participant ?day ?source ?start ?record

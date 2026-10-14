@@ -1,0 +1,194 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://connectdigitalstudy.com/ontology/collection-vocabularies>
+  a owl:Ontology ;
+  rdfs:label "ODIM-MH collection vocabularies"@en ;
+  owl:imports <http://connectdigitalstudy.com/ontology/odim-mh-wearables> .
+
+# These schemes expose existing Wearables individuals as separate browsing
+# facets. Matching labels do not make concepts in different schemes identical.
+odim:CollectionFamilyScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Collection families"@en ;
+  skos:definition "Families used to group related wearable and phone data collections."@en ;
+  skos:hasTopConcept
+    odim:CollectionFamily_AndroidHealthConnect ,
+    odim:CollectionFamily_AndroidPhoneSensing ,
+    odim:CollectionFamily_AppleHealthKit ,
+    odim:CollectionFamily_AppleSensorKit ,
+    odim:CollectionFamily_Fitbit .
+
+odim:CollectionFamily_AndroidHealthConnect
+  a skos:Concept ;
+  skos:inScheme odim:CollectionFamilyScheme ;
+  skos:prefLabel "Android Health Connect"@en ;
+  skos:topConceptOf odim:CollectionFamilyScheme .
+
+odim:CollectionFamily_AndroidPhoneSensing
+  a skos:Concept ;
+  skos:inScheme odim:CollectionFamilyScheme ;
+  skos:prefLabel "Android phone sensing"@en ;
+  skos:topConceptOf odim:CollectionFamilyScheme .
+
+odim:CollectionFamily_AppleHealthKit
+  a skos:Concept ;
+  skos:inScheme odim:CollectionFamilyScheme ;
+  skos:prefLabel "Apple HealthKit"@en ;
+  skos:topConceptOf odim:CollectionFamilyScheme .
+
+odim:CollectionFamily_AppleSensorKit
+  a skos:Concept ;
+  skos:inScheme odim:CollectionFamilyScheme ;
+  skos:prefLabel "Apple SensorKit"@en ;
+  skos:topConceptOf odim:CollectionFamilyScheme .
+
+odim:CollectionFamily_Fitbit
+  a skos:Concept ;
+  skos:inScheme odim:CollectionFamilyScheme ;
+  skos:prefLabel "Fitbit"@en ;
+  skos:topConceptOf odim:CollectionFamilyScheme .
+
+odim:AcquisitionInterfaceScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Acquisition interfaces"@en ;
+  skos:definition "Vendor interfaces through which wearable or phone data are acquired."@en ;
+  skos:hasTopConcept
+    odim:AcquisitionInterface_AndroidHealthConnect ,
+    odim:AcquisitionInterface_AndroidSensorAPI ,
+    odim:AcquisitionInterface_AppleHealthKit ,
+    odim:AcquisitionInterface_AppleSensorKit ,
+    odim:AcquisitionInterface_FitbitAPI .
+
+odim:AcquisitionInterface_AndroidHealthConnect
+  a skos:Concept ;
+  skos:inScheme odim:AcquisitionInterfaceScheme ;
+  skos:prefLabel "Android Health Connect"@en ;
+  skos:topConceptOf odim:AcquisitionInterfaceScheme .
+
+odim:AcquisitionInterface_AndroidSensorAPI
+  a skos:Concept ;
+  skos:inScheme odim:AcquisitionInterfaceScheme ;
+  skos:prefLabel "Android sensor and application APIs"@en ;
+  skos:topConceptOf odim:AcquisitionInterfaceScheme .
+
+odim:AcquisitionInterface_AppleHealthKit
+  a skos:Concept ;
+  skos:inScheme odim:AcquisitionInterfaceScheme ;
+  skos:prefLabel "Apple HealthKit"@en ;
+  skos:topConceptOf odim:AcquisitionInterfaceScheme .
+
+odim:AcquisitionInterface_AppleSensorKit
+  a skos:Concept ;
+  skos:inScheme odim:AcquisitionInterfaceScheme ;
+  skos:prefLabel "Apple SensorKit"@en ;
+  skos:topConceptOf odim:AcquisitionInterfaceScheme .
+
+odim:AcquisitionInterface_FitbitAPI
+  a skos:Concept ;
+  skos:inScheme odim:AcquisitionInterfaceScheme ;
+  skos:prefLabel "Fitbit API"@en ;
+  skos:topConceptOf odim:AcquisitionInterfaceScheme .
+
+odim:DeviceEcosystemScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Device ecosystems"@en ;
+  skos:definition "Device vendor ecosystems associated with wearable or phone data."@en ;
+  skos:hasTopConcept
+    odim:DeviceEcosystem_Android ,
+    odim:DeviceEcosystem_Apple ,
+    odim:DeviceEcosystem_Fitbit .
+
+odim:DeviceEcosystem_Android
+  a skos:Concept ;
+  skos:inScheme odim:DeviceEcosystemScheme ;
+  skos:prefLabel "Android"@en ;
+  skos:topConceptOf odim:DeviceEcosystemScheme .
+
+odim:DeviceEcosystem_Apple
+  a skos:Concept ;
+  skos:inScheme odim:DeviceEcosystemScheme ;
+  skos:prefLabel "Apple"@en ;
+  skos:topConceptOf odim:DeviceEcosystemScheme .
+
+odim:DeviceEcosystem_Fitbit
+  a skos:Concept ;
+  skos:inScheme odim:DeviceEcosystemScheme ;
+  skos:prefLabel "Fitbit"@en ;
+  skos:topConceptOf odim:DeviceEcosystemScheme .
+
+odim:PlatformScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Platforms"@en ;
+  skos:definition "Operating-system or device platforms referenced by feature definitions."@en ;
+  skos:hasTopConcept
+    odim:Platform_ANDROID ,
+    odim:Platform_FITBIT ,
+    odim:Platform_IOS .
+
+odim:Platform_ANDROID
+  a skos:Concept ;
+  skos:inScheme odim:PlatformScheme ;
+  skos:prefLabel "Android"@en ;
+  skos:topConceptOf odim:PlatformScheme .
+
+odim:Platform_FITBIT
+  a skos:Concept ;
+  skos:inScheme odim:PlatformScheme ;
+  skos:prefLabel "Fitbit"@en ;
+  skos:topConceptOf odim:PlatformScheme .
+
+odim:Platform_IOS
+  a skos:Concept ;
+  skos:inScheme odim:PlatformScheme ;
+  skos:prefLabel "iOS"@en ;
+  skos:topConceptOf odim:PlatformScheme .
+
+odim:DataRoleScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Data roles"@en ;
+  skos:definition "Roles distinguishing measurement data from device metadata."@en ;
+  skos:hasTopConcept
+    odim:DataRole_DeviceMetadata ,
+    odim:DataRole_Measurement .
+
+odim:DataRole_DeviceMetadata
+  a skos:Concept ;
+  skos:inScheme odim:DataRoleScheme ;
+  skos:prefLabel "Device metadata"@en ;
+  skos:topConceptOf odim:DataRoleScheme .
+
+odim:DataRole_Measurement
+  a skos:Concept ;
+  skos:inScheme odim:DataRoleScheme ;
+  skos:prefLabel "Measurement"@en ;
+  skos:topConceptOf odim:DataRoleScheme .
+
+odim:MeasureKindScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Measure kinds"@en ;
+  skos:definition "Kinds distinguishing measured quantities, multidimensional measures, and temporal measures."@en ;
+  skos:hasTopConcept
+    odim:MeasureKind_MeasuredQuantity ,
+    odim:MeasureKind_MultidimensionalMeasure ,
+    odim:MeasureKind_TemporalMeasure .
+
+odim:MeasureKind_MeasuredQuantity
+  a skos:Concept ;
+  skos:inScheme odim:MeasureKindScheme ;
+  skos:prefLabel "Measured quantity"@en ;
+  skos:topConceptOf odim:MeasureKindScheme .
+
+odim:MeasureKind_MultidimensionalMeasure
+  a skos:Concept ;
+  skos:inScheme odim:MeasureKindScheme ;
+  skos:prefLabel "Multidimensional measure"@en ;
+  skos:topConceptOf odim:MeasureKindScheme .
+
+odim:MeasureKind_TemporalMeasure
+  a skos:Concept ;
+  skos:inScheme odim:MeasureKindScheme ;
+  skos:prefLabel "Temporal measure"@en ;
+  skos:topConceptOf odim:MeasureKindScheme .

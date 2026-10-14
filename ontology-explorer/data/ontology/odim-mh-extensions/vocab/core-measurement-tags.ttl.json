@@ -1,0 +1,1155 @@
+{
+  "id": "ontology/odim-mh-extensions/vocab/core-measurement-tags.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#AccelerometerMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityAndSleepFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityIntensityProfile": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityPatternFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ActivityRegularity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AmbientLightMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AmbientPressureMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientPressure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppEngagementMetric": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppLaunchMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppOpenCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppOpenFrequency": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUptime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageByCategoryFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageDuration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AppUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AudioExposureMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AudioExposure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AwakeningCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AwakeningDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CircadianRhythmScore": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CommunicationProxyMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_CommunicationSocial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ContactCountMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ContactListChangeEvent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ContactListMetadata": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Contacts"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DailyStepCount": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRecordVolume": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceContextMetadata": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEngagementFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceInteractionMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceLocationEstimate": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DistanceMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Distance"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EnergyExpenditureMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EnvironmentalMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Environmental"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseAndSleepFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ExerciseDuration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseDurationMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ExerciseDuration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseMetricsComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseSessionCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ExerciseSessionTypeCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ActivityMovement"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#FlightsClimbedMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#FlightsClimbed"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#GyroscopeMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateAverageFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateHourlyMeanSdFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMaxFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMaxTimeFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariability"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariability"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssd"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssdMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilityRmssd"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnn"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnnMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRateVariabilitySdnn"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HomeStayDuration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#KeyboardMetricsMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LocationEntropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LocationTransitionCount": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#LongestSleepEpisodeDuration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MagneticFieldMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MessageLatency": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MessageUsageMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MobilityPatternFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#NotificationUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RespiratoryRateMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#RespiratoryRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RestingHeartRateFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RotationRateMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenEventMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockFragmentationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUnlockMeanDurationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ScreenUsageAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepEpisodeGapAvg": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepEpisodeGapMax": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepMetricsComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetDeviationFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetLatency": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetTimeFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepOnsetVariabilityFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepRegularityFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepStageMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepStage"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepStructureFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountAggregationComputation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AlgorithmicComputation"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountByDaySegment": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StepCountVariability": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TelephonySpeechMetric": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TimeSpentAwayFromHome": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TimeZoneSetting": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_TimeZone"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TotalSleepTime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#TypingSpeed": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#UniqueAppOpenCountFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#UnlockEvent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#UsageRegularity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#VendorDerivedRestingHeartRateEstimate": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#VisitToFrequentLocation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_LocationSpatial"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WakeAfterSleepOnset": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#WebUsageEntropyFeature": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_DeviceDigitalBehavior"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/core-measurement-tags": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "ODIM-MH measurement topic annotations"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/measurement-vocabulary"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/research-vocabularies"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX raw: <https://example.invalid/ontology-browser/activity-sleep/raw#>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT {
+  ?row e:semantic ?obs .
+  ?obs a e:Observation, c:Measurement ; rdfs:label ?label ;
+    rdfs:comment "Device-estimated sleep duration in minutes for the stated reference night." ;
+    c:featureOfInterest ?participant ; e:night ?night ; e:grain "reference-night" ;
+    e:quantityMeaning "estimated-sleep-duration" ; e:unit "minutes" ;
+    e:source s:nightrest-sleep ; e:study s:study ; prov:wasDerivedFrom ?row ; q:quantityValue ?quantity .
+  ?quantity a q:QuantityValue ; q:numericValue ?minutes ; q:unit s:minutes-unit .
+} WHERE {
+  ?row raw:table s:nightrest-sleep ; raw:wearer_ref ?code ; raw:night_date ?night ; raw:output ?obs .
+  ?identity e:identityTable s:nightrest-sleep ; raw:code ?code ; e:participant ?participant .
+  OPTIONAL {
+    ?row raw:asleep_minutes ?minutes ; raw:output ?quantityRecord .
+    BIND(IRI(CONCAT(STR(?quantityRecord), "-quantity")) AS ?quantity)
+  }
+  BIND(CONCAT("Estimated sleep ", STRAFTER(STR(?obs), "sleep-observation-")) AS ?label)
+}

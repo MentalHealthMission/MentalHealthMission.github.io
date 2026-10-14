@@ -1,0 +1,213 @@
+{
+  "id": "external/mhm-ontology/vocab/question-domains.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#MoodDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Mood"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Questions and responses relating to mood and affect."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ParanoiaDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Paranoia"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Questions regarding paranoia or related symptoms."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionDomainScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Question domains"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodDomain"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ParanoiaDomain"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StressDomain"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Question Domain Scheme"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Questions concerning sleep habits, quality, and duration."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Sleep"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#StressDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Questions regarding perceived stress or stressors."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Stress"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#QuestionDomainScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

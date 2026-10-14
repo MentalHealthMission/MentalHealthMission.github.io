@@ -1,0 +1,37 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Deliberately scoped to two exact half-day intervals on this fictional UTC day.
+# No sum is made for other intervals, overlapping records, other dates or sources.
+CONSTRUCT {
+  s:study e:derived s:interval-total-01 .
+  ?participant e:derived s:interval-total-01 .
+  s:interval-total-01 a e:DerivedResult, c:DailyStepCount, c:DerivedFeature ;
+    rdfs:label "Participant 01 interval-derived daily steps" ;
+    rdfs:comment "Daily step count computed from the two non-overlapping Stride intervals covering 3 February 2025 UTC." ;
+    e:study s:study ; e:participant ?participant ; e:day "2025-02-03"^^xsd:date ;
+    e:grain "complete-day interval sum" ; e:quantityMeaning "steps" ; e:unit "steps" ;
+    c:wasComputedBy s:aggregation-01 ; e:coverage "Two exact half-day intervals cover [2025-02-03T00:00Z, 2025-02-04T00:00Z)." ;
+    c:hasMeasurement ?first, ?second ; prov:wasDerivedFrom ?first, ?second ; q:quantityValue s:interval-total-01-quantity .
+  s:interval-total-01-quantity a q:QuantityValue ; q:numericValue ?sum ; q:unit s:steps-unit .
+  s:aggregation-01 a c:StepCountAggregationComputation ; rdfs:label "Stride full-day step aggregation" ;
+    rdfs:comment "Adds the two exact non-overlapping half-day counts for Participant 01 on 3 February 2025 UTC." ;
+    e:study s:study ; e:participant ?participant ; e:input ?first, ?second .
+} WHERE {
+  ?first e:source s:stride-intervals ; c:featureOfInterest ?participant ; e:quantityMeaning "steps" ;
+    e:start "2025-02-03T00:00:00Z"^^xsd:dateTime ; e:end "2025-02-03T12:00:00Z"^^xsd:dateTime ;
+    q:quantityValue/q:numericValue ?a .
+  ?second e:source s:stride-intervals ; c:featureOfInterest ?participant ; e:quantityMeaning "steps" ;
+    e:start "2025-02-03T12:00:00Z"^^xsd:dateTime ; e:end "2025-02-04T00:00:00Z"^^xsd:dateTime ;
+    q:quantityValue/q:numericValue ?b .
+  FILTER NOT EXISTS {
+    ?other e:source s:stride-intervals ; c:featureOfInterest ?participant ; e:day "2025-02-03"^^xsd:date .
+    FILTER (?other != ?first && ?other != ?second)
+  }
+  FILTER (?participant = s:participant-01)
+  BIND(?a + ?b AS ?sum)
+}

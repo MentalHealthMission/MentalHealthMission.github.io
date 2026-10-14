@@ -1,0 +1,129 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://connectdigitalstudy.com/ontology/descriptions/core>
+  a owl:Ontology ;
+  owl:imports <http://connectdigitalstudy.com/ontology> .
+
+# Evidence: layer membership in external/mhm-ontology/mhm_ontology.owl.
+odim:ComputationalLayer
+  rdfs:comment "Layer grouping computations, inference rules, model-based processes, and sensing activities."@en .
+
+odim:ContextualLayer
+  rdfs:comment "Layer grouping observation contexts, time intervals, events, and other contextual situations."@en .
+
+odim:DigitalPhenotypingLayer
+  rdfs:comment "Layer grouping digital phenotypes and risk-related patterns concerning activity, mood, sleep, and social behaviour."@en .
+
+odim:ProvenanceLayer
+  rdfs:comment "Layer grouping participants, devices, interfaces, datasets, and other entities that describe data origin."@en .
+
+odim:QuestionnaireLayer
+  rdfs:comment "Layer grouping questions, response items, response formats, and questionnaire subject domains."@en .
+
+# Evidence: scheme members in the core property-category and question-domain vocabularies.
+odim:PropertyCategoryScheme
+  skos:definition "A vocabulary for organising properties into behavioural, environmental, and physiological categories."@en .
+
+odim:QuestionDomainScheme
+  skos:definition "A vocabulary for questionnaire domains concerning mood, sleep, stress, and paranoia."@en .
+
+# Evidence: class hierarchy and property domains and ranges in the core ontology.
+odim:Event
+  rdfs:comment "A contextual occurrence, including a data-transfer event or notification event."@en .
+
+odim:ObservationContext
+  rdfs:comment "The temporal or situational context associated with an observation or other resource."@en .
+
+odim:Question
+  rdfs:comment "A questionnaire prompt associated with a response format and answered by a response item."@en .
+
+odim:QuestionDomain
+  rdfs:comment "A subject area for questionnaire questions and responses, such as mood, sleep, stress, or paranoia."@en .
+
+odim:QuestionnaireEntry
+  rdfs:comment "A questionnaire record that contains response items and may identify the participant who reported it."@en .
+
+odim:ResponseFormat
+  rdfs:comment "The form in which an answer to a questionnaire question is expressed."@en .
+
+odim:SleepStageValue
+  rdfs:comment "A value representing a sleep stage, named explicitly and used by a sleep-stage measurement."@en .
+
+# Evidence: property types, domains, ranges, deprecation markers, and labels in the core ontology.
+odim:answersQuestion
+  rdfs:comment "Associates a questionnaire response item with the question that it answers."@en .
+
+odim:belongsToLayer
+  rdfs:comment "Associates a term with the modelling layer to which it belongs."@en .
+
+odim:hasConfidence
+  rdfs:comment "Records a floating-point confidence value that is associated with a measurement."@en .
+
+odim:hasContext
+  rdfs:comment "Associates a resource with the observation context in which it applies."@en .
+
+odim:hasDescription
+  rdfs:comment "Records a textual description that is associated with any resource."@en .
+
+odim:hasEndTime
+  rdfs:comment "Records the date and time at which an observation context ends."@en .
+
+odim:hasID
+  rdfs:comment "Records a string-form identifier that is associated with any resource."@en .
+
+odim:hasLabel
+  rdfs:comment "Records a string-form label that is associated with any resource."@en .
+
+odim:hasMeasurementType
+  rdfs:comment "Records a string that names the type of a measurement."@en .
+
+odim:hasResponseFormat
+  rdfs:comment "Associates a questionnaire question with the format expected for its response."@en .
+
+odim:hasResponseItem
+  rdfs:comment "Associates a questionnaire entry with one of its response items."@en .
+
+odim:hasResponseValue
+  rdfs:comment "Records the string value supplied in a questionnaire response item."@en .
+
+odim:hasStage
+  rdfs:comment "Associates a sleep-stage measurement with the sleep-stage value it represents."@en .
+
+odim:hasStageName
+  rdfs:comment "Records the string name that identifies a particular sleep-stage value."@en .
+
+odim:hasStartTime
+  rdfs:comment "Records the date and time at which an observation context starts."@en .
+
+odim:hasStatus
+  rdfs:comment "Records a string-form status that is associated with any resource."@en .
+
+odim:hasTimestamp
+  rdfs:comment "Records a date-time timestamp that is associated with any resource."@en .
+
+odim:hasUnit
+  rdfs:comment "Records the string-form unit of a measurement; this property is deprecated."@en .
+
+odim:hasValue
+  rdfs:comment "Records the floating-point value of a measurement; this property is deprecated."@en .
+
+odim:infersPhenotype
+  rdfs:comment "Associates a computation with the digital phenotype that it infers."@en .
+
+odim:occursDuring
+  rdfs:comment "Associates a resource with an observation context during which it occurs."@en .
+
+odim:propertyCategory
+  rdfs:comment "Annotates a property with a category used to group related properties."@en .
+
+odim:requiresComputation
+  rdfs:comment "Associates a feature with a computation required to produce it."@en .
+
+odim:supportsInferenceOf
+  rdfs:comment "Associates a feature with a digital phenotype whose inference it supports."@en .
+
+odim:wasReportedBy
+  rdfs:comment "Associates a questionnaire entry with the participant who reported it."@en .

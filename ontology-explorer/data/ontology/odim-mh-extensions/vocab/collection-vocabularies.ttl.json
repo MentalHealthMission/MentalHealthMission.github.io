@@ -1,0 +1,977 @@
+{
+  "id": "ontology/odim-mh-extensions/vocab/collection-vocabularies.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Acquisition interfaces"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Vendor interfaces through which wearable or phone data are acquired."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidHealthConnect"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidSensorAPI"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleHealthKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleSensorKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterface_FitbitAPI"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidHealthConnect": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android Health Connect"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AndroidSensorAPI": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android sensor and application APIs"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleHealthKit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Apple HealthKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_AppleSensorKit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Apple SensorKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface_FitbitAPI": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Fitbit API"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcquisitionInterfaceScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Collection families"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Families used to group related wearable and phone data collections."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidHealthConnect"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidPhoneSensing"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleHealthKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleSensorKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamily_Fitbit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidHealthConnect": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android Health Connect"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AndroidPhoneSensing": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android phone sensing"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleHealthKit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Apple HealthKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_AppleSensorKit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Apple SensorKit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily_Fitbit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#CollectionFamilyScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRoleScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Data roles"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Roles distinguishing measurement data from device metadata."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRole_DeviceMetadata"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRole_Measurement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole_DeviceMetadata": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device metadata"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRoleScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRoleScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole_Measurement": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measurement"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRoleScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataRoleScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device ecosystems"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Device vendor ecosystems associated with wearable or phone data."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Android"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Apple"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Fitbit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Android": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Apple": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Apple"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem_Fitbit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DeviceEcosystemScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKindScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Kinds distinguishing measured quantities, multidimensional measures, and temporal measures."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measure kinds"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind_MeasuredQuantity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind_MultidimensionalMeasure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKind_TemporalMeasure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_MeasuredQuantity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Measured quantity"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_MultidimensionalMeasure": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Multidimensional measure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind_TemporalMeasure": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Temporal measure"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasureKindScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PlatformScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Operating-system or device platforms referenced by feature definitions."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      },
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Platforms"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform_ANDROID"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform_FITBIT"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#Platform_IOS"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#hasTopConcept"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_ANDROID": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Android"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_FITBIT": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Fitbit"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform_IOS": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "iOS"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#prefLabel"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#inScheme"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PlatformScheme"
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2004/02/skos/core#Concept"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/collection-vocabularies": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "ODIM-MH collection vocabularies"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/odim-mh-wearables"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

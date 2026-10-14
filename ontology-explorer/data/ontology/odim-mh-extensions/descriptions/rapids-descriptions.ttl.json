@@ -1,0 +1,71 @@
+{
+  "id": "ontology/odim-mh-extensions/descriptions/rapids-descriptions.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#RapidsFeatureDefinition": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A definition record for a RAPIDS feature, identified by sensor, provider, feature name, and feature group fields."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#rapidsFeature": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the native RAPIDS feature name associated with a RAPIDS feature definition."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#rapidsFeatureGroup": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the RAPIDS feature group associated with a RAPIDS feature definition."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#rapidsProvider": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the RAPIDS provider associated with a RAPIDS feature definition."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#rapidsSensor": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the RAPIDS sensor identifier associated with a RAPIDS feature definition."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/descriptions/rapids": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/odim-mh-rapids"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

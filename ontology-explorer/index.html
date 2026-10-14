@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Ontology</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <a href="#" id="site-title">Ontology</a>
+    <div class="search-controls" role="search" aria-label="Search ontology">
+      <label class="view-search"><span class="visually-hidden">Search ontology</span><input id="search" type="search" placeholder="Search ontology…" autocomplete="off"></label>
+      <details id="advanced" class="advanced-filters"><summary>Advanced<span id="filter-count"></span></summary><div class="filter-grid">
+      <label>Module<select id="source-filter"><option value="">All modules</option></select></label>
+      <label>Type<select id="type-filter"><option value="">All types</option></select></label>
+      <label id="layer-label" hidden>Layer<select id="layer-filter"><option value="">All layers</option></select></label>
+      <label id="scheme-label" hidden>Scheme<select id="scheme-filter"><option value="">All schemes</option></select></label>
+      <button type="button" id="clear-filters" class="quiet-button">Reset advanced filters</button>
+      </div></details>
+    </div>
+    <button type="button" id="browse-toggle" aria-expanded="false" aria-controls="sidebar">Contents</button>
+  </header>
+  <div class="workspace">
+    <aside id="sidebar" aria-label="Ontology navigation">
+      <nav id="browse-navigation" aria-label="Browse ontology"></nav>
+    </aside>
+    <main id="main" tabindex="-1" aria-busy="true"><p class="status">Loading…</p></main>
+  </div>
+</body>
+</html>

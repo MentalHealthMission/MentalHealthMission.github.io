@@ -1,0 +1,185 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://connectdigitalstudy.com/ontology/core-measurement-tags>
+  a owl:Ontology ;
+  rdfs:label "ODIM-MH measurement topic annotations"@en ;
+  owl:imports
+    <http://connectdigitalstudy.com/ontology/measurement-vocabulary> ,
+    <http://connectdigitalstudy.com/ontology/research-vocabularies> .
+
+# Direct source subclass relations support these computation-approach tags.
+# No tag is propagated to or from subclasses through the OWL hierarchy.
+odim:AppUsageAggregationComputation      odim:skosTag odim:AlgorithmicComputation .
+odim:ExerciseMetricsComputation          odim:skosTag odim:AlgorithmicComputation .
+odim:HeartRateAggregationComputation     odim:skosTag odim:AlgorithmicComputation .
+odim:ScreenUsageAggregationComputation   odim:skosTag odim:AlgorithmicComputation .
+odim:SleepMetricsComputation             odim:skosTag odim:AlgorithmicComputation .
+odim:StepCountAggregationComputation     odim:skosTag odim:AlgorithmicComputation .
+
+# These property-category tags likewise mirror only direct source subclass
+# relations.
+odim:AppOpenCountFeature                 odim:skosTag odim:BehavioralProperty .
+odim:AppUsageByCategoryFeature           odim:skosTag odim:BehavioralProperty .
+odim:DailyStepCount                      odim:skosTag odim:BehavioralProperty .
+odim:ExerciseDurationFeature             odim:skosTag odim:BehavioralProperty .
+odim:ExerciseSessionCountFeature         odim:skosTag odim:BehavioralProperty .
+odim:ExerciseSessionTypeCountFeature     odim:skosTag odim:BehavioralProperty .
+odim:ScreenUnlockCountFeature            odim:skosTag odim:BehavioralProperty .
+odim:ScreenUnlockDurationFeature         odim:skosTag odim:BehavioralProperty .
+odim:ScreenUnlockFragmentationFeature    odim:skosTag odim:BehavioralProperty .
+odim:ScreenUnlockMeanDurationFeature     odim:skosTag odim:BehavioralProperty .
+odim:StepCountByDaySegment               odim:skosTag odim:BehavioralProperty .
+odim:StepCountVariability                odim:skosTag odim:BehavioralProperty .
+odim:UniqueAppOpenCountFeature           odim:skosTag odim:BehavioralProperty .
+
+# These terms are direct SleepDomain subclasses in the released Wearables
+# source. The project owner clarified on 2026-10-14 that they specifically
+# describe questionnaire responses which may also be useful as measurements.
+# The tags retain both topics without asserting equivalence or a value bridge.
+odim:AwakeningCountFeature               odim:skosTag odim:SleepDomain .
+odim:AwakeningDurationFeature            odim:skosTag odim:SleepDomain .
+odim:LongestSleepEpisodeDuration         odim:skosTag odim:SleepDomain .
+odim:SleepEpisodeGapAvg                  odim:skosTag odim:SleepDomain .
+odim:SleepEpisodeGapMax                  odim:skosTag odim:SleepDomain .
+odim:SleepOnsetDeviationFeature          odim:skosTag odim:SleepDomain .
+odim:SleepOnsetTimeFeature               odim:skosTag odim:SleepDomain .
+odim:SleepOnsetVariabilityFeature        odim:skosTag odim:SleepDomain .
+odim:TotalSleepTime                      odim:skosTag odim:SleepDomain .
+
+# Activity and movement. Use a specific observable-property concept where the
+# core ontology supplies an observedProperty restriction or the Wearables term
+# explicitly names that quantity.
+odim:ActivityMeasurement              odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:ExerciseMeasurement              odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:ActivityPatternFeature           odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:ActivityIntensityProfile         odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:ActivityRegularity               odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:CircadianRhythmScore             odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:DistanceMeasurement              odim:skosTag odim:Distance .
+odim:EnergyExpenditureMeasurement     odim:skosTag odim:EnergyExpenditure .
+odim:ExerciseDurationMeasurement      odim:skosTag odim:ExerciseDuration .
+odim:FlightsClimbedMeasurement        odim:skosTag odim:FlightsClimbed .
+odim:StepCountMeasurement             odim:skosTag odim:StepCount .
+
+odim:DailyStepCount                   odim:skosTag odim:StepCount .
+odim:ExerciseDurationFeature          odim:skosTag odim:ExerciseDuration .
+odim:ExerciseSessionCountFeature      odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:ExerciseSessionTypeCountFeature  odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:StepCountFeature                 odim:skosTag odim:StepCount .
+odim:StepCountByDaySegment            odim:skosTag odim:StepCount .
+odim:StepCountVariability             odim:skosTag odim:StepCount .
+odim:ExerciseMetricsComputation       odim:skosTag odim:MeasurementDomain_ActivityMovement .
+odim:StepCountAggregationComputation  odim:skosTag odim:StepCount .
+
+# Explicitly cross-domain feature names receive both reviewed topics.
+odim:ActivityAndSleepFeature
+  odim:skosTag odim:MeasurementDomain_ActivityMovement,
+               odim:MeasurementDomain_Sleep .
+
+odim:ExerciseAndSleepFeature
+  odim:skosTag odim:MeasurementDomain_ActivityMovement,
+               odim:MeasurementDomain_Sleep .
+
+# Cardiovascular.
+odim:HeartRateMeasurement                    odim:skosTag odim:HeartRate .
+odim:HeartRateVariabilityMeasurement         odim:skosTag odim:HeartRateVariability .
+odim:HeartRateVariabilityRmssdMeasurement    odim:skosTag odim:HeartRateVariabilityRmssd .
+odim:HeartRateVariabilitySdnnMeasurement     odim:skosTag odim:HeartRateVariabilitySdnn .
+odim:VendorDerivedRestingHeartRateEstimate   odim:skosTag odim:VendorDefinedRestingHeartRate .
+
+odim:HeartRateAverageFeature                 odim:skosTag odim:HeartRate .
+odim:HeartRateHourlyMeanSdFeature            odim:skosTag odim:HeartRate .
+odim:HeartRateMaxFeature                     odim:skosTag odim:HeartRate .
+odim:HeartRateMaxTimeFeature                 odim:skosTag odim:HeartRate .
+odim:HeartRateVariabilityFeature             odim:skosTag odim:HeartRateVariability .
+odim:HeartRateVariabilityRmssdFeature        odim:skosTag odim:HeartRateVariabilityRmssd .
+odim:HeartRateVariabilitySdnnFeature         odim:skosTag odim:HeartRateVariabilitySdnn .
+odim:RestingHeartRateFeature                 odim:skosTag odim:HeartRate .
+odim:HeartRateAggregationComputation         odim:skosTag odim:HeartRate .
+
+# Communication and social-context proxies.
+odim:CommunicationProxyMeasurement  odim:skosTag odim:MeasurementDomain_CommunicationSocial .
+odim:ContactListMetadata             odim:skosTag odim:MeasuredQuantity_Contacts .
+odim:ContactCountMeasurement        odim:skosTag odim:MeasuredQuantity_Contacts .
+odim:ContactListChangeEvent         odim:skosTag odim:MeasuredQuantity_Contacts .
+odim:MessageUsageMeasurement        odim:skosTag odim:MeasuredQuantity_MessageUse .
+odim:TelephonySpeechMetric          odim:skosTag odim:MeasuredQuantity_SpeechAndTelephonyActivity .
+
+# Device context.
+odim:DeviceContextMetadata  odim:skosTag odim:MeasurementDomain_DeviceContext .
+odim:TimeZoneSetting        odim:skosTag odim:MeasuredQuantity_TimeZone .
+
+# Device and digital behaviour.
+odim:AppEngagementMetric          odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:AppOpenFrequency             odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:AppUptime                    odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:AppUsageDuration             odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:DataRecordVolume             odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:DeviceEngagementFeature      odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:MessageLatency               odim:skosTag odim:MeasuredQuantity_MessageUse .
+odim:TypingSpeed                  odim:skosTag odim:MeasuredQuantity_KeyboardInteraction .
+odim:UsageRegularity              odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:DeviceInteractionMeasurement odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:AppLaunchMeasurement         odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:ScreenEventMeasurement       odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:UnlockEvent                  odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:KeyboardMetricsMeasurement   odim:skosTag odim:MeasuredQuantity_KeyboardInteraction .
+
+odim:AppOpenCountFeature                 odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:AppUsageByCategoryFeature           odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:AppUsageEntropyFeature              odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:NotificationUsageEntropyFeature     odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:ScreenUnlockCountFeature            odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:ScreenUnlockDurationFeature         odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:ScreenUnlockFragmentationFeature    odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:ScreenUnlockMeanDurationFeature     odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+odim:UniqueAppOpenCountFeature           odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:WebUsageEntropyFeature              odim:skosTag odim:MeasurementDomain_DeviceDigitalBehavior .
+odim:AppUsageAggregationComputation      odim:skosTag odim:MeasuredQuantity_ApplicationUse .
+odim:ScreenUsageAggregationComputation   odim:skosTag odim:MeasuredQuantity_ScreenInteraction .
+
+# Environmental.
+odim:EnvironmentalMeasurement  odim:skosTag odim:MeasurementDomain_Environmental .
+odim:AmbientLightMeasurement   odim:skosTag odim:MeasuredQuantity_AmbientLight .
+odim:AmbientPressureMeasurement odim:skosTag odim:MeasuredQuantity_AmbientPressure .
+odim:AudioExposureMeasurement  odim:skosTag odim:MeasuredQuantity_AudioExposure .
+
+# Location and spatial context.
+odim:DeviceLocationEstimate      odim:skosTag odim:MeasuredQuantity_Location .
+odim:MobilityPatternFeature      odim:skosTag odim:MeasurementDomain_LocationSpatial .
+odim:HomeStayDuration            odim:skosTag odim:MeasurementDomain_LocationSpatial .
+odim:LocationEntropy             odim:skosTag odim:MeasurementDomain_LocationSpatial .
+odim:LocationTransitionCount     odim:skosTag odim:MeasurementDomain_LocationSpatial .
+odim:TimeSpentAwayFromHome       odim:skosTag odim:MeasurementDomain_LocationSpatial .
+odim:VisitToFrequentLocation     odim:skosTag odim:MeasurementDomain_LocationSpatial .
+
+# Respiratory.
+odim:RespiratoryRateMeasurement odim:skosTag odim:RespiratoryRate .
+
+# Sleep. odim:SleepDomain remains distinct from the measurement-domain topic;
+# the direct questionnaire-response subclasses above retain both annotations.
+odim:SleepStageMeasurement          odim:skosTag odim:SleepStage .
+odim:SleepStructureFeature          odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepRegularityFeature         odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepOnsetLatency              odim:skosTag odim:MeasurementDomain_Sleep .
+odim:TotalSleepTime                 odim:skosTag odim:MeasurementDomain_Sleep .
+odim:WakeAfterSleepOnset            odim:skosTag odim:MeasurementDomain_Sleep .
+
+odim:AwakeningCountFeature          odim:skosTag odim:MeasurementDomain_Sleep .
+odim:AwakeningDurationFeature       odim:skosTag odim:MeasurementDomain_Sleep .
+odim:LongestSleepEpisodeDuration    odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepEpisodeGapAvg             odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepEpisodeGapMax             odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepOnsetDeviationFeature     odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepOnsetTimeFeature          odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepOnsetVariabilityFeature   odim:skosTag odim:MeasurementDomain_Sleep .
+odim:SleepMetricsComputation        odim:skosTag odim:MeasurementDomain_Sleep .
+
+# Raw sensor classes use SensorSignalScheme concepts, without forcing a human
+# measurement-domain interpretation.
+odim:AccelerometerMeasurement  odim:skosTag odim:MeasuredQuantity_Acceleration .
+odim:GyroscopeMeasurement      odim:skosTag odim:MeasuredQuantity_RotationRate .
+odim:RotationRateMeasurement   odim:skosTag odim:MeasuredQuantity_RotationRate .
+odim:MagneticFieldMeasurement  odim:skosTag odim:MeasuredQuantity_MagneticField .

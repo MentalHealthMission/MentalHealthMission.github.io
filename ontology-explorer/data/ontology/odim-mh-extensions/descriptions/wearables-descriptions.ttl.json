@@ -1,0 +1,201 @@
+{
+  "id": "ontology/odim-mh-extensions/descriptions/wearables-descriptions.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#AcquisitionInterface": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An interface through which wearable or phone data are acquired from a source system."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#CollectionFamily": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A family used to group related wearable or phone data collections."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DataRole": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A role distinguishing the function of data, such as measurement data or device metadata."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DeviceEcosystem": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A device vendor ecosystem associated with wearable or phone data."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasureKind": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A classification of a metric as a measured quantity, multidimensional measure, or temporal measure."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasuredQuantity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A classification stating what a metric definition measures or describes."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MeasurementDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A broad domain used to classify what a wearable or phone metric concerns."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#MetricDefinition": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A definition that identifies and describes a named metric or data product."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Platform": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "An operating-system or device platform referenced by a metric definition."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasCollectionFamily": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with the collection family to which its data source belongs."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasDataRole": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with the role its data plays, such as measurement or device metadata."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasDeviceEcosystem": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with its related device vendor ecosystem."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasureKind": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with the kind of measure represented by its data product."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasuredQuantity": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with the quantity or subject that its records measure or describe."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasurementDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with a broad measurement domain that its data concerns."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#isDisruptive": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Indicates whether a derived sleep feature is classified as disruptive."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#platform": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with its operating-system or device platform."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#usesAcquisitionInterface": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a metric definition with the interface through which its data are acquired."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/descriptions/wearables": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/odim-mh-wearables"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

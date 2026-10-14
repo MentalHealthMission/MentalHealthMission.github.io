@@ -1,0 +1,461 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://connectdigitalstudy.com/ontology/measurement-vocabulary>
+  a owl:Ontology ;
+  rdfs:label "ODIM-MH measurement topics"@en ;
+  owl:imports <http://connectdigitalstudy.com/ontology/odim-mh-wearables> .
+
+# Measurement domains are browsing and tagging concepts. They do not replace
+# OWL class relations or assert equivalence between similarly labelled terms.
+odim:MeasurementDomainScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Measurement domains"@en ;
+  skos:definition "Domains and quantities described by measurements and derived features."@en ;
+  skos:hasTopConcept
+    odim:MeasurementDomain_ActivityMovement ,
+    odim:MeasurementDomain_BodyTemperature ,
+    odim:MeasurementDomain_Cardiovascular ,
+    odim:MeasurementDomain_CommunicationSocial ,
+    odim:MeasurementDomain_DeviceContext ,
+    odim:MeasurementDomain_DeviceDigitalBehavior ,
+    odim:MeasurementDomain_ElectrodermalActivity ,
+    odim:MeasurementDomain_Environmental ,
+    odim:MeasurementDomain_LocationSpatial ,
+    odim:MeasurementDomain_Respiratory ,
+    odim:MeasurementDomain_Sleep .
+
+odim:MeasurementDomain_ActivityMovement
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Activity and movement"@en ;
+  skos:definition "Measurements and derived features concerning physical activity, movement, or exercise."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_BodyTemperature
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Body temperature"@en ;
+  skos:definition "Measurements and derived features concerning body or skin temperature."@en ;
+  skos:scopeNote "Skin temperature and core body temperature are distinct quantities."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_Cardiovascular
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Cardiovascular"@en ;
+  skos:definition "Measurements and derived features concerning cardiovascular activity, including heart rate, pulse, and beat intervals."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_CommunicationSocial
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Communication and social context"@en ;
+  skos:definition "Measurements and derived features concerning communication activity or social-context proxies."@en ;
+  skos:scopeNote "Communication signals and social-context proxies do not by themselves identify or establish a social interaction."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_DeviceContext
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Device context"@en ;
+  skos:definition "Measurements and metadata concerning device state, configuration, wear, or acquisition context."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_DeviceDigitalBehavior
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Device and digital behaviour"@en ;
+  skos:definition "Measurements and derived features concerning interaction with applications and digital devices."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_ElectrodermalActivity
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Electrodermal activity"@en ;
+  skos:definition "Measurements and derived features concerning electrodermal activity signals."@en ;
+  skos:scopeNote "Electrodermal activity alone does not identify stress, emotion or a clinical state."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_Environmental
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Environmental"@en ;
+  skos:definition "Measurements and derived features concerning the surrounding physical or acoustic environment."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_LocationSpatial
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Location and spatial context"@en ;
+  skos:definition "Measurements and derived features concerning location, mobility patterns, or spatial context."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_Respiratory
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Respiratory"@en ;
+  skos:definition "Measurements and derived features concerning respiratory activity."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+odim:MeasurementDomain_Sleep
+  a odim:MeasurementDomain, skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Sleep"@en ;
+  skos:definition "Measurements and derived features concerning sleep timing, duration, stage, or structure."@en ;
+  skos:scopeNote "Sleep measures can be obtained through self-report, sensing or computation; the acquisition method remains part of their interpretation."@en ;
+  skos:topConceptOf odim:MeasurementDomainScheme .
+
+# Existing SOSA observable-property IRIs are also usable as SKOS concepts. The
+# source ontology remains authoritative for their scientific definitions.
+odim:Distance
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Distance"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:EnergyExpenditure
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Energy expenditure"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:ExerciseDuration
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Exercise duration"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:FlightsClimbed
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Flights climbed"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:StepCount
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Step count"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:HeartRate
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Heart rate"@en ;
+  skos:broader odim:MeasurementDomain_Cardiovascular .
+
+odim:HeartRateVariability
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Heart-rate variability"@en ;
+  skos:broader odim:MeasurementDomain_Cardiovascular .
+
+odim:HeartRateVariabilityRmssd
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Heart-rate variability RMSSD"@en ;
+  skos:broader odim:HeartRateVariability .
+
+odim:HeartRateVariabilitySdnn
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Heart-rate variability SDNN"@en ;
+  skos:broader odim:HeartRateVariability .
+
+odim:VendorDefinedRestingHeartRate
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Vendor-defined resting heart rate"@en ;
+  skos:broader odim:HeartRate .
+
+odim:RespiratoryRate
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Respiratory rate"@en ;
+  skos:broader odim:MeasurementDomain_Respiratory .
+
+odim:SleepStage
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Sleep stage"@en ;
+  skos:broader odim:MeasurementDomain_Sleep .
+
+# Existing Wearables measured-quantity IRIs. Their source projection supplies
+# only type and label evidence, so these links are deliberately conservative.
+odim:MeasuredQuantity_PhysicalActivity
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Physical activity"@en ;
+  skos:broader odim:MeasurementDomain_ActivityMovement .
+
+odim:MeasuredQuantity_AmbientLight
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Ambient light"@en ;
+  skos:broader odim:MeasurementDomain_Environmental .
+
+odim:MeasuredQuantity_AmbientPressure
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Ambient pressure"@en ;
+  skos:broader odim:MeasurementDomain_Environmental .
+
+odim:MeasuredQuantity_AudioExposure
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Audio exposure"@en ;
+  skos:broader odim:MeasurementDomain_Environmental .
+
+odim:MeasuredQuantity_Contacts
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Contacts"@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:MeasuredQuantity_MessageUse
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Message use"@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:MeasuredQuantity_SpeechAndTelephonyActivity
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Speech and telephony activity"@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:MeasuredQuantity_BatteryLevel
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Battery level"@en ;
+  skos:broader odim:MeasurementDomain_DeviceContext .
+
+odim:MeasuredQuantity_DeviceCharacteristics
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Device characteristics"@en ;
+  skos:broader odim:MeasurementDomain_DeviceContext .
+
+odim:MeasuredQuantity_TimeZone
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Time zone"@en ;
+  skos:broader odim:MeasurementDomain_DeviceContext ;
+  skos:scopeNote "A device or record time-zone setting is not evidence of an observed location."@en .
+
+odim:MeasuredQuantity_WearStatus
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Wear status"@en ;
+  skos:broader odim:MeasurementDomain_DeviceContext .
+
+odim:MeasuredQuantity_ApplicationUse
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Application use"@en ;
+  skos:broader odim:MeasurementDomain_DeviceDigitalBehavior .
+
+odim:MeasuredQuantity_DeviceUse
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Device use"@en ;
+  skos:broader odim:MeasurementDomain_DeviceDigitalBehavior .
+
+odim:MeasuredQuantity_KeyboardInteraction
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Keyboard interaction"@en ;
+  skos:broader odim:MeasurementDomain_DeviceDigitalBehavior ;
+  skos:scopeNote "Typing or keyboard interaction does not by itself establish communication or social activity."@en .
+
+odim:MeasuredQuantity_ScreenInteraction
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Screen interaction"@en ;
+  skos:broader odim:MeasurementDomain_DeviceDigitalBehavior .
+
+odim:MeasuredQuantity_Location
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Location"@en ;
+  skos:broader odim:MeasurementDomain_LocationSpatial .
+
+odim:MeasuredQuantity_SkinTemperature
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Skin temperature"@en ;
+  skos:broader odim:MeasurementDomain_BodyTemperature .
+
+# Shared concepts for reviewed RAPIDS feature categorisation. These concepts
+# classify topics without changing the source feature definitions.
+odim:BloodVolumePulse
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Blood volume pulse"@en ;
+  skos:definition "A photoplethysmographic pulse signal or a summary of that signal."@en ;
+  skos:broader odim:MeasurementDomain_Cardiovascular .
+
+odim:InterBeatInterval
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Inter-beat interval"@en ;
+  skos:definition "An interval between successive detected heart beats."@en ;
+  skos:scopeNote "An individual beat interval is distinct from a statistic describing variability across intervals."@en ;
+  skos:broader odim:MeasurementDomain_Cardiovascular .
+
+odim:VoiceActivity
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Voice activity"@en ;
+  skos:definition "An inference or summary of detected voice activity."@en ;
+  skos:scopeNote "Detection does not identify a speaker or establish a conversation."@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:ConversationActivity
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Conversation activity"@en ;
+  skos:definition "An inference or summary of conversation activity."@en ;
+  skos:scopeNote "Detected conversation activity does not by itself identify participants, content or social meaning."@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:PhoneCallActivity
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Phone-call activity"@en ;
+  skos:definition "A measurement or derived feature concerning phone-call activity."@en ;
+  skos:scopeNote "Call activity describes the occurrence or duration of calls, not their content."@en ;
+  skos:broader odim:MeasurementDomain_CommunicationSocial .
+
+odim:AcousticContext
+  a skos:Concept ;
+  skos:inScheme odim:MeasurementDomainScheme ;
+  skos:prefLabel "Acoustic context"@en ;
+  skos:definition "A measured or inferred description of the surrounding acoustic environment."@en ;
+  skos:scopeNote "Acoustic classifications alone do not establish human communication."@en ;
+  skos:broader odim:MeasurementDomain_Environmental .
+
+# Raw signals and sensing context remain separate when the evidence does not
+# support a human measurement-domain interpretation.
+odim:SensorSignalScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Sensor signals and context"@en ;
+  skos:definition "Raw or minimally interpreted sensor signals and their acquisition context."@en ;
+  skos:hasTopConcept
+    odim:MeasuredQuantity_Acceleration ,
+    odim:MeasuredQuantity_MagneticField ,
+    odim:MeasuredQuantity_NearbyBluetoothDevices ,
+    odim:MeasuredQuantity_RotationRate ,
+    odim:SensorAudioSignal ,
+    odim:WiFiContext .
+
+odim:MeasuredQuantity_Acceleration
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Acceleration"@en ;
+  skos:scopeNote "Device acceleration alone does not establish human activity."@en ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:MeasuredQuantity_RotationRate
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Rotation rate"@en ;
+  skos:scopeNote "Device rotation alone does not establish human activity."@en ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:MeasuredQuantity_MagneticField
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Magnetic field"@en ;
+  skos:scopeNote "A magnetic-field reading alone does not identify location or human activity."@en ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:MeasuredQuantity_NearbyBluetoothDevices
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Nearby Bluetooth devices"@en ;
+  skos:scopeNote "Nearby-device observations do not by themselves establish location, co-presence, or social interaction."@en ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:SensorAudioSignal
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Sensor audio signal"@en ;
+  skos:definition "Raw or minimally processed audio-sensor signals and classifications."@en ;
+  skos:scopeNote "An audio signal alone does not identify its environmental or social context."@en ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:AudioLevel
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Audio level"@en ;
+  skos:definition "An audio-signal level or intensity summary."@en ;
+  skos:scopeNote "The signal level does not identify its source or meaning."@en ;
+  skos:broader odim:SensorAudioSignal .
+
+odim:SoundClassification
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Sound classification"@en ;
+  skos:definition "A label or score assigned by an audio classifier."@en ;
+  skos:scopeNote "A classifier output is not necessarily a verified environmental or human-activity fact."@en ;
+  skos:broader odim:SensorAudioSignal .
+
+odim:WiFiContext
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Wi-Fi context"@en ;
+  skos:definition "Observations of connected or visible Wi-Fi networks."@en ;
+  skos:scopeNote "Wi-Fi observations alone do not establish location or social interaction."@en ;
+  skos:related odim:MeasurementDomain_DeviceContext ;
+  skos:topConceptOf odim:SensorSignalScheme .
+
+odim:ConnectedWiFiContext
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Connected Wi-Fi context"@en ;
+  skos:definition "The Wi-Fi network to which a device is connected."@en ;
+  skos:broader odim:WiFiContext .
+
+odim:VisibleWiFiContext
+  a skos:Concept ;
+  skos:inScheme odim:SensorSignalScheme ;
+  skos:prefLabel "Visible Wi-Fi context"@en ;
+  skos:definition "Wi-Fi networks visible to a device."@en ;
+  skos:broader odim:WiFiContext .
+
+# Availability and classification coverage are orthogonal to scientific topic.
+odim:DataQualityScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Data availability and classification"@en ;
+  skos:definition "Sensing availability and the coverage and classification of recorded observations."@en ;
+  skos:hasTopConcept
+    odim:ClassExpectedCoverage ,
+    odim:DataYield ,
+    odim:UnclassifiedAudioInference .
+
+odim:DataYield
+  a skos:Concept ;
+  skos:inScheme odim:DataQualityScheme ;
+  skos:prefLabel "Data yield"@en ;
+  skos:definition "Availability of expected sensing data."@en ;
+  skos:scopeNote "Data availability is distinct from accuracy or fitness for analysis."@en ;
+  skos:topConceptOf odim:DataQualityScheme .
+
+odim:UnclassifiedAudioInference
+  a skos:Concept ;
+  skos:inScheme odim:DataQualityScheme ;
+  skos:prefLabel "Unclassified audio inference"@en ;
+  skos:definition "The fraction or amount of sensed audio for which an inference remains unclassified."@en ;
+  skos:scopeNote "An unknown classification is not evidence that audio data were absent."@en ;
+  skos:topConceptOf odim:DataQualityScheme .
+
+odim:ClassExpectedCoverage
+  a skos:Concept ;
+  skos:inScheme odim:DataQualityScheme ;
+  skos:prefLabel "Expected coverage for an inference class"@en ;
+  skos:definition "The fraction of expected sensing time assigned to a specified inference class."@en ;
+  skos:scopeNote "A low class fraction may mean that sensing time was assigned to another class, not that data were missing."@en ;
+  skos:topConceptOf odim:DataQualityScheme .

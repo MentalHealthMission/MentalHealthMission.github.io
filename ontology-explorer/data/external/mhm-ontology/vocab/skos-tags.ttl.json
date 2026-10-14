@@ -1,0 +1,93 @@
+{
+  "id": "external/mhm-ontology/vocab/skos-tags.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#ActivityMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#EnvironmentalMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnvironmentalProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#HeartRateVariabilityMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Question": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MoodDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionnaireEntry": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StressDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RespiratoryRateMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhysiologicalProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ResponseItem": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SleepDomain"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepStageMeasurement": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BehavioralProperty"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ]
+  }
+}

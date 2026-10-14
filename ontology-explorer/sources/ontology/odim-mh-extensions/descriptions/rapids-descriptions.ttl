@@ -1,0 +1,24 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://connectdigitalstudy.com/ontology/descriptions/rapids>
+  a owl:Ontology ;
+  owl:imports <http://connectdigitalstudy.com/ontology/odim-mh-rapids> .
+
+# Evidence: RAPIDS definition records and their declared fields in rapids_features.owl.
+odim:RapidsFeatureDefinition
+  rdfs:comment "A definition record for a RAPIDS feature, identified by sensor, provider, feature name, and feature group fields."@en .
+
+odim:rapidsFeatureGroup
+  rdfs:comment "Records the RAPIDS feature group associated with a RAPIDS feature definition."@en .
+
+odim:rapidsFeature
+  rdfs:comment "Records the native RAPIDS feature name associated with a RAPIDS feature definition."@en .
+
+odim:rapidsProvider
+  rdfs:comment "Records the RAPIDS provider associated with a RAPIDS feature definition."@en .
+
+odim:rapidsSensor
+  rdfs:comment "Records the RAPIDS sensor identifier associated with a RAPIDS feature definition."@en .

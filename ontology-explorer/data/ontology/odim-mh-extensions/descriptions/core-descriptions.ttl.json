@@ -1,0 +1,411 @@
+{
+  "id": "ontology/odim-mh-extensions/descriptions/core-descriptions.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#ComputationalLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Layer grouping computations, inference rules, model-based processes, and sensing activities."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ContextualLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Layer grouping observation contexts, time intervals, events, and other contextual situations."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#DigitalPhenotypingLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Layer grouping digital phenotypes and risk-related patterns concerning activity, mood, sleep, and social behaviour."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Event": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A contextual occurrence, including a data-transfer event or notification event."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ObservationContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The temporal or situational context associated with an observation or other resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#PropertyCategoryScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A vocabulary for organising properties into behavioural, environmental, and physiological categories."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ProvenanceLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Layer grouping participants, devices, interfaces, datasets, and other entities that describe data origin."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#Question": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A questionnaire prompt associated with a response format and answered by a response item."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionDomain": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A subject area for questionnaire questions and responses, such as mood, sleep, stress, or paranoia."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionDomainScheme": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A vocabulary for questionnaire domains concerning mood, sleep, stress, and paranoia."
+        },
+        "predicate": "http://www.w3.org/2004/02/skos/core#definition"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionnaireEntry": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A questionnaire record that contains response items and may identify the participant who reported it."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#QuestionnaireLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Layer grouping questions, response items, response formats, and questionnaire subject domains."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#ResponseFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "The form in which an answer to a questionnaire question is expressed."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#SleepStageValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "A value representing a sleep stage, named explicitly and used by a sleep-stage measurement."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#answersQuestion": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a questionnaire response item with the question that it answers."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#belongsToLayer": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a term with the modelling layer to which it belongs."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasConfidence": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a floating-point confidence value that is associated with a measurement."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasContext": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a resource with the observation context in which it applies."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasDescription": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a textual description that is associated with any resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasEndTime": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the date and time at which an observation context ends."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasID": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a string-form identifier that is associated with any resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasLabel": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a string-form label that is associated with any resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasMeasurementType": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a string that names the type of a measurement."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasResponseFormat": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a questionnaire question with the format expected for its response."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasResponseItem": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a questionnaire entry with one of its response items."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasResponseValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the string value supplied in a questionnaire response item."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasStage": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a sleep-stage measurement with the sleep-stage value it represents."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasStageName": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the string name that identifies a particular sleep-stage value."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasStartTime": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the date and time at which an observation context starts."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasStatus": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a string-form status that is associated with any resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasTimestamp": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records a date-time timestamp that is associated with any resource."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasUnit": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the string-form unit of a measurement; this property is deprecated."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#hasValue": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Records the floating-point value of a measurement; this property is deprecated."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#infersPhenotype": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a computation with the digital phenotype that it infers."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#occursDuring": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a resource with an observation context during which it occurs."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#propertyCategory": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Annotates a property with a category used to group related properties."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#requiresComputation": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a feature with a computation required to produce it."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#supportsInferenceOf": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a feature with a digital phenotype whose inference it supports."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#wasReportedBy": [
+      {
+        "object": {
+          "language": "en",
+          "type": "literal",
+          "value": "Associates a questionnaire entry with the participant who reported it."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/descriptions/core": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      }
+    ]
+  }
+}

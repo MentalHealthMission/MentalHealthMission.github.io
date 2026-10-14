@@ -1,0 +1,4110 @@
+{
+  "id": "ontology/odim-mh-extensions/vocab/rapids-measurement-tags.ttl",
+  "nodes": {
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ACCELEROMETER_DBDP_BASE_avgmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ACCELEROMETER_DBDP_BASE_maxmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ACCELEROMETER_DBDP_BASE_medianmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ACCELEROMETER_DBDP_BASE_minmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ACCELEROMETER_DBDP_BASE_stdmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_avgbvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_diffmaxmodebvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_diffminmodebvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_entropybvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_maxbvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_medianbvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_minbvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_modebvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_BLOOD_VOLUME_PULSE_DBDP_BASE_stdbvp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#BloodVolumePulse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_avgeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_diffmaxmodeeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_diffminmodeeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_entropyeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_maxeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_medianeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_mineda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_modeeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_ELECTRODERMAL_ACTIVITY_DBDP_BASE_stdeda": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_ElectrodermalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_avghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_diffmaxmodehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_diffminmodehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_entropyhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_maxhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_medianhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_minhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_modehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_HEARTRATE_DBDP_BASE_stdhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_avgibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_diffmaxmodeibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_diffminmodeibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_entropyibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_maxibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_medianibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_minibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_modeibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_INTER_BEAT_INTERVAL_DBDP_BASE_stdibi": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#InterBeatInterval"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_avgtemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_diffmaxmodetemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_diffminmodetemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_entropytemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_maxtemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_mediantemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_mintemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_modetemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_EMPATICA_TEMPERATURE_DBDP_BASE_stdtemp": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_BodyTemperature"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_avgcalories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_avgmet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_endtimefirst": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_endtimelast": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_endtimelongest": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_maxcalories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_maxmet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_mincalories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_minmet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_starttimefirst": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_starttimelast": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_starttimelongest": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_stdcalories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_stdmet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_sumcalories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_CALORIES_INTRADAY_RAPIDS_BASE_summet": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#EnergyExpenditure"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_DATA_YIELD_RAPIDS_BASE_ratiovalidyieldedhours": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataYield"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_DATA_YIELD_RAPIDS_BASE_ratiovalidyieldedminutes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataYield"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_avghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_diffmaxmodehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_diffminmodehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_entropyhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_maxhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_medianhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_minhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_minutesoncardiozone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_minutesonfatburnzone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_minutesonoutofrangezone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_minutesonpeakzone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_modehr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_INTRADAY_RAPIDS_BASE_stdhr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#HeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_avgrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_diffmaxmoderestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_diffminmoderestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_entropyrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_maxrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_medianrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_minrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_moderestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_HEARTRATE_SUMMARY_RAPIDS_BASE_stdrestinghr": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VendorDefinedRestingHeartRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_avgendtimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_avgmidpointofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_avgratioduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_avgstarttimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmeanendtimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmeanmidpointofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmeanstarttimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmedianendtimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmedianmidpointofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_rmssdmedianstarttimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_socialjetlag": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_stdendtimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_stdmidpointofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_PRICE_BASE_stdstarttimeofepisodemain": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_medianduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_LEVELS_AND_TYPES_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_SCOPE_ACROSS_LEVELS": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_SCOPE_ACROSS_TYPES": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_SCOPE_WITHIN_LEVELS": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_SCOPE_WITHIN_TYPES": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_TYPE_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_INTRADAY_RAPIDS_RATIOS_TYPE_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgdurationafterwakeup": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgdurationasleep": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgdurationawake": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgdurationinbed": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgdurationtofallasleep": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_avgefficiency": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_firstbedtime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_firstwaketime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_lastbedtime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_lastwaketime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_sumdurationafterwakeup": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_sumdurationasleep": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_sumdurationawake": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_sumdurationinbed": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_SLEEP_SUMMARY_RAPIDS_BASE_sumdurationtofallasleep": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasurementDomain_Sleep"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVE_BOUT_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVITY_FRAGMENTATION_activetosedentarytransitionprobability": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVITY_FRAGMENTATION_ginicoefficient": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVITY_FRAGMENTATION_sumdurationactivity5to105minutes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVITY_FRAGMENTATION_sumdurationactivitygreaterthan10minutes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_ACTIVITY_FRAGMENTATION_sumdurationactivitylessthan5minutes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_SEDENTARY_BOUT_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_avg": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_firststeptime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_laststeptime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_max": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_min": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_std": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_STEPS_sum": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_max20minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_max30minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_max5minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_max60minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_mean": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_peak1minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_peak30minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_peak60minute": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes0": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes100to119": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes120plus": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes1to19": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes20to39": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes40to59": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes60to79": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutes80to99": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutesabove0": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutesabove100": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_totalminutesabove19": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_INTRADAY_RAPIDS_WALKING_CADENCE_uncensoredmean": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_annualizedvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_avgsumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_avgvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_maxsumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_maxvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_mediansumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_medianvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_minsumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_minvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_stdsumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_FITBIT_STEPS_SUMMARY_RAPIDS_BASE_stdvolatilitysteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_medianduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_exertional_activity_episode_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_medianduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_PANDA_nonexertional_activity_episode_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_RAPIDS_BASE_avgmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_RAPIDS_BASE_maxmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_RAPIDS_BASE_medianmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_RAPIDS_BASE_minmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACCELEROMETER_RAPIDS_BASE_stdmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Acceleration"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_countuniqueactivities": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_durationmobile": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_durationstationary": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_durationvehicle": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_ACTIVITY_RECOGNITION_RAPIDS_BASE_mostcommonactivity": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_PhysicalActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EPISODES_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EPISODES_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EPISODES_meanduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EPISODES_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EPISODES_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EVENTS_countevent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EVENTS_frequencyentropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EVENTS_timeoffirstuse": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_APPLICATIONS_FOREGROUND_RAPIDS_APP_EVENTS_timeoflastuse": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ApplicationUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_avgconsumptionrate": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_countcharge": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_countdischarge": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_maxconsumptionrate": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_sumdurationcharge": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BATTERY_RAPIDS_BASE_sumdurationdischarge": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_BatteryLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_ALL_DEVICES": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_ALL_SCANS_LEAST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_ALL_SCANS_MOST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OTHERS_DEVICES": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OTHERS_SCANS_LEAST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OTHERS_SCANS_MOST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OWN_DEVICES": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OWN_SCANS_LEAST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_DORYAB_OWN_SCANS_MOST_FREQUENT_DEVICE": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_RAPIDS_BASE_countscans": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_RAPIDS_BASE_countscansmostuniquedevice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_BLUETOOTH_RAPIDS_BASE_uniquedevices": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_NearbyBluetoothDevices"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_countmostfrequentcontact": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_distinctcontacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_entropyduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_meanduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_modeduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_timefirstcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_incoming_timelastcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_missed_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_missed_countmostfrequentcontact": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_missed_distinctcontacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_missed_timefirstcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_missed_timelastcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_countmostfrequentcontact": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_distinctcontacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_entropyduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_meanduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_modeduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_timefirstcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CALLS_RAPIDS_outgoing_timelastcall": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_avgconversationduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_countconversation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_maxconversationduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_minconversationduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_minutesnoise": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_minutessilence": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_minutesunknown": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#UnclassifiedAudioInference"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_minutesvoice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noiseavgenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noiseexpectedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noisemaxenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noiseminenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noisesdenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noisesensedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_noisesumenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_sdconversationduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_silenceexpectedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_silencesensedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AcousticContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_sumconversationduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_timefirstconversation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_timelastconversation": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConversationActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_unknownexpectedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#UnclassifiedAudioInference"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_unknownsensedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#UnclassifiedAudioInference"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voiceavgenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voiceexpectedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ClassExpectedCoverage"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voicemaxenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voiceminenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voicesdenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voicesensedfraction": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_CONVERSATION_RAPIDS_BASE_voicesumenergy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VoiceActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_DATA_YIELD_RAPIDS_BASE_ratiovalidyieldedhours": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataYield"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_DATA_YIELD_RAPIDS_BASE_ratiovalidyieldedminutes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#DataYield"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_GYROSCOPE_RAPIDS_BASE_avgmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_GYROSCOPE_RAPIDS_BASE_maxmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_GYROSCOPE_RAPIDS_BASE_medianmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_GYROSCOPE_RAPIDS_BASE_minmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_GYROSCOPE_RAPIDS_BASE_stdmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_RotationRate"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_averageinterkeydelay": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_averagesessionlength": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_changeintextlengthequaltominusone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_changeintextlengthequaltoone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_changeintextlengthlessthanminusone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_changeintextlengthmorethanone": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_lastmessagelength": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_maxtextlength": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_sessioncount": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_KEYBOARD_RAPIDS_BASE_totalkeyboardtouches": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_avglux": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_maxlux": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_medianlux": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_minlux": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LIGHT_RAPIDS_BASE_stdlux": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_AmbientLight"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_avgflightdur": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_avgflightlen": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_circdnrtn": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_disttravelled": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_hometime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_maxdiam": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_maxhomedist": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_probpause": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_rog": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_siglocentropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_siglocsvisited": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_stdflightdur": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_stdflightlen": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_BARNETT_BASE_wkenddayrtn": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_avglengthstayatclusters": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_avgspeed": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_homelabel": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_locationentropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_locationvariance": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_loglocationvariance": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_maxlengthstayatclusters": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_minlengthstayatclusters": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_movingtostaticratio": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_normalizedlocationentropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_numberlocationtransitions": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_numberofsignificantplaces": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_outlierstimepercent": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_radiusgyration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_stdlengthstayatclusters": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_timeathome": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_timeattop1location": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_timeattop2location": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_timeattop3location": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_totaldistance": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_LOCATIONS_DORYAB_BASE_varspeed": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MAGNETOMETER_RAPIDS_BASE_avgmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MAGNETOMETER_RAPIDS_BASE_maxmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MAGNETOMETER_RAPIDS_BASE_medianmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MAGNETOMETER_RAPIDS_BASE_minmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MAGNETOMETER_RAPIDS_BASE_stdmagnitude": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MagneticField"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_received_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_received_countmostfrequentcontact": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_received_distinctcontacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_received_timefirstmessage": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_received_timelastmessage": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_sent_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_sent_countmostfrequentcontact": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_sent_distinctcontacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_sent_timefirstmessage": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_MESSAGES_RAPIDS_sent_timelastmessage": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_avgduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_countepisode": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_firstuseafter": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_maxduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_minduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_stdduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_SCREEN_RAPIDS_BASE_sumduration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_ScreenInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_avgsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_firststeptime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_laststeptime": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_maxsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_mediansteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_minsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_stdsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_STEP_COUNT_RAPIDS_BASE_sumsteps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#StepCount"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_CONNECTED_RAPIDS_BASE_countscans": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConnectedWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_CONNECTED_RAPIDS_BASE_countscansmostuniquedevice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConnectedWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_CONNECTED_RAPIDS_BASE_uniquedevices": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#ConnectedWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_VISIBLE_RAPIDS_BASE_countscans": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VisibleWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_VISIBLE_RAPIDS_BASE_countscansmostuniquedevice": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VisibleWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_PHONE_WIFI_VISIBLE_RAPIDS_BASE_uniquedevices": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#VisibleWiFiContext"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_app_usage_categories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_app_usage_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_app_usage_entropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Duration of the user's device use."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_notification_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_notification_usage_categories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_notification_usage_entropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_total_screen_wakes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_total_unlock_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_total_unlocks": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_web_usage_categories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_web_usage_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_DEVICE_USAGE_RAPIDS_BASE_web_usage_entropy": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_DeviceUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_avg_total_pauses": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_avg_total_typing_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_altered_words": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_emojis": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_pauses": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_taps": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_typing_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_typing_episodes": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_KEYBOARD_METRICS_RAPIDS_BASE_sum_total_words": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_KeyboardInteraction"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_MESSAGE_USAGE_RAPIDS_BASE_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Duration of the user's messaging use."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_MESSAGE_USAGE_RAPIDS_BASE_total_incoming_messages": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_MESSAGE_USAGE_RAPIDS_BASE_total_outgoing_messages": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_MESSAGE_USAGE_RAPIDS_BASE_total_unique_contacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_MessageUse"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_ON_WRIST_RAPIDS_BASE_count_off_wrist": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_ON_WRIST_RAPIDS_BASE_count_on_wrist": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_ON_WRIST_RAPIDS_BASE_ratio_on_wrist": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_ON_WRIST_RAPIDS_BASE_unique_wrist_location": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_WearStatus"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_PHONE_USAGE_RAPIDS_BASE_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "Duration of the user's phone-call use."
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#comment"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_PHONE_USAGE_RAPIDS_BASE_total_incoming_calls": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_PHONE_USAGE_RAPIDS_BASE_total_outgoing_calls": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_PHONE_USAGE_RAPIDS_BASE_total_phone_call_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_PHONE_USAGE_RAPIDS_BASE_total_unique_contacts": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#PhoneCallActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_avg_audio_level_loudness": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AudioLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_avg_speech_expression_confidence": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_avg_speech_expression_dominance": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_avg_speech_expression_valence": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_sum_audio_level_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#AudioLevel"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_TELEPHONY_SPEECH_METRICS_RAPIDS_BASE_sum_sound_classification_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_SpeechAndTelephonyActivity"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#SoundClassification"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_avg_distance_from_home": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_max_distance_from_home": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_sum_arrival_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_sum_departure_duration": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_unique_location_categories": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology#RapidsFeature_SENSORKIT_VISITS_RAPIDS_BASE_visit_count": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology#MeasuredQuantity_Location"
+        },
+        "predicate": "http://connectdigitalstudy.com/ontology#skosTag"
+      }
+    ],
+    "http://connectdigitalstudy.com/ontology/rapids-measurement-tags": [
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/measurement-vocabulary"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://connectdigitalstudy.com/ontology/odim-mh-rapids"
+        },
+        "predicate": "http://www.w3.org/2002/07/owl#imports"
+      },
+      {
+        "object": {
+          "type": "iri",
+          "value": "http://www.w3.org/2002/07/owl#Ontology"
+        },
+        "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+      },
+      {
+        "object": {
+          "type": "literal",
+          "value": "RAPIDS measurement topics"
+        },
+        "predicate": "http://www.w3.org/2000/01/rdf-schema#label"
+      }
+    ]
+  }
+}

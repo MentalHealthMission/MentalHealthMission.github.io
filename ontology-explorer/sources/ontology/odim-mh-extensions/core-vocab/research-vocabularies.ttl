@@ -1,0 +1,343 @@
+@prefix odim: <http://connectdigitalstudy.com/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://connectdigitalstudy.com/ontology/research-vocabularies>
+  a owl:Ontology ;
+  rdfs:label "ODIM-MH core research vocabularies"@en ;
+  owl:imports <http://connectdigitalstudy.com/ontology> .
+
+# These schemes promote existing core class IRIs for vocabulary browsing. They
+# preserve, rather than replace or extend, the source OWL class hierarchy.
+odim:ObservationContextScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Observation contexts"@en ;
+  skos:definition "Temporal and situational context in which observations apply."@en ;
+  skos:hasTopConcept odim:ContextualSituation, odim:EventWindow, odim:TimeInterval .
+
+odim:ContextualSituation
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Contextual Situation"@en ;
+  skos:topConceptOf odim:ObservationContextScheme .
+
+odim:AtHome
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "At Home"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:ExerciseSession
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Exercise Session"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:FamilyVisit
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Family Visit"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:HolidayPeriod
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Holiday Period"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:HomeAlone
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Home Alone"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:MedicalEvent
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Medical Event"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:NightTime
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Night Time"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:PublicEvent
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Public Event"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:SleepEnvironment
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Sleep Environment"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:SocialEvent
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Social Event"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:WeatherCondition
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Weather Condition"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:Weekend
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Weekend"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:WorkOrStudy
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Work Or Study"@en ;
+  skos:broader odim:ContextualSituation .
+
+odim:EventWindow
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Event Window"@en ;
+  skos:topConceptOf odim:ObservationContextScheme .
+
+odim:PostDischargePeriod
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Post-discharge Period"@en ;
+  skos:broader odim:EventWindow .
+
+odim:PreRelapsePeriod
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Pre-relapse Period"@en ;
+  skos:broader odim:EventWindow .
+
+odim:TimeInterval
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Time Interval"@en ;
+  skos:topConceptOf odim:ObservationContextScheme .
+
+odim:DailyInterval
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Daily Interval"@en ;
+  skos:broader odim:TimeInterval .
+
+odim:HourlyInterval
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Hourly Interval"@en ;
+  skos:broader odim:TimeInterval .
+
+odim:WeeklyInterval
+  a skos:Concept ;
+  skos:inScheme odim:ObservationContextScheme ;
+  skos:prefLabel "Weekly Interval"@en ;
+  skos:broader odim:TimeInterval .
+
+odim:PhenotypeScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Phenotypes and risk"@en ;
+  skos:definition "Digital phenotypes concerning activity, mood, sleep, social behaviour and risk."@en ;
+  skos:hasTopConcept
+    odim:ActivityPhenotype,
+    odim:MoodPhenotype,
+    odim:RiskPhenotype,
+    odim:SleepPhenotype,
+    odim:SocialPhenotype .
+
+odim:ActivityPhenotype
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Activity Phenotype"@en ;
+  skos:topConceptOf odim:PhenotypeScheme .
+
+odim:ActivityFlattening
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Activity Flattening"@en ;
+  skos:broader odim:ActivityPhenotype .
+
+odim:Hyperactivity
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Hyperactivity"@en ;
+  skos:broader odim:ActivityPhenotype .
+
+odim:PhysicalInactivity
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Physical Inactivity"@en ;
+  skos:broader odim:ActivityPhenotype .
+
+odim:MoodPhenotype
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Mood Phenotype"@en ;
+  skos:topConceptOf odim:PhenotypeScheme .
+
+odim:ElevatedMood
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Elevated Mood"@en ;
+  skos:broader odim:MoodPhenotype .
+
+odim:LowMood
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Low Mood"@en ;
+  skos:broader odim:MoodPhenotype .
+
+odim:MoodInstability
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Mood Instability"@en ;
+  skos:broader odim:MoodPhenotype .
+
+odim:RiskPhenotype
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Risk Phenotype"@en ;
+  skos:topConceptOf odim:PhenotypeScheme .
+
+odim:DepressionRisk
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Depression Risk"@en ;
+  skos:broader odim:RiskPhenotype .
+
+odim:RelapseRisk
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Relapse Risk"@en ;
+  skos:broader odim:RiskPhenotype .
+
+odim:StressRisk
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Stress Risk"@en ;
+  skos:broader odim:RiskPhenotype .
+
+odim:SleepPhenotype
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Sleep Phenotype"@en ;
+  skos:topConceptOf odim:PhenotypeScheme .
+
+odim:DelayedSleepPhase
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Delayed Sleep Phase"@en ;
+  skos:broader odim:SleepPhenotype .
+
+odim:InsomniaSymptom
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Insomnia Symptom"@en ;
+  skos:broader odim:SleepPhenotype .
+
+odim:SleepIrregularity
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Sleep Irregularity"@en ;
+  skos:broader odim:SleepPhenotype .
+
+odim:SocialPhenotype
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Social Phenotype"@en ;
+  skos:topConceptOf odim:PhenotypeScheme .
+
+odim:ReducedCommunication
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Reduced Communication"@en ;
+  skos:broader odim:SocialPhenotype .
+
+odim:SocialWithdrawal
+  a skos:Concept ;
+  skos:inScheme odim:PhenotypeScheme ;
+  skos:prefLabel "Social Withdrawal"@en ;
+  skos:broader odim:SocialPhenotype .
+
+odim:ComputationApproachScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Computation approaches"@en ;
+  skos:definition "Approaches to acquiring observations, computing features and inferring phenotypes."@en ;
+  skos:hasTopConcept
+    odim:AlgorithmicComputation,
+    odim:BlackBoxComputation,
+    odim:InferenceRule,
+    odim:ModelBasedComputation,
+    odim:SensingActivity .
+
+odim:AlgorithmicComputation
+  a skos:Concept ;
+  skos:inScheme odim:ComputationApproachScheme ;
+  skos:prefLabel "Algorithmic Computation"@en ;
+  skos:topConceptOf odim:ComputationApproachScheme .
+
+odim:BlackBoxComputation
+  a skos:Concept ;
+  skos:inScheme odim:ComputationApproachScheme ;
+  skos:prefLabel "Black-box Computation"@en ;
+  skos:topConceptOf odim:ComputationApproachScheme .
+
+odim:InferenceRule
+  a skos:Concept ;
+  skos:inScheme odim:ComputationApproachScheme ;
+  skos:prefLabel "Inference Rule"@en ;
+  skos:topConceptOf odim:ComputationApproachScheme .
+
+odim:ModelBasedComputation
+  a skos:Concept ;
+  skos:inScheme odim:ComputationApproachScheme ;
+  skos:prefLabel "Model-based Computation"@en ;
+  skos:topConceptOf odim:ComputationApproachScheme .
+
+odim:SensingActivity
+  a skos:Concept ;
+  skos:inScheme odim:ComputationApproachScheme ;
+  skos:prefLabel "Sensing Activity"@en ;
+  skos:topConceptOf odim:ComputationApproachScheme .
+
+odim:ResponseFormatScheme
+  a skos:ConceptScheme ;
+  skos:prefLabel "Response formats"@en ;
+  skos:definition "Forms in which questionnaire answers are expressed."@en ;
+  skos:hasTopConcept
+    odim:LikertFormat,
+    odim:MultipleChoiceFormat,
+    odim:SliderFormat,
+    odim:TextFormat .
+
+odim:LikertFormat
+  a skos:Concept ;
+  skos:inScheme odim:ResponseFormatScheme ;
+  skos:prefLabel "Likert Format"@en ;
+  skos:topConceptOf odim:ResponseFormatScheme .
+
+odim:MultipleChoiceFormat
+  a skos:Concept ;
+  skos:inScheme odim:ResponseFormatScheme ;
+  skos:prefLabel "Multiple Choice Format"@en ;
+  skos:topConceptOf odim:ResponseFormatScheme .
+
+odim:SliderFormat
+  a skos:Concept ;
+  skos:inScheme odim:ResponseFormatScheme ;
+  skos:prefLabel "Slider Format"@en ;
+  skos:topConceptOf odim:ResponseFormatScheme .
+
+odim:TextFormat
+  a skos:Concept ;
+  skos:inScheme odim:ResponseFormatScheme ;
+  skos:prefLabel "Text Format"@en ;
+  skos:topConceptOf odim:ResponseFormatScheme .

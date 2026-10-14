@@ -1,0 +1,11 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?result ?total ?computation ?input ?start ?end ?contribution ?sourceRecord WHERE {
+  VALUES ?result { s:interval-total-01 }
+  ?result a e:DerivedResult ; q:quantityValue/q:numericValue ?total ;
+    c:wasComputedBy ?computation ; c:hasMeasurement ?input .
+  ?input e:start ?start ; e:end ?end ; q:quantityValue/q:numericValue ?contribution ; prov:wasDerivedFrom ?sourceRecord .
+} ORDER BY ?start ?input

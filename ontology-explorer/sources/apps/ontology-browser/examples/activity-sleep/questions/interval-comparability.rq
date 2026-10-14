@@ -1,0 +1,18 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?participant ?day ?intervalSum ?intervalRecords ?dailyTotal ?dailyRecord ?status ?derived WHERE {
+  {
+    SELECT ?participant ?day (SUM(?steps) AS ?intervalSum) (COUNT(?interval) AS ?intervalRecords) WHERE {
+      ?interval e:source s:stride-intervals ; c:featureOfInterest ?participant ; e:day ?day ;
+        q:quantityValue/q:numericValue ?steps .
+    } GROUP BY ?participant ?day
+  }
+  ?dailyRecord e:source s:daymove-totals ; c:featureOfInterest ?participant ; e:day ?day .
+  OPTIONAL { ?dailyRecord q:quantityValue/q:numericValue ?dailyTotal }
+  OPTIONAL { ?derived a e:DerivedResult ; e:participant ?participant ; e:day ?day }
+  BIND(IF(BOUND(?derived), "Full UTC day covered; separate device totals are not interchangeable.",
+       "Partial supplied intervals; not a daily-total comparison.") AS ?status)
+} ORDER BY ?participant ?day

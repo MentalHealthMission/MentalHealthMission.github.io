@@ -1,0 +1,20 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX raw: <https://example.invalid/ontology-browser/activity-sleep/raw#>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT {
+  ?row e:semantic ?response .
+  ?response a c:ResponseItem ; rdfs:label ?label ;
+    rdfs:comment "Self-reported answer to the generic question: How many hours do you think you slept last night?" ;
+    c:hasResponseValue ?answer ; c:wasReportedBy ?participant ; e:night ?night ;
+    c:answersQuestion s:diary-question ;
+    e:answerUnit "hours" ; e:source s:sleep-diary ; e:study s:study ;
+    prov:wasDerivedFrom ?row ; e:note ?note .
+} WHERE {
+  ?row raw:table s:sleep-diary ; raw:respondent ?code ; raw:night_began ?night ; raw:hours_answer ?answer ; raw:output ?response .
+  ?identity e:identityTable s:sleep-diary ; raw:code ?code ; e:participant ?participant .
+  OPTIONAL { ?row raw:comment ?note }
+  BIND(CONCAT("Diary response ", STRAFTER(STR(?response), "diary-response-")) AS ?label)
+}

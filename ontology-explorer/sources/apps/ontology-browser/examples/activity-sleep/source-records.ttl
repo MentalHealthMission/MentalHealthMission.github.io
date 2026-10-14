@@ -1,0 +1,140 @@
+@prefix s: <https://example.invalid/ontology-browser/activity-sleep/> .
+@prefix raw: <https://example.invalid/ontology-browser/activity-sleep/raw#> .
+@prefix e: <https://example.invalid/ontology-browser/profile#> .
+@prefix c: <http://connectdigitalstudy.com/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+s:study a e:Study ; rdfs:label "Activity and sleep study" ;
+  rdfs:comment "Two fictional participants have wearable activity records, device-estimated sleep durations and sleep-diary responses for 3–4 February 2025." ;
+  e:dataset s:stride-intervals, s:daymove-totals, s:nightrest-sleep, s:sleep-diary ;
+  e:participant s:participant-01, s:participant-02 ;
+  e:question s:available-sleep, s:steps-across-sources, s:interval-comparability, s:reported-estimated, s:activity-derivation ;
+  e:file s:records-file, s:profile-file, s:readme-file, s:mapped-file .
+
+s:participant-01 a c:Participant ; rdfs:label "Participant 01" ;
+  rdfs:comment "Fictional participant in this study." ;
+  e:study s:study ; e:identifier "P01 (Stride)", "S-01 (DayMove)", "N01 (NightRest)", "D01 (diary)" .
+s:participant-02 a c:Participant ; rdfs:label "Participant 02" ;
+  rdfs:comment "Fictional participant in this study." ;
+  e:study s:study ; e:identifier "P02 (Stride)", "S-02 (DayMove)", "N02 (NightRest)", "D02 (diary)" .
+
+s:diary-question a c:Question ; rdfs:label "How many hours do you think you slept last night?" ;
+  rdfs:comment "Generic fictional sleep-diary question. The expected answer is a numeric string expressing hours for the reference night." ;
+  e:study s:study ; e:answerUnit "hours" .
+s:steps-unit a e:Unit ; rdfs:label "Steps (count unit)" ;
+  rdfs:comment "One counted step in this fictional activity example. Step counts from separate devices are not assumed interchangeable." ;
+  e:symbol "steps" .
+s:minutes-unit a e:Unit ; rdfs:label "Minutes (duration unit)" ;
+  rdfs:comment "Duration in minutes. The diary comparison converts its numeric hours answer by multiplying by 60." ;
+  e:symbol "minutes" .
+
+# These are explicit fictional identity assignments, not general identifier rules.
+s:identity-p01 e:identityTable s:stride-intervals ; raw:code "P01" ; e:participant s:participant-01 .
+s:identity-p02 e:identityTable s:stride-intervals ; raw:code "P02" ; e:participant s:participant-02 .
+s:identity-s01 e:identityTable s:daymove-totals ; raw:code "S-01" ; e:participant s:participant-01 .
+s:identity-s02 e:identityTable s:daymove-totals ; raw:code "S-02" ; e:participant s:participant-02 .
+s:identity-n01 e:identityTable s:nightrest-sleep ; raw:code "N01" ; e:participant s:participant-01 .
+s:identity-n02 e:identityTable s:nightrest-sleep ; raw:code "N02" ; e:participant s:participant-02 .
+s:identity-d01 e:identityTable s:sleep-diary ; raw:code "D01" ; e:participant s:participant-01 .
+s:identity-d02 e:identityTable s:sleep-diary ; raw:code "D02" ; e:participant s:participant-02 .
+
+s:stride-intervals a e:Source, c:SensorDataSet ; rdfs:label "Stride activity intervals" ; sh:order 1 ;
+  rdfs:comment "Invented wearable table with step counts for half-open UTC intervals. Counts are interval totals, not cumulative counters." ;
+  e:study s:study ; e:fieldMap s:stride-id-map, s:stride-start-map, s:stride-end-map, s:stride-count-map, s:stride-day-map ;
+  e:query s:interval-mapping ; e:file s:records-file .
+s:daymove-totals a e:Source, c:SensorDataSet ; rdfs:label "DayMove daily activity" ; sh:order 2 ;
+  rdfs:comment "Invented wearable table with separately reported daily step totals. A missing step_total remains absent." ;
+  e:study s:study ; e:fieldMap s:daymove-id-map, s:daymove-day-map, s:daymove-count-map ;
+  e:query s:daily-mapping ; e:file s:records-file .
+s:nightrest-sleep a e:Source, c:SensorDataSet ; rdfs:label "NightRest estimated sleep" ; sh:order 3 ;
+  rdfs:comment "Invented device estimates of sleep minutes. night_date identifies the UTC date on which the night began." ;
+  e:study s:study ; e:fieldMap s:sleep-id-map, s:sleep-date-map, s:sleep-duration-map ;
+  e:query s:sleep-mapping ; e:file s:records-file .
+s:sleep-diary a e:Source, c:QuestionnaireDataSet ; rdfs:label "Morning sleep diary" ; sh:order 4 ;
+  rdfs:comment "Generic fictional diary asking how many hours the participant thinks they slept. Answers remain reported strings, distinct from device estimates." ;
+  e:study s:study ; e:fieldMap s:diary-id-map, s:diary-date-map, s:diary-answer-map, s:diary-notes-map ;
+  e:query s:diary-mapping ; e:file s:records-file .
+
+s:stride-row-01 a e:IntervalRow ; rdfs:label "Stride row 01" ;
+  rdfs:comment "Participant P01, first half of 3 February, 1,200 steps." ;
+  raw:table s:stride-intervals ; raw:person_code "P01" ;
+  raw:window_start "2025-02-03T00:00:00Z"^^xsd:dateTime ;
+  raw:window_end "2025-02-03T12:00:00Z"^^xsd:dateTime ; raw:steps_in_window 1200 ;
+  raw:study_day "2025-02-03"^^xsd:date ; raw:output s:stride-observation-01 .
+s:stride-row-02 a e:IntervalRow ; rdfs:label "Stride row 02" ;
+  rdfs:comment "Participant P01, second half of 3 February, 2,300 steps." ;
+  raw:table s:stride-intervals ; raw:person_code "P01" ;
+  raw:window_start "2025-02-03T12:00:00Z"^^xsd:dateTime ;
+  raw:window_end "2025-02-04T00:00:00Z"^^xsd:dateTime ; raw:steps_in_window 2300 ;
+  raw:study_day "2025-02-03"^^xsd:date ; raw:output s:stride-observation-02 .
+s:stride-row-03 a e:IntervalRow ; rdfs:label "Stride row 03" ;
+  rdfs:comment "Participant P02, first half of 3 February, 800 steps; no second-half interval is supplied." ;
+  raw:table s:stride-intervals ; raw:person_code "P02" ;
+  raw:window_start "2025-02-03T00:00:00Z"^^xsd:dateTime ;
+  raw:window_end "2025-02-03T12:00:00Z"^^xsd:dateTime ; raw:steps_in_window 800 ;
+  raw:study_day "2025-02-03"^^xsd:date ; raw:output s:stride-observation-03 .
+
+s:daymove-row-01 a e:DailyRow ; rdfs:label "DayMove row 01" ;
+  rdfs:comment "Participant S-01, 3 February, 3,600 daily steps." ;
+  raw:table s:daymove-totals ; raw:subject_key "S-01" ; raw:calendar_date "2025-02-03"^^xsd:date ;
+  raw:step_total 3600 ; raw:output s:daymove-observation-01 .
+s:daymove-row-02 a e:DailyRow ; rdfs:label "DayMove row 02" ;
+  rdfs:comment "Participant S-02, 3 February, 2,200 daily steps." ;
+  raw:table s:daymove-totals ; raw:subject_key "S-02" ; raw:calendar_date "2025-02-03"^^xsd:date ;
+  raw:step_total 2200 ; raw:output s:daymove-observation-02 .
+s:daymove-row-03 a e:DailyRow ; rdfs:label "DayMove row 03" ;
+  rdfs:comment "Participant S-01, 4 February; no daily step total is supplied." ;
+  raw:table s:daymove-totals ; raw:subject_key "S-01" ; raw:calendar_date "2025-02-04"^^xsd:date ;
+  raw:output s:daymove-observation-03 .
+
+s:nightrest-row-01 a e:SleepRow ; rdfs:label "NightRest row 01" ;
+  rdfs:comment "Participant N01, night beginning 3 February, 420 estimated sleep minutes." ;
+  raw:table s:nightrest-sleep ; raw:wearer_ref "N01" ; raw:night_date "2025-02-03"^^xsd:date ;
+  raw:asleep_minutes 420 ; raw:output s:sleep-observation-01 .
+s:nightrest-row-02 a e:SleepRow ; rdfs:label "NightRest row 02" ;
+  rdfs:comment "Participant N02, night beginning 3 February; estimated sleep minutes are absent." ;
+  raw:table s:nightrest-sleep ; raw:wearer_ref "N02" ; raw:night_date "2025-02-03"^^xsd:date ;
+  raw:output s:sleep-observation-02 .
+
+s:diary-row-01 a e:DiaryRow ; rdfs:label "Diary row 01" ;
+  rdfs:comment "Participant D01 reports 7.5 hours for the night beginning 3 February." ;
+  raw:table s:sleep-diary ; raw:respondent "D01" ; raw:night_began "2025-02-03"^^xsd:date ;
+  raw:hours_answer "7.5" ; raw:comment "Felt rested", "Woke once" ; raw:output s:diary-response-01 .
+s:diary-row-02 a e:DiaryRow ; rdfs:label "Diary row 02" ;
+  rdfs:comment "Participant D02 reports 6 hours for the night beginning 3 February." ;
+  raw:table s:sleep-diary ; raw:respondent "D02" ; raw:night_began "2025-02-03"^^xsd:date ;
+  raw:hours_answer "6" ; raw:output s:diary-response-02 .
+
+s:stride-id-map e:field "person_code" ; e:target c:featureOfInterest ; e:rule "Exact (table, code) lookup in this study's identity assignments." .
+s:stride-start-map e:field "window_start" ; e:targetLabel "Interval start" ; e:rule "Preserve explicit UTC timestamp; interval start is inclusive." .
+s:stride-end-map e:field "window_end" ; e:target c:resultTime ; e:rule "Preserve UTC timestamp as exclusive interval end and result time." .
+s:stride-count-map e:field "steps_in_window" ; e:target <http://qudt.org/schema/qudt/numericValue> ; e:rule "Preserve integer count; unit is steps; grain remains interval." .
+s:stride-day-map e:field "study_day" ; e:targetLabel "Study day" ; e:rule "Preserve the UTC calendar date assigned to the activity interval." .
+s:daymove-id-map e:field "subject_key" ; e:target c:featureOfInterest ; e:rule "Exact (table, code) lookup in this study's identity assignments." .
+s:daymove-day-map e:field "calendar_date" ; e:targetLabel "Study day" ; e:rule "Preserve UTC calendar date; daily total covers [00:00, next 00:00)." .
+s:daymove-count-map e:field "step_total" ; e:target <http://qudt.org/schema/qudt/numericValue> ; e:rule "Preserve integer daily total; absent value stays absent; never add to interval counts." .
+s:sleep-id-map e:field "wearer_ref" ; e:target c:featureOfInterest ; e:rule "Exact (table, code) lookup in this study's identity assignments." .
+s:sleep-date-map e:field "night_date" ; e:targetLabel "Night beginning" ; e:rule "Preserve date identifying the beginning of the night; not a result timestamp." .
+s:sleep-duration-map e:field "asleep_minutes" ; e:target <http://qudt.org/schema/qudt/numericValue> ; e:rule "Preserve estimated duration in minutes; absent estimate stays absent." .
+s:diary-id-map e:field "respondent" ; e:target c:wasReportedBy ; e:rule "Exact (table, code) lookup in this study's identity assignments." .
+s:diary-date-map e:field "night_began" ; e:targetLabel "Night beginning" ; e:rule "Preserve reference-night date; not a sensor interval or submission time." .
+s:diary-answer-map e:field "hours_answer" ; e:target c:hasResponseValue ; e:rule "Preserve response string. Only the comparison question interprets numeric hours and multiplies by 60." .
+s:diary-notes-map e:field "comment" ; e:targetLabel "Diary notes" ; e:rule "Preserve every note separately; an absent note remains absent." .
+
+s:available-sleep a e:Question ; sh:order 1 ; rdfs:label "What sleep information is available?" ;
+  rdfs:comment "List each diary response and device estimate, retaining absent estimates and their original evidence." ;
+  e:uses c:ResponseItem, c:Measurement ; e:query s:available-query .
+s:steps-across-sources a e:Question ; sh:order 2 ; rdfs:label "What steps appear across both activity sources?" ;
+  rdfs:comment "List interval counts and separately reported daily totals with participant, date, unit and source record." ;
+  e:uses c:StepCountMeasurement, c:StepCount ; e:query s:steps-query .
+s:interval-comparability a e:Question ; sh:order 3 ; rdfs:label "Are interval counts comparable with daily totals?" ;
+  rdfs:comment "Compare counts over supplied intervals with daily totals; identify whether two exact non-overlapping halves cover the UTC day." ;
+  e:uses c:DailyStepCount, c:StepCountMeasurement ; e:query s:comparability-query .
+s:reported-estimated a e:Question ; sh:order 4 ; rdfs:label "How do reported and estimated sleep differ?" ;
+  rdfs:comment "Show the diary answer and device estimate side by side for the same participant and reference night. Numeric diary hours are multiplied by 60 only for this comparison." ;
+  e:uses c:ResponseItem, c:hasResponseValue, c:TotalSleepTime ; e:query s:comparison-query .
+s:activity-derivation a e:Question ; sh:order 5 ; rdfs:label "Where does the 3,500-step result come from?" ;
+  rdfs:comment "Show each contributing interval, its count, original record and the computed full-day result for Participant 01." ;
+  e:uses c:DailyStepCount, c:StepCountAggregationComputation ; e:query s:derivation-query .

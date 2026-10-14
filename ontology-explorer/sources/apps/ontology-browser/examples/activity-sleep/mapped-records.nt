@@ -1,0 +1,199 @@
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountAggregationComputation> .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Adds the two exact non-overlapping half-day counts for Participant 01 on 3 February 2025 UTC." .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <http://www.w3.org/2000/01/rdf-schema#label> "Stride full-day step aggregation" .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <https://example.invalid/ontology-browser/profile#input> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <https://example.invalid/ontology-browser/profile#input> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <https://example.invalid/ontology-browser/profile#participant> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/aggregation-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01-quantity> <http://qudt.org/schema/qudt/numericValue> "3600"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Separately reported daily step total; an absent count is not zero." .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://www.w3.org/2000/01/rdf-schema#label> "DayMove daily total 01" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/daymove-row-01> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#grain> "daily-total" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/daymove-totals> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02-quantity> <http://qudt.org/schema/qudt/numericValue> "2200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-02> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://www.w3.org/2000/01/rdf-schema#comment> "Separately reported daily step total; an absent count is not zero." .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://www.w3.org/2000/01/rdf-schema#label> "DayMove daily total 02" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/daymove-row-02> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#grain> "daily-total" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/daymove-totals> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://www.w3.org/2000/01/rdf-schema#comment> "Separately reported daily step total; an absent count is not zero." .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://www.w3.org/2000/01/rdf-schema#label> "DayMove daily total 03" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/daymove-row-03> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#day> "2025-02-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#grain> "daily-total" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/daymove-totals> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-row-01> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/daymove-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-row-02> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/daymove-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/daymove-row-03> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/daymove-observation-03> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://connectdigitalstudy.com/ontology#answersQuestion> <https://example.invalid/ontology-browser/activity-sleep/diary-question> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://connectdigitalstudy.com/ontology#hasResponseValue> "7.5" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://connectdigitalstudy.com/ontology#wasReportedBy> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#ResponseItem> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Self-reported answer to the generic question: How many hours do you think you slept last night?" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://www.w3.org/2000/01/rdf-schema#label> "Diary response 01" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/diary-row-01> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#answerUnit> "hours" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#night> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#note> "Felt rested" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#note> "Woke once" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/sleep-diary> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://connectdigitalstudy.com/ontology#answersQuestion> <https://example.invalid/ontology-browser/activity-sleep/diary-question> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://connectdigitalstudy.com/ontology#hasResponseValue> "6" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://connectdigitalstudy.com/ontology#wasReportedBy> <https://example.invalid/ontology-browser/activity-sleep/participant-02> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#ResponseItem> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://www.w3.org/2000/01/rdf-schema#comment> "Self-reported answer to the generic question: How many hours do you think you slept last night?" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://www.w3.org/2000/01/rdf-schema#label> "Diary response 02" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/diary-row-02> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <https://example.invalid/ontology-browser/profile#answerUnit> "hours" .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <https://example.invalid/ontology-browser/profile#night> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/sleep-diary> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-response-02> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-row-01> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/diary-response-01> .
+<https://example.invalid/ontology-browser/activity-sleep/diary-row-02> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/diary-response-02> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01-quantity> <http://qudt.org/schema/qudt/numericValue> "3500"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://connectdigitalstudy.com/ontology#hasMeasurement> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://connectdigitalstudy.com/ontology#hasMeasurement> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://connectdigitalstudy.com/ontology#wasComputedBy> <https://example.invalid/ontology-browser/activity-sleep/aggregation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/interval-total-01-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DailyStepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#DerivedFeature> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#DerivedResult> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Daily step count computed from the two non-overlapping Stride intervals covering 3 February 2025 UTC." .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/2000/01/rdf-schema#label> "Participant 01 interval-derived daily steps" .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#coverage> "Two exact half-day intervals cover [2025-02-03T00:00Z, 2025-02-04T00:00Z)." .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#grain> "complete-day interval sum" .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#participant> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/interval-total-01> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/nightrest-row-01> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/nightrest-row-02> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/participant-01> <https://example.invalid/ontology-browser/profile#derived> <https://example.invalid/ontology-browser/activity-sleep/interval-total-01> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01-quantity> <http://qudt.org/schema/qudt/numericValue> "420"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/minutes-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#Measurement> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Device-estimated sleep duration in minutes for the stated reference night." .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://www.w3.org/2000/01/rdf-schema#label> "Estimated sleep 01" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/nightrest-row-01> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#grain> "reference-night" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#night> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#quantityMeaning> "estimated-sleep-duration" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/nightrest-sleep> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-01> <https://example.invalid/ontology-browser/profile#unit> "minutes" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-02> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#Measurement> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://www.w3.org/2000/01/rdf-schema#comment> "Device-estimated sleep duration in minutes for the stated reference night." .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://www.w3.org/2000/01/rdf-schema#label> "Estimated sleep 02" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/nightrest-row-02> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#grain> "reference-night" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#night> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#quantityMeaning> "estimated-sleep-duration" .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/nightrest-sleep> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/sleep-observation-02> <https://example.invalid/ontology-browser/profile#unit> "minutes" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01-quantity> <http://qudt.org/schema/qudt/numericValue> "1200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://connectdigitalstudy.com/ontology#resultTime> "2025-02-03T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-01-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://www.w3.org/2000/01/rdf-schema#comment> "Step count over the stated half-open UTC interval." .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://www.w3.org/2000/01/rdf-schema#label> "Stride interval 01" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/stride-row-01> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#end> "2025-02-03T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#grain> "interval" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/stride-intervals> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#start> "2025-02-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02-quantity> <http://qudt.org/schema/qudt/numericValue> "2300"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-01> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://connectdigitalstudy.com/ontology#resultTime> "2025-02-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-02-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://www.w3.org/2000/01/rdf-schema#comment> "Step count over the stated half-open UTC interval." .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://www.w3.org/2000/01/rdf-schema#label> "Stride interval 02" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/stride-row-02> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#end> "2025-02-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#grain> "interval" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/stride-intervals> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#start> "2025-02-03T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03-quantity> <http://qudt.org/schema/qudt/numericValue> "800"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03-quantity> <http://qudt.org/schema/qudt/unit> <https://example.invalid/ontology-browser/activity-sleep/steps-unit> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03-quantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://qudt.org/schema/qudt/QuantityValue> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://connectdigitalstudy.com/ontology#featureOfInterest> <https://example.invalid/ontology-browser/activity-sleep/participant-02> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://connectdigitalstudy.com/ontology#observedProperty> <http://connectdigitalstudy.com/ontology#StepCount> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://connectdigitalstudy.com/ontology#resultTime> "2025-02-03T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://qudt.org/schema/qudt/quantityValue> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-03-quantity> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://connectdigitalstudy.com/ontology#StepCountMeasurement> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://example.invalid/ontology-browser/profile#Observation> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://www.w3.org/2000/01/rdf-schema#comment> "Step count over the stated half-open UTC interval." .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://www.w3.org/2000/01/rdf-schema#label> "Stride interval 03" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://example.invalid/ontology-browser/activity-sleep/stride-row-03> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#day> "2025-02-03"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#end> "2025-02-03T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#grain> "interval" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#quantityMeaning> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#source> <https://example.invalid/ontology-browser/activity-sleep/stride-intervals> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#start> "2025-02-03T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#study> <https://example.invalid/ontology-browser/activity-sleep/study> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> <https://example.invalid/ontology-browser/profile#unit> "steps" .
+<https://example.invalid/ontology-browser/activity-sleep/stride-row-01> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-01> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-row-02> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-02> .
+<https://example.invalid/ontology-browser/activity-sleep/stride-row-03> <https://example.invalid/ontology-browser/profile#semantic> <https://example.invalid/ontology-browser/activity-sleep/stride-observation-03> .
+<https://example.invalid/ontology-browser/activity-sleep/study> <https://example.invalid/ontology-browser/profile#derived> <https://example.invalid/ontology-browser/activity-sleep/interval-total-01> .

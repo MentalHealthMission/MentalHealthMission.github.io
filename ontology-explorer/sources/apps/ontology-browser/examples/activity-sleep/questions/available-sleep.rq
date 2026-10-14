@@ -1,0 +1,16 @@
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+SELECT ?participant ?night ?kind ?record ?value ?unit ?sourceRecord WHERE {
+  {
+    ?record e:quantityMeaning "estimated-sleep-duration" ; c:featureOfInterest ?participant ;
+      e:night ?night ; prov:wasDerivedFrom ?sourceRecord ; e:unit ?unit .
+    OPTIONAL { ?record q:quantityValue/q:numericValue ?value }
+    BIND("Device estimate" AS ?kind)
+  } UNION {
+    ?record a c:ResponseItem ; c:wasReportedBy ?participant ; e:night ?night ;
+      c:hasResponseValue ?value ; e:answerUnit ?unit ; prov:wasDerivedFrom ?sourceRecord .
+    BIND("Diary answer" AS ?kind)
+  }
+} ORDER BY ?participant ?night ?kind ?record

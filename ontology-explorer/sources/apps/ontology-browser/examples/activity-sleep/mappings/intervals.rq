@@ -1,0 +1,24 @@
+PREFIX s: <https://example.invalid/ontology-browser/activity-sleep/>
+PREFIX raw: <https://example.invalid/ontology-browser/activity-sleep/raw#>
+PREFIX e: <https://example.invalid/ontology-browser/profile#>
+PREFIX c: <http://connectdigitalstudy.com/ontology#>
+PREFIX q: <http://qudt.org/schema/qudt/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+CONSTRUCT {
+  ?row e:semantic ?obs .
+  ?obs a e:Observation, c:StepCountMeasurement ; rdfs:label ?label ;
+    rdfs:comment "Step count over the stated half-open UTC interval." ;
+    c:observedProperty c:StepCount ; c:featureOfInterest ?participant ;
+    c:resultTime ?end ; e:start ?start ; e:end ?end ; e:day ?day ;
+    e:grain "interval" ; e:quantityMeaning "steps" ; e:unit "steps" ;
+    e:source s:stride-intervals ; e:study s:study ; prov:wasDerivedFrom ?row ; q:quantityValue ?quantity .
+  ?quantity a q:QuantityValue ; q:numericValue ?count ; q:unit s:steps-unit .
+} WHERE {
+  ?row raw:table s:stride-intervals ; raw:person_code ?code ;
+    raw:window_start ?start ; raw:window_end ?end ; raw:steps_in_window ?count ;
+    raw:study_day ?day ; raw:output ?obs .
+  ?identity e:identityTable s:stride-intervals ; raw:code ?code ; e:participant ?participant .
+  BIND(IRI(CONCAT(STR(?obs), "-quantity")) AS ?quantity)
+  BIND(CONCAT("Stride interval ", STRAFTER(STR(?obs), "stride-observation-")) AS ?label)
+}
