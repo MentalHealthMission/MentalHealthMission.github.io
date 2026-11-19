@@ -190,6 +190,8 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 .literal-value { white-space: pre-wrap; overflow-wrap: anywhere; }
 .descriptions .literal-value { font-size: 15px; line-height: 1.8; }
 .description-text { font-size: 15px; line-height: 1.8; white-space: pre-wrap; overflow-wrap: anywhere; }
+.download-section { margin: 1.5rem 0; padding: 1rem; border: 1px solid #b9c8dc; border-radius: 6px; }
+.download-link { font-weight: 700; font-size: 1.05rem; }
 .attribute-value { white-space: pre-wrap; overflow-wrap: anywhere; }
 .expression-summary { padding: 15px 0; border-bottom: 1px solid var(--line); }
 .expression-summary > .expression-predicate { display: block; font-size: 12px; margin-bottom: 7px; }
