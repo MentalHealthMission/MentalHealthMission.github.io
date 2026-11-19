@@ -9,6 +9,8 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/home-image.jpg
   actions:
+    - label: "Browse the ontology"
+      url: "/ontology-explorer/"
     - label: "<i class='fa-brands fa-github'></i> GitHub Repository"
       url: "https://github.com/MentalHealthMission/MHM-ontology"
   caption: "Photo credit: <a href='https://unsplash.com/photos/a-blue-background-with-lines-and-dots-xuTJZ7uD7PI' target='_blank'><b>Unsplash</b></a>"
@@ -29,9 +31,9 @@ feature_row:
     alt: "search"
     title: "Search"
     excerpt: "Navigate the digital markers library and search for digital markers of interest."
-    url: "#test-link"
+    url: "/ontology-explorer/"
     btn_class: "btn--primary"
-    btn_label: "Library (Soon)"
+    btn_label: "Browse the ontology"
   - image_path: /assets/images/undraw_visualise.png
     alt: "visualise"
     title: "Visualise"

@@ -669,6 +669,14 @@ function renderOverview(view) {
 function renderIntroduction(article) {
   article.append(element('p', 'description-text',
     'The ontology describes measurements, derived features, digital phenotypes and the context in which data is collected and used. The four Structure views provide different routes through the same ontology.'));
+  if (presentationConfig.protegeDownload === true) {
+    const section = element('section', 'download-section');
+    const link = element('a', 'download-link', 'Download for Protégé (.zip)');
+    link.href = './odim-mh-protege.zip';
+    section.append(link, element('p', 'description-text',
+      'Unzip the download, then open ODIM-MH.owl in Protégé.'));
+    article.append(section);
+  }
   const sections = [
     ['layers', 'Layers',
       'Group terms by their role: measurements, derived features, digital phenotypes, questionnaires, computations, context and provenance. Open a layer to see the terms assigned to it.'],
