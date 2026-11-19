@@ -27,6 +27,7 @@ const pending = new Map();
 let catalog;
 let model;
 let browse;
+let presentationConfig;
 let examples, exampleView;
 let comments;
 let state = readViewState(location.hash);
@@ -978,6 +979,7 @@ async function start() {
       readJson('./comments.json').catch(() => null)]);
     comments = commentFormConfig(commentData);
     catalog = data;
+    presentationConfig = config;
     model = createCatalogModel(catalog);
     browse = createBrowseModel(catalog, navigation, config);
     examples = createExampleModel(exampleData);
